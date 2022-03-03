@@ -6,1671 +6,1671 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z0.unity
     guid: 3f52261c38e45fc4bb2bea830a137170
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z-2.unity
     guid: f5586b8d1b585294583684530976450b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z-1.unity
     guid: c0bc56a105be519409af669f3d9be051
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z-2.unity
     guid: 6f494544ee2d5fe47a87c34444020f1f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z4.unity
     guid: dfd83e6e41f860a47a92e62660c13dba
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z4.unity
     guid: cfd2a44c89c9f2841a671aef101acb1b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z-3.unity
     guid: 3b4b46f3b382e75409d65201b4a712eb
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z2.unity
     guid: 2f651da5115bf7e43bebc8247e4ce5ab
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z2.unity
     guid: 2420b3ab86877bf44aaa5da0b1e83baf
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z0.unity
     guid: 1e3f60be1e38f094a86ffec18949f139
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z1.unity
     guid: d1bd59982cbca354fbb3463e366526a0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z-2.unity
     guid: ce2bc94ae3e0add429ce759875c3f8b5
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z2.unity
     guid: b8e0508e883f6134faed8aac577fcdc4
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z-2.unity
     guid: e07bc52a05a3aab47ba1a5712fafcd77
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z3.unity
     guid: f5e8b6f72f3a2f648ae85a231a8b8246
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z1.unity
     guid: cbf7218d518b7b14a8043fe0b8560b7a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z0.unity
     guid: 8e344c31f3be2d64d962bd6f01784281
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z3.unity
     guid: 32d3bfda5317f3348b2fe0a166b99823
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z-2.unity
     guid: 19979b81df1508240bc51d2cfcc28bae
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z-3.unity
     guid: 2fdbb81c4bd917d4b8dc6152786a1b4f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z-3.unity
     guid: 9421fbf4c24c73b4fbdd35bbbaabaa1d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z3.unity
     guid: f7ea94dc60d85b44bb9db769ead767de
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z-1.unity
     guid: 2fb137a2c5781c046a695890f2a35e1a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z1.unity
     guid: 89e8a478fa4b49f4aa2d1c2768c58d7c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z4.unity
     guid: 1c2125201e283bd479a32ebb1c20a9c4
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z2.unity
     guid: d3a93ea7e986688438ae5865b874fb22
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z4.unity
     guid: 2592146fc251cbe499c957dc963ca65e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z-3.unity
     guid: 9bf48ff7dabb77143b83a7e3c69e67a0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z0.unity
     guid: e7f0a8da5c9998b49b706066576af61e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z-1.unity
     guid: 47639191e41163c468a6ff0533f47898
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z-3.unity
     guid: 4d0787d38fe20a945ada0e15fd84fd08
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z-1.unity
     guid: a5ed7489c0f03404aa83dff1631584f6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x3_z4.unity
     guid: fd17902c9c1f7e846af111a3683cd490
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z-1.unity
     guid: e6610638acfeacb4fb17a8ea1ca9da18
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z3.unity
     guid: f68b9f28c111f6841acad715a2219487
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z-3.unity
     guid: 7ab12789253767e4b8370ce1ee090328
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z1.unity
     guid: d3360003a6dbb644ea78aa3c96622dff
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z3.unity
     guid: 3238854985373274785612fe454fa67c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z1.unity
     guid: f0635c77a889d2b4691a696c3d64d7d0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z2.unity
     guid: 5ae1b973e49493b40b2cb45b3c1f5c21
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z1.unity
     guid: 7e8ea8f304bb87e4c97fdf8f1b87749f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z-2.unity
     guid: 84714f194023ec84294545d8fb0f90b4
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z-1.unity
     guid: b41771a435543a04d9b78e8bfd82ad80
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z-1.unity
     guid: 0df5f0d946daa8143a0dff8dd7bab999
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z2.unity
     guid: 7d9fc38e7b599cd4193187229a80d6e3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z4.unity
     guid: 417041961f0dd6142ae56897b11cf234
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z2.unity
     guid: e081c78dc7b6e3847b21d2508aba1449
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z-3.unity
     guid: 45e33c3a185951244903f5dc8d045e7d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z1.unity
     guid: f51e368322c7346458b1c55d69c51b24
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z3.unity
     guid: bbd9dccc23208714d8b5ce6fc79b9f77
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z1.unity
     guid: 67af7c8f8b9881841bbe4b14f4d95e60
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z3.unity
     guid: 127302bba174d2f4493785af3844f5cb
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z3.unity
     guid: 5e83381f11242b64393c5d7400eae447
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z-2.unity
     guid: 4393ec7990bb2e6489d8d4faad994eb8
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z0.unity
     guid: 7be106a17df61a948b9fc825c9df7dc1
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z2.unity
     guid: 09ac15272e2d1b3408fd14063ab89e2d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z0.unity
     guid: d003f5552b9cbfb48a1431991e09ce94
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x0_z0.unity
     guid: a6f8c7b6cbbb7f24095e08546002e43c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z4.unity
     guid: 77a6b8ea77e50344e9bbcb76ccab7ee9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-3_z0.unity
     guid: a9ef96d225632814d8fb55bbd8eea625
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x1_z-2.unity
     guid: 7a9ab0c23e11cf4438dbd7b2c8a608a0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x4_z-1.unity
     guid: ee619c00210521d4a8fe387624e75d9a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-2_z-3.unity
     guid: e33f3fb56d84fd548921c7b2ef7e575d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x2_z4.unity
     guid: a808519d09494ac408aef9b71f6b9c48
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z-3.unity
     guid: 425596228ec8b6f46aabdcfc4175e17e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z-3.unity
     guid: 2d2dbaeb445ab2f41bd037d1b41e50cc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z4.unity
     guid: 59905d6d0febe524e8a05aa2a46789a4
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z1.unity
     guid: 3a6ca03861173814c90832aa8cdd23f5
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z3.unity
     guid: a923557b7832b3a4f851f9a43e8817a3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z1.unity
     guid: 58661e83be7a2ec48a924438a0e569d0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z2.unity
     guid: abebb08c62e5774498d8e9e58f5dd8ee
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z1.unity
     guid: 5c9d708285c8d0e4a8e7f2d44c0fdb76
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z3.unity
     guid: 2921952f1a92ef84abb9ef408c1f752c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z3.unity
     guid: 623fd593560783c4a9541275fabec6fc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z-2.unity
     guid: f804c54b807f9f64ca52fc733aef4418
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z-2.unity
     guid: 8c39be1a5bc2e524f9e1555b228f1e1e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z4.unity
     guid: 6ba9a5b431814414cb0048c1ee059495
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z3.unity
     guid: 337d6edf3fc64b34ea3fe4d806688e25
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z4.unity
     guid: 12cbf43a8d961284882bd91edad7f363
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z4.unity
     guid: 3ba1999d8a03d504cb8729170a604a49
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z4.unity
     guid: 756accdcbb2f2de4a8bdc2f977117fe6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z-1.unity
     guid: c02d615b2e9783a4b94e90be3609401c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z-1.unity
     guid: 37e3762ba1174134aaca3f13b8c10a1b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z3.unity
     guid: 4652faf98cefa9c46ada243e1f6496a2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z4.unity
     guid: 675711340ab678a4d9b190cc66cfb909
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z-2.unity
     guid: fec1a4a6fcada6c459ac71e74ff5f3b2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z0.unity
     guid: 60963fea452c3be488e00cbd6bd8b479
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z2.unity
     guid: edcfe1a98d2d62c44862ffe0b73ece68
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z-3.unity
     guid: 6a813f64c83d75146ad4714aa2745077
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z-1.unity
     guid: 603165c47132f544c86736e3925325de
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z-3.unity
     guid: b70c81bb1307a9e4f833ba40ea9ab0e7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z0.unity
     guid: 88d525309f33ae84fa2a27f027ba2cd7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z-3.unity
     guid: e60fd58b944542840811b535337fa7ad
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z0.unity
     guid: aec3c56b6ab04a64999c3cfda6acf4cf
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z0.unity
     guid: 4dc7f3f39e39c22498f6559e32ccf8d8
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z0.unity
     guid: c8e67031057bace45a071814a30d6163
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z-2.unity
     guid: 10a20b613048afb41ae0c3b3bb54909d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z-1.unity
     guid: 29ddf78dc4564414c9a5b6b7e28d116e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z1.unity
     guid: c070b72fd2ac7344e8faae2f8c0389a1
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z3.unity
     guid: f85ec36217d8a8a4fa64f4ed58204552
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z3.unity
     guid: c9454f26c0d20d445b99de2fd0472e37
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z-1.unity
     guid: 73dfbf32e052d0343aa9055158648f17
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z1.unity
     guid: cff14e8f75896314fb7d0ae80a58bc89
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z1.unity
     guid: 86666dc2fd8ae6444aef00175ea0c7f8
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z2.unity
     guid: 6e5b01413796c7743bd6d8b708053c61
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z-3.unity
     guid: 40d1dd3a4e10ce34cb21591ab6d1b379
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z2.unity
     guid: 88d231a5fc7808940afeaf5b3abe2554
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z4.unity
     guid: 37c39e1f8d1ac4c4e9e5d5ab908b65f2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z-2.unity
     guid: 6ee3ada10b2a7be4baf868a01deaf6fe
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z4.unity
     guid: f948d3b7485039e4a804e31088b7c7b3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z2.unity
     guid: d769a601640586a46b5a180afbdbcc7a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z2.unity
     guid: be9edb647b2cfd2418cd995b26b76451
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-1_z-3.unity
     guid: 66688fd712642e14b87069d6d91ef8b3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z2.unity
     guid: 1d49826e2ae076a45be110f4524a879f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-3_z1.unity
     guid: 4ce70a5d821a44247888bc1067dc91c5
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z2.unity
     guid: 9d867d21047e3b342a3dedc8dc44fffb
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z-1.unity
     guid: 8ec368b06e477f84ebb89a2b6aca8b78
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z-1.unity
     guid: 55ef2c4138be49542b9153dbfa0c1f29
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z3.unity
     guid: 708fc3479f699824bb3d1a2505970317
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x4_z-3.unity
     guid: e761ba6fed2cab64ab3964146ceb0014
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x2_z-2.unity
     guid: 1c2a61008b5e7004db89c03cce47834a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z0.unity
     guid: e65b81978ff0e5c42bba086dfc4f75c6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x0_z0.unity
     guid: 4bf19e2b56491e24b872206bfbfc2814
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z1.unity
     guid: 1097ed58d9fb36e4ea70df8a08d6c62d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x1_z-2.unity
     guid: 1775400b716541740ad2233ec191e9a0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z0.unity
     guid: bb33ce780c1a03543998e412eee337c9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x3_z-2.unity
     guid: e414fc92f1c51ea46a6ac90d70ebe8ed
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod1/Advanced_Work_Scene_Terrains_Lod1_x-2_z-1.unity
     guid: d642676ec5877f945b7adde1f317d4bf
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z1.unity
     guid: 376e4eac6fdb3554da0344df4b9e992d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-3.unity
     guid: 6bfefb313efe2ad4f94fbbb518528f09
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z4.unity
     guid: 8f1c8f2ca54ce8d4b85cb8215240c0f0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-6.unity
     guid: 4b5aaf00fc78b444da36c3aba3778667
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z5.unity
     guid: 9b7f5d5840a59f04cbdaaaafc1125e6b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z-3.unity
     guid: ef83ec46d5083854c9474caba916adfd
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z-3.unity
     guid: 67b1916cf5f37e941981d3c89f1217c9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z-2.unity
     guid: b2c86fee226986b4faf5917fb7c0e02b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z5.unity
     guid: 5d2a86743b943944b9c09f8af4e84df1
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z-3.unity
     guid: dfef4783838d72c4190424f4b60b7f22
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z4.unity
     guid: 5d1190f37b83c5c40a8742f0a1e1a3f3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z8.unity
     guid: 781cfee69ff1ed24f8fede7da8a1fd3a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x2_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x2_z8.unity
     guid: 772ce14df5b489f49a092cef2e7194a4
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-4.unity
     guid: 6248b1eb5aa2bf741be5937174390e06
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z8.unity
     guid: e4620b23585935049a3cd5acf2eddb6f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-1.unity
     guid: 6ef74209abf3e7f4f89826ab1d9b259c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z-2.unity
     guid: 09d022eeab49fab41a095199a5e9a936
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x2_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x2_z-6.unity
     guid: 4ad4b4a3a91ccc748a5bf19446605756
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z0.unity
     guid: 25a371e092fe602488392ace2a5c940f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z0.unity
     guid: ca4c5a51a359f664bbdef8120ecbadf5
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z-4.unity
     guid: b9eb59e60684fba43a82cbed95e8f17b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z2.unity
     guid: ea1985a099a137746b75efd9b614bed9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z3.unity
     guid: 765f769e26d1dac48965e6814acbc75b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-5.unity
     guid: ca81e65207c348543a8089a8f05b3b36
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-2.unity
     guid: bbab1cc92ceba4045a4599bf91f6efc5
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z-3.unity
     guid: 1554527e80ebe03449a573a7093a72ab
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-6.unity
     guid: 662368596ee1ca542b1c40dd4600432e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-5.unity
     guid: 1bfb077111f45bb45863112a8f26a0fa
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z6.unity
     guid: 742cde45ba3ff7549a353e0a79166601
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z7.unity
     guid: a26ad2bcc25628f40b984c827659680c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z5.unity
     guid: f7eca4bbe92bb9b45b083794f36f3c74
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z6.unity
     guid: 26cbd2cd823ff5a499db2266b6b60c6a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z-6.unity
     guid: 18a142222dc8e03419ceee247e6e5c1b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z-4.unity
     guid: 00ad70e808bd778458ebd15fe2b760ed
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z3.unity
     guid: 0f81c1904f100b64d90eb40b9d191447
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-2.unity
     guid: b02524012b25aa148863d3c185984fdd
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-1.unity
     guid: 695827aa80b3f704f8362a204f474ee4
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-6.unity
     guid: cf472898a8765b849be4d34463a716fc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-3.unity
     guid: 24673b557cd05e34da6e48aa9d608eae
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-3.unity
     guid: cab2a2405c2e2e0439676154548c728b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-3.unity
     guid: 97ab6f229ff62c54cb4d827bfec99681
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x5_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x5_z-4.unity
     guid: c9e3cdbe7bb3f2446ae4541988f92cf9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z-4.unity
     guid: f74f65b3744cc734583d233469ed99d7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x2_z1.unity
     guid: 7b31d42767de8aa409c5c339d6f14485
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z2.unity
     guid: 4a823c51b6cc52f488d979866d2bbe83
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z0.unity
     guid: a03b02ff2ae19f24b80082b188d75191
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-4.unity
     guid: ba9b9f6f4576ddc45ae1e0c0717e6a6b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-2.unity
     guid: 2ef5c8120cc521f48862c9d0be5ac528
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z2.unity
     guid: e54dce714d948b34f9f70d9ce259aa85
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z-2.unity
     guid: a232709966c18b54ba7f2d32ccb3d8e7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z4.unity
     guid: e259ce3f8f0ff734da5df4cc1e0a808a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-5.unity
     guid: 318c339d9427366468696464fd3cf53d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z2.unity
     guid: 2c162ccc2b2ac9d48a8b727d35a66ac0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z1.unity
     guid: 252da1c04c67280498edafcf088c6673
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z-3.unity
     guid: 3317237ebee75f9409b78d2f9edcb7ad
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-5.unity
     guid: ccf6bfbfd9ef78243b3945758812b03a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z-5.unity
     guid: 62216deef41172346be9d729f838cb5e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z5.unity
     guid: d889d71157ff9be40bc868935877a85d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z-5.unity
     guid: 52ec2fa4e4284e846a8a939bcc0d630d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z3.unity
     guid: a9e876b78834906429bf6001faddd61d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z-1.unity
     guid: beff3f9e5feaf6749858e9045551b82c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z1.unity
     guid: d81d119908c80b24a9f122fef06d8451
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z4.unity
     guid: ecf1b1d444cce5542ad9da84597d5e81
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z6.unity
     guid: aa1d660362ed87a44ab4b755a3e45b96
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z7.unity
     guid: 4eebbeab34405114084c0260c9775a58
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z6.unity
     guid: 9ac0a8cf335dc304c8d7733e9c3e5ebc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z-1.unity
     guid: dd9010eb9e885aa499be6a7d20fd8b5c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z9.unity
     guid: 08d45893683356f41ba3b67f294b4610
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-3.unity
     guid: 809e4f32174ecea419b3914da5e04203
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z-1.unity
     guid: 04ae3e834026cc04a954c023788d24e2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z0.unity
     guid: d3674f4e1c5d74a439ac6bb241bc3f9c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x6_z6.unity
     guid: b7f86a73d26476745bf55a2c64db3563
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z0.unity
     guid: 045485dfedb80c84daaceabc23490b43
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-4_z7.unity
     guid: 68f687232556c3a438b1103abaabf028
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z6.unity
     guid: e31e859bffdcde84b9f2a1b57f7f0fe2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z3.unity
     guid: 55bf25b82881e6d43aa3c8cd56428f42
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z-2.unity
     guid: 7dbbaf4e55cdd74488c71ba56594ff67
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-6.unity
     guid: dc262b28bc7bec44ea945f08e98d2123
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z1.unity
     guid: 916b03c7112c98d43a5a64ccd671d5e5
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z6.unity
     guid: 31868359923e16d47a9ae20a7b5c6442
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-2.unity
     guid: f9912b5870269844e8c431b8c2d97181
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z-1.unity
     guid: 0b8825458740c6648b1b7a96a1a96eef
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z0.unity
     guid: ff20bb9a54ae4684f9cacdc77ef720c5
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z0.unity
     guid: 148744d470e2fd24da81f4054629fc7c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z-1.unity
     guid: 633ada788b1345d4f96e423bcaae161a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-4.unity
     guid: be21eed8805642147ba059794a8f7915
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z7.unity
     guid: f653b564dfeab8f47bd9ac813b49fdec
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z7.unity
     guid: c69e88026da60954caedff2b2423577e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z2.unity
     guid: 02fc293f6498943479a646230c043e15
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-4.unity
     guid: 3c4d44784b310fa47b4d3d89f9ad5353
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-5_z-6.unity
     guid: 0fa986a03e021064fb5bb35560d7faae
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z2.unity
     guid: 2dfb92d9bdef3324db6fd30812da8189
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-6_z4.unity
     guid: 9cf65a92fbcc6974aa3e945a40d65746
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z8.unity
     guid: 50619dfb06742f740bb293ed528b209b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z9.unity
     guid: 2fb663f71e1a526478039e93d4d1d3ce
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-2_z-1.unity
     guid: 2a6e5bd2c4edabd41b77f567c9c23764
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z-5.unity
     guid: a1f2ba322a71cc247b656200095a59b6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-6.unity
     guid: e72cce66bcd9bfb45863a69f63c8e219
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-2.unity
     guid: b54e44ee244f9054fb7bdf0596db2b03
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z-1.unity
     guid: 8ad848203f9399b408fd4ed262268bdd
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z-1.unity
     guid: 789417a89ccc0e7438e6acbc062ffca3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z5.unity
     guid: b262d6ad095ad7e4eb55567d8474b6cc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z9.unity
     guid: 399b1364f89a20b46a681e35a1f69ead
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x7_z-1.unity
     guid: 3a1a5854c77cba944ab8d6eaf7ab5dc1
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x3_z9.unity
     guid: eee508245ee1fc046a61e5dfeb5855fe
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z3.unity
     guid: 362c9ae463abd8849ac99a1792a8e776
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z4.unity
     guid: a102bea2393c8a34fa6a08ec9490de85
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-1.unity
     guid: 2fded123d5320bb4196fbcd77efdb268
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x4_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x4_z-6.unity
     guid: 0379e29c91a54864dbd3a1152b75d342
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x8_z2.unity
     guid: f27503b6d639c62418d79120465657ee
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-3_z9.unity
     guid: 02ae218f8a193d345bdec947cfa639ea
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x0_z0.unity
     guid: 7fe23f4aa42f72f4d9e3b33ba182691d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z5.unity
     guid: b381bb42d85f7b24cac249a3d0a52ede
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x1_z-5.unity
     guid: ec166a1a46fa99c4ebef0df34f522879
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x5_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x5_z8.unity
     guid: 8c4f9f077eb5918499c948f9260d3a30
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z-4.unity
     guid: e472abb7d242b1345a57ee68aac80bea
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x9_z-2.unity
     guid: aa223832efc2d92428075ca311634222
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Medium_Models/Advanced_Work_Scene_Medium_Models_x-1_z8.unity
     guid: 8b8aa2e687e48a643b4ebc82982055d3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z4.unity
     guid: 152ca80db5cb27542986f66266252680
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z3.unity
     guid: efaa0170c90bf894999a60c208042e2a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z2.unity
     guid: 164a7a836b8460f4b8c56b28568982b9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z0.unity
     guid: 921bbfe289c5acc4facd071381f56f9d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z3.unity
     guid: 0a5b019dea65be24ca6f109124010c1f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z1.unity
     guid: 01ba91cc78dbd5342996b0dcef09e591
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z-2.unity
     guid: f1003ba40ca0fb948a0722085fc503c7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z-3.unity
     guid: af91c2aef06dd3f468f7227e564f5a5b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z0.unity
     guid: 271cef2456b912b4abac5cdf737db180
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z3.unity
     guid: e729b2e11af8a754da69a751b28af2e6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z0.unity
     guid: db984252c3b43d54294c33ef881c3ebe
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z-2.unity
     guid: dae77f26a9e48844fa1ca0a0111801f8
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z-2.unity
     guid: 058f286fe3800be409beae9b14dcbbe4
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z2.unity
     guid: 1d736e9f03da5c44f898ae9b8db21e95
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z0.unity
     guid: 7dd68ac98745a72408ae1994948a625c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z0.unity
     guid: 02cf626a00cfd6144b51359620c6e6f8
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z1.unity
     guid: cb46309575d58d54dbfdc086480bd5a2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z3.unity
     guid: 41f86bbd4cc013f48a119636215d2716
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z0.unity
     guid: c306b4733d060ee488ce13f6d041d3b6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z-3.unity
     guid: f3c3d7039ad8fe84e849ab74a2f32655
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z3.unity
     guid: e33a729f213ff554fad2c8ad1a5b921b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z2.unity
     guid: ffb621753e574d1449d5ade440506d3b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z3.unity
     guid: ad86c081aeaa7ba4396dda05bba0aa69
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z4.unity
     guid: dcad76b0b7b73634eae62dc247cdda9f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z-1.unity
     guid: 1435aa5b5f2659c4f8e3b2aa4666c29e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z-2.unity
     guid: f1e982cc45bd8dd48b69ab85835720a7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z-3.unity
     guid: 9015f3aa5d3607149848ba39f483e112
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z1.unity
     guid: dd5f9d7c50843ec458f641ab936d5c84
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z2.unity
     guid: 153a965ffd9f05a449a6f880f725067e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z3.unity
     guid: c81b3dfcec9c9c94181dc1662608f638
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z2.unity
     guid: 1ace7278aa7e8a54388a771424aa6f57
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z2.unity
     guid: ab7101b46373b744282dfda1def16ebe
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z-1.unity
     guid: fb80b42a09281be4abc77c211769dfe2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z1.unity
     guid: ec2e329c516754d419994323e12050a7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z3.unity
     guid: 3c455cde98799d04c8431d5a7656085e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z0.unity
     guid: 805603fca3e7d2e44a970afeb9b7ef2a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z-1.unity
     guid: d3cbe10644d67e7419e5164f9f481a81
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z4.unity
     guid: c962964e681ef6648b4148d2af461738
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z-2.unity
     guid: 18a2295572dfa4e419e68cbbd9f0c0a0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z-1.unity
     guid: 02aa2b0cfa0df2b43b04a6613237bb54
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z-2.unity
     guid: 43cf4c65ae913b0418b3dfcd808e93f7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z-1.unity
     guid: 450632b991d6a7a4982f2dd5cab38061
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z1.unity
     guid: 8c13158b5f70b7243a3eeb56a4a6290d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z4.unity
     guid: 7c75c138a1ec58141bb08d5e181ed3f1
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z-3.unity
     guid: 27f55da86503bff49abce0daf1597630
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x2_z-2.unity
     guid: fdce249bb17ffbc4d8ac0444df43598b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z0.unity
     guid: da3f0ae269a939445a08d9df6c3c88be
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-2_z4.unity
     guid: 647815874977efd4ea6c1e2cb37a6722
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z-1.unity
     guid: 0fd21be78511f8149a90db7620c5293d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-1_z2.unity
     guid: 58c775aaba5f0654c92993051d5618ae
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z4.unity
     guid: 192e55c3dc014a24cb30981aff7029bc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x3_z-3.unity
     guid: 16e7009a5506bae44a9da1d89da6b6d4
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x4_z-1.unity
     guid: 7fece188735ecb94493c089e03194d15
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x0_z4.unity
     guid: 424d8fe68adbb224ca38924f149a4660
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x1_z4.unity
     guid: e25a7e5ce82937d4b94d395ed1bff066
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_High_models/Advanced_Work_Scene_High_models_x-3_z-3.unity
     guid: a81ac15e4cbe40443967c88c628c7767
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z5.unity
     guid: e7bbcd8460d613d4382556f3a227fb95
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-5_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-5_z9.unity
     guid: 14a859007bd2e3b4289089e59ece1234
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z0.unity
     guid: f448461385755384e8b43e1673a24688
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z2.unity
     guid: 3fbb34d1150f02147b7cb31c7239abfd
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z0.unity
     guid: afcf2678d90e7f740bbe6bacc20ddec1
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-3.unity
     guid: 3e0ab06ee04a54845a7f204828186cae
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z1.unity
     guid: a53e276274bf795409def06bcef06c6e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z2.unity
     guid: 8f14eae5f941ca44c9d8616b6cb3dc26
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z5.unity
     guid: b7ee0657325c1c642bc78de6f06c744d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z3.unity
     guid: e78f5db5f6d3d4449ab6c92828fcc8f7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-6.unity
     guid: b660745294428dd41a27b72fdc9c28c6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z7.unity
     guid: c15d558ba19c58c4193f46abc91b859f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z1.unity
     guid: 8b338674ba511004ea816cb82bb88e6e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z4.unity
     guid: 73518c09c0ecb164b897934c3e8cff45
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z6.unity
     guid: 18a447154a4a91245a594cf95a4abc90
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-6.unity
     guid: 29cdd9d8db9632a449044d626a49d420
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z2.unity
     guid: f7f7b7a8f89b2d04981bb6b67bd86c4e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z4.unity
     guid: 6636bc739de4d3048ae89e26bb1ff49a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z5.unity
     guid: 2889dcf9d766fb043b882b2bcf2e7d96
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z-3.unity
     guid: 212a5b80da5d69248b0e9feeb821381a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-5_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-5_z8.unity
     guid: a22e49093e341084c9187d6cc5a95c31
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-2.unity
     guid: 18c08508555266f4791a1092dfc9f8ef
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z2.unity
     guid: a3e96644efbeaeb43b182d99d2e2bc06
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-4.unity
     guid: ae116d93ed4991f4a89fb5ad2e4f4085
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-3.unity
     guid: d7b4f984182d7104ab1b943d7285c739
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z6.unity
     guid: 0b45bb3dd6ea86747843c602fbfa6f38
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z2.unity
     guid: c113b358b0fd9974f80125febfe63481
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z1.unity
     guid: 17feef720c9d85f40a50b7e384cd41d2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-5.unity
     guid: 51a722d1b670e9d4480363abcd435b02
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z5.unity
     guid: 973650d1309c14742ab060d33c199aea
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z1.unity
     guid: 2f209da8b954e71418bd8eeb35793b2a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z-2.unity
     guid: 5ccf8f3baa8040342bb01336335807bb
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x9_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x9_z-4.unity
     guid: 30202955e64392b41a3dc377843f4e1b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z-1.unity
     guid: e352a966ba428114f881536723184b0f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z2.unity
     guid: ec32861a75ebb2545acf6d45bbcf4a0d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z2.unity
     guid: df6330e0f9dec5a4fb98db3d48b5b58b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z3.unity
     guid: 04fceeaead720d2498ad89e6a28d71b8
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z-1.unity
     guid: 2d93580c4925cf6419485285df929d23
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z7.unity
     guid: 73259fd4eef0da14fa950f8a66a82651
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z-3.unity
     guid: b875fe293c37f6547895fe6fbeb65dea
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z-1.unity
     guid: 2263a6e7593e5bb40994e7aa6a09839b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-4.unity
     guid: 7316f05aecf0eb84dbdec4adb92d76d7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-2.unity
     guid: 93f4d936c8d086c4fa584bf7bc1441f6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-5.unity
     guid: 56ad495847c886841b8bc79f3268031e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z-3.unity
     guid: 362de733002d83840b8ba3887b070234
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z4.unity
     guid: d640c4a61b135a84ca8babc8720a529d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-6_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-6_z8.unity
     guid: 34a0900b197d853428d316da6ade8b5a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-5.unity
     guid: ca1b65cc8c89f944dbbf467a55cc5d2b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-2.unity
     guid: fc56db9d3f4f01148b28fdffebe07348
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z3.unity
     guid: 78b2af5444f907f48ab6e2e4bbc6ea00
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z8.unity
     guid: 679a75068222494478a0c86458d1d323
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z7.unity
     guid: f260d6acb7a12784b932e97c2eb4da21
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-3.unity
     guid: ef9a9a5425189644ab81b48943bcff85
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z6.unity
     guid: b643f19ae8435a74ea9b43beb0d5c39b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z6.unity
     guid: 773e163b941a2ea47b0d1bb2e6469607
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z8.unity
     guid: d1086d20aba739e4a9ec3eb30c77b2ad
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z-4.unity
     guid: 600c499ef17d57a46a71c0a581518e8b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z0.unity
     guid: 147fd1cb6a857b24bbc6f38f52411651
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z3.unity
     guid: 4beca67a8ab4b9746b7726313dc0176b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z3.unity
     guid: 0ace8ff71e60f5c4cb44a0254fa276ec
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z-1.unity
     guid: 8187db7732407f243b6375e86ffb3a9a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z3.unity
     guid: 8eb3b21ab7c11d0439b8017f56821154
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z1.unity
     guid: ef223eb505316ea438f74d06f9867267
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z5.unity
     guid: 2de731c0c183cbd4a9d367d8be3cd552
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z-1.unity
     guid: a08c7c5d84eb6bb43b6fbdadf096183a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z0.unity
     guid: ff9a2bcd8a668d44c8768fbf5bb6d999
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z6.unity
     guid: bcf093cef48d99f42a3d9688f71e8b81
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z2.unity
     guid: 677a8cba006d9f941b131cd612524cdc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z-2.unity
     guid: 92fd99ef9ec6047409c3a36b92893299
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-4_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-4_z0.unity
     guid: 86af4ccecad12854fba5e8ade5eef769
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z1.unity
     guid: 93e437ea1ac4ff44c85fbe82aa448a62
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z3.unity
     guid: 165e967bad4e71a4ebed9dacdbf3d2ed
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z1.unity
     guid: c795924dee2ffa444a943183c6e534ad
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z-4.unity
     guid: fbeab3dc3b07ca14f88373f84b59cb5b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z4.unity
     guid: bfe55247bf1abd64abedfb77ba869f15
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-2.unity
     guid: e6adf78926cd9e44189c6de610e02c5d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z0.unity
     guid: b78a53c8ee55cd94f9dd4f71187192aa
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z-3.unity
     guid: f4757cf71bcc2ab45bfe848a29466fe0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z4.unity
     guid: 1d93c26facf80584d8caa90ce2b3f156
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-4.unity
     guid: b187dcdcc2c3b7046ac1cfcacf068294
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z6.unity
     guid: 5f82ab8fd4f5ace4d8bcab6d98cbbb99
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z2.unity
     guid: ba818f5507d14d34f9646eeb1875d67c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z4.unity
     guid: 12c4a8eef00dc084e84c84566d20ca35
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z-2.unity
     guid: 3da9adb2997aacf4698d92e5733e2b5f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z-5.unity
     guid: 2a4a5c1319e0c50468c3b2940570c009
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z-6.unity
     guid: d98d0f5ea0f688e48bf795b09c2e8945
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z5.unity
     guid: 962b19fd546474f469c8f54926192d51
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z-5.unity
     guid: 7b9cbe5c6a248864c833b7246fbaf516
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z4.unity
     guid: d8199a2afcfec0241acd777787f784f9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z0.unity
     guid: 48167e9be033c2d4e878fd42d9d6154d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z5.unity
     guid: eac2eaebe5218824ba960d414fe286b7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z7.unity
     guid: 621ece6861a52d14383b2768014d2219
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z0.unity
     guid: e96c60d0865fcc84f84b5c3127cd5f6e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z-2.unity
     guid: 6e93c2bca33981244973f2c90629f9ed
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z4.unity
     guid: bf9b0c5ed6dd880449cb20cdb4b1a373
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-4_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-4_z2.unity
     guid: 36fc61372c58ced4d85d584a825eca89
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z3.unity
     guid: 876c60a50a3943d458220a1714975936
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-3.unity
     guid: d21ca2c7e4906154f9544d6cefe9ffbc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x7_z-6.unity
     guid: 2a82703685a3d6f4490b195730624d36
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x9_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x9_z-3.unity
     guid: 74ba2494039382f41b6148127a057d42
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z2.unity
     guid: 5ee1cec8460facb43b2f80cfac462034
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z6.unity
     guid: 287694e190549fd4f8061f0e69cfbc05
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z2.unity
     guid: 86586103cbbd9734c904b3ecb056d2ae
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z6.unity
     guid: 9193235272f76704fa7dbfef71a29412
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-1.unity
     guid: 9fede0424e9fa45469ac1d6868e3a441
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z5.unity
     guid: 9cacadf8e4b525e4d840010e0b27f93e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-2_z3.unity
     guid: 94444af4cbe348e4082af243a3b0107a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-5_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-5_z6.unity
     guid: 3ea989400c373c64daa2057ef3846016
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z4.unity
     guid: 80fb06ffe998dad4596210bccdfa8a06
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-6.unity
     guid: f423caf1abe054e47a9e9cbb2ba77ae2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-6_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-6_z9.unity
     guid: 398358a85efd26745954b76b91960bd8
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z1.unity
     guid: 0cea63d431c6d904495e5e66ed39444a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z3.unity
     guid: 7a10247fb625cb54eb7eef936aaccc8a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-3_z1.unity
     guid: f7b963ee4d030e04cb8e75028e8d649c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z1.unity
     guid: 9d462e65da3185f42a8b2334e6dc12c6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z2.unity
     guid: c5ceaff8090532e428d9f97fe50dba99
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z4.unity
     guid: 72b132fe09bb3a8488f43492c50fd74c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-1.unity
     guid: 1bad89f4fe0d81b4a85a359dc06ac518
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z-4.unity
     guid: ecbbaba3952035042b766762880dc73a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z7.unity
     guid: ee6a77bf75b16b443b831f08df220b29
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x6_z0.unity
     guid: 46f7c8b64f0cc914fa69ab7b47fc0399
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z0.unity
     guid: 273c9358c50c0f341993af89d654ae04
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z0.unity
     guid: b126405eff901ba4784aafb2f5a1558d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-5_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-5_z5.unity
     guid: 307d54832e6e1a64aac28e8b091a89f7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z7.unity
     guid: 0bd74cee8cb9d84408db16af9a8d6c83
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z5.unity
     guid: fe4a200add046d9469c8f9514c759ed3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x5_z-1.unity
     guid: 6c12e7b44be0da74280cf74358b7683d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x2_z-4.unity
     guid: a66e6a3b038f7de4e80a987d59d37c98
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-4_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-4_z1.unity
     guid: d73f0c30179bc404f8d56374980e624d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x8_z-5.unity
     guid: 113cee6429dfb49469d9c62e8e12932b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z1.unity
     guid: 8f8ccbbe27e2b824894b520dcabaa528
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x9_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x9_z-2.unity
     guid: cc818d1413d08ac4c8057b1ae5e1a470
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x3_z-6.unity
     guid: c5390684bbe69044897439224f7d529c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-4_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-4_z3.unity
     guid: b66e8309463e17a449b1b24b1d311922
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x9_z-6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x9_z-6.unity
     guid: de0eb7e2062267b408b3cfe3992c4a7e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x4_z-1.unity
     guid: 4d8802c1d8f975945bf4c82497d351bb
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z1.unity
     guid: 2c52e3d7c12d64441b1bb2165b612c65
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z-3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x1_z-3.unity
     guid: 9ea4565734f26034d83af94d9d2d66db
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x0_z0.unity
     guid: 7e6e116ac71abd249b53b49c048e65a2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z-2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Small_Models/Advanced_Work_Scene_Small_Models_x-1_z-2.unity
     guid: 1bdc8d9c07e56454dbac16bbdb47b47f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z0.unity
     guid: 5ab37453f970d1842ae9fd900e4d2786
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z15.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z15.unity
     guid: 1b0c703e708784f4c81ed50ed093688b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z2.unity
     guid: 7f9d5399fb90e8d408c3e3aa9450bc49
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x10_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x10_z17.unity
     guid: 7163f9e72a6326645bb2c569c3d92643
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z7.unity
     guid: fa7d7dd3f0ead44449b7dac77a91d955
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x4_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x4_z0.unity
     guid: fe14010014419d34b84106d494464d25
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x3_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x3_z6.unity
     guid: c3b53b15977d9b04cac479cea304570a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z11.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z11.unity
     guid: 32a60e917d53c674b99999eee396043f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z14.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z14.unity
     guid: 9ae4f1a01a016124e9cd9a06e2d866b3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x14_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x14_z17.unity
     guid: 573fef7e02789764092762f9997c220f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z17.unity
     guid: 0c5234695e4c6aa4f8196bcf7f116ecc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x2_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x2_z17.unity
     guid: c9d6ed027f941c0488bb16cb69622157
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z10.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z10.unity
     guid: 760e798a40295554286c7022995f664e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z9.unity
     guid: 3040c20a08be0e24a87e8be3b663a837
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z6.unity
     guid: 4e366cb728042234691c9db884cd5ae7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x1_z0.unity
     guid: 7b320f7d8165b7e429bb0059b529421e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x14_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x14_z0.unity
     guid: 063284348cf204e4dbea40ca2ed5a03a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z9.unity
     guid: eb30ddd29884bba47b3a9950c9ec3b12
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x5_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x5_z0.unity
     guid: 6ae73efd0fdd21947a646dacf6014452
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z3.unity
     guid: c39e782f43bfb2e478972b37f860105e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x10_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x10_z9.unity
     guid: 217a9ecdb7507f8479a2214eb8c2841e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z8.unity
     guid: f9ad666a618de10468e1b8a0ec091bc9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x7_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x7_z17.unity
     guid: 6c9bc57061a472f47b061f6cf5a1def6
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x1_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x1_z17.unity
     guid: 5eb4c05526495a54ebe4e1886a494235
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z1.unity
     guid: 184b5f18326105d4d9da62719053b476
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z0.unity
     guid: b7f90f2eb34a68c48b6393f765f5734e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z1.unity
     guid: 999d805ff9675604b8af2483ad145228
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z13.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z13.unity
     guid: 7696389715d49874f864f1f2bbfa3b3c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x10_z10.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x10_z10.unity
     guid: 6dafd5ad3c5d1384f91cc1f9c0a3e3d7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x6_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x6_z17.unity
     guid: 69e3dcf53d292604284914521d7891fa
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z8.unity
     guid: fa306763cfb8c82408ed8a32e9b14c1f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z12.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x12_z12.unity
     guid: 775c889de0ece2346b7bd024f2ac1b1d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x8_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x8_z0.unity
     guid: 6ebad18f0e87fe24393c4b8c418e2026
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x11_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x11_z9.unity
     guid: 19010b3d7575dee42b7a263289f10cca
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x3_z0.unity
     guid: 92eb6a7dc48851144b189c7ab8c895a9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z17.unity
     guid: 3781473475d25d04bb3fe460b816fac4
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x16_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x16_z0.unity
     guid: 33cac0dbdeaf34049a339f9052680d4c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x7_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x7_z0.unity
     guid: b532b5b4926edb7409d3615f3d636874
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x9_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x9_z17.unity
     guid: f55c3cdf891f3d04993a6e664709ef75
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z6.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z6.unity
     guid: c25b1948d39bce3498c7f8e51d8eb3cc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x11_z10.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x11_z10.unity
     guid: a6c813dbb0be1bd45bdae173d42a0fb5
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z5.unity
     guid: 84327291cc55b654f90ea512d40e7a96
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x11_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x11_z0.unity
     guid: 6ca5d6fbd9d37ac45a0c8134b6ad60cc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z10.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z10.unity
     guid: 2f5b942627ce14543bb6130e20d80f74
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x13_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x13_z0.unity
     guid: f792cebb3c7f64844a34efd7b240c349
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x5_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x5_z17.unity
     guid: d33dc026cf04ecf45a3477cceac5b913
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x8_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x8_z17.unity
     guid: e3476c1cadc8eed448d61f8f4d13aec0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x10_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x10_z0.unity
     guid: 4e80e193a0504aa43b912e5423266ae0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x16_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x16_z17.unity
     guid: 593fbd007c901884b934364c88f458fc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x6_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x6_z0.unity
     guid: f63ee64b1cfc78344a5f0d1308e3fe10
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z2.unity
     guid: a06714b79f68d6146a45c3917d9b1ec0
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z5.unity
     guid: 17d64e55824f21e4f9f8d54ae2dfd263
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x15_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x15_z0.unity
     guid: 1d8c219602f2c924b8e2318912b23688
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x2_z0.unity
     guid: d9a98abfff3bcec49b5b322bf6146495
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z16.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z16.unity
     guid: 024b31f6d257b094a93461a37645b2af
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z12.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z12.unity
     guid: 38d394a3937faa9499e6fd3647bf878c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z8.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z8.unity
     guid: 67e65f55926e707438902e05a168d973
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z4.unity
     guid: 13aa212a6ab047e4b843a0af67fcc634
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z0.unity
     guid: 6fc0a997dec664c40862e537017d3000
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z7.unity
     guid: 95e40eccc66fb3047be08595d200ec2d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z7.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z7.unity
     guid: eb0face28f8548648a5a8eb93578fc69
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z12.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z12.unity
     guid: 56a98d63ac9fc9843979473521d1f1f2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z16.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z16.unity
     guid: fd0001273e991dc4a862f715534e4b42
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x11_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x11_z17.unity
     guid: ea7e444beef65354aa32bf8c08de1a67
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z9.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z9.unity
     guid: 7a336a503309c344b9510aaaf489e0df
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z4.unity
     guid: 608f16ca1329b904bb2fb99f87cd7a89
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x9_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x9_z0.unity
     guid: da12523c73808704a9d75db7e2f866a9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z11.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z11.unity
     guid: 17a2dab8f25a6bd4fbc8c7fa4a4d0650
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z17.unity
     guid: f2b6bfc71efed544fb6f9363ca16c66c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z13.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z13.unity
     guid: fe8919b3b16c8564ba406ec98c44b2bb
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z14.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z14.unity
     guid: 650ff7f8c9729944996757ccb941029e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z15.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z15.unity
     guid: d2567b73ce5fd514aacaefba343b0c78
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x4_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x4_z17.unity
     guid: 7dfcde63db58822488eb2297ab74cc04
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x13_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x13_z17.unity
     guid: 713a9069536078f45843adfe47933f60
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x3_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x3_z17.unity
     guid: 9b198f820e37dc645a932b6de41224f3
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z14.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x0_z14.unity
     guid: 37b7bc2d63dc7944a8e86d82d645fa74
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x15_z17.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x15_z17.unity
     guid: 037b88543f982e540a91777adc10ac55
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Objects/Simple_Work_Scene_Objects_x17_z3.unity
     guid: d4e48e1325f820643ab558f28e0696b8
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z2.unity
     guid: b9baae9a9f9f53c45894d8188bd9c7dd
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z0.unity
     guid: 7f868a37f321107468cff35c73613639
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z5.unity
     guid: bf421215188a02646866ce3aafaade6c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z2.unity
     guid: 55f56842ffc386349a9969ec0892dc90
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z0.unity
     guid: b90a95e01b651b54f91b8cbaccf8c096
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z3.unity
     guid: b397feb9f2f6ccb4cbc4d510dc6a33e7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z2.unity
     guid: 5441e3f1e5522324d9ca4dd84c750a26
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z5.unity
     guid: 362b609308eb1424192ac9dea48ed6ee
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z4.unity
     guid: 42391e07b3e2e404e967d68b8f711f0e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z4.unity
     guid: a41e8e2bda9b59448a56f0b46df7da74
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z3.unity
     guid: 878932f5d768dd242a6f53eeb2d52ccf
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z4.unity
     guid: 8b619edf1bf83d94e8d44f021df3e55a
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z1.unity
     guid: a437d8108e6bf464cb970be3ee9c2ad7
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z4.unity
     guid: d0438c9e17745764c90f62c99b5a7074
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z0.unity
     guid: 55ceb696d2a154342840c13986a99f30
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z5.unity
     guid: 91c7d17fe851e9f4094548655e4c582b
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z3.unity
     guid: c8dce6dbe5714174d9f8aa41d9548080
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z1.unity
     guid: 53f1d8f04e06f144c8b2d557f6a908df
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z2.unity
     guid: 08e4f5f1a535ba84191eefb81586c82f
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z3.unity
     guid: e8e50fcdc1b38d647b28bda8564b97fc
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z1.unity
     guid: 0ced0b91f2a21ce45a5606afc7ea9f0d
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z2.unity
     guid: 4b8f1535cd5245f43a6498f56b5f973c
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z4.unity
     guid: 7023c525f9c0a8f499224da1fa033c29
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z5.unity
     guid: 92d08d842e7afd1428aa8f479c317dae
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z0.unity
     guid: f21745d7215674745961ad81c4c171fe
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z3.unity
     guid: 8b7b1a78c69b84440be255b401080fc2
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z3.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x3_z3.unity
     guid: 88aa17305846da64da5e05617dbdf008
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z1.unity
     guid: 7932c59ff2fa6a744a5f0f4459733a96
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x2_z1.unity
     guid: 46484af1781b5fc47a3fcece75f9d82e
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x4_z5.unity
     guid: 81526d00726cfff478aa953fd907be16
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z0.unity
     guid: d2ac02a2ce032cb46832b5040cd1f4af
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z4.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x5_z4.unity
     guid: 9e39a8debb8a15e4c9ec2a0e59b9b7d9
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z5.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z5.unity
     guid: 171f6b46af6a23848946f96382c79e72
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z2.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z2.unity
     guid: f26a348cb0684684db0c92846fff0703
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z0.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x0_z0.unity
     guid: d63c7cfdd5a837341aecbc210c165eed
   - enabled: 1
-    path: Assets/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z1.unity
+    path: Assets/ExternalKit/WorldStreamer/SplitScenes/Simple_Work_Scene_Terrains/Simple_Work_Scene_Terrains_x1_z1.unity
     guid: 927ada265f348c347a489d80b42c9f57
   m_configObjects: {}
