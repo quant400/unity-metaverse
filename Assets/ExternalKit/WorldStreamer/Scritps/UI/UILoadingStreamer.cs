@@ -41,6 +41,9 @@ public class UILoadingStreamer : MonoBehaviour
 		progressImg.fillAmount = 0;
 	}
 
+
+
+
 	/// <summary>
 	/// Update this instance, and sets current progress of streaming.
 	/// </summary>

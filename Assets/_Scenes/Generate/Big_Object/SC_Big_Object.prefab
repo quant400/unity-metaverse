@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7592290104802271965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3332488953912055087}
+  - component: {fileID: 1969783917724858548}
+  m_Layer: 0
+  m_Name: SC_Big_Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3332488953912055087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7592290104802271965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1969783917724858548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7592290104802271965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437fc3aa5da529143a75da5d3d456be2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefixName: High
+  prefixScene: Big_Object
+  path: Assets\_Scenes\Generate\Big_Object/
+  names:
+  - Big_Object_x-1_z-2.unity
+  - Big_Object_x-1_z-4.unity
+  - Big_Object_x-6_z-1.unity
+  - Big_Object_x-6_z-5.unity
+  - Big_Object_x-4_z-1.unity
+  - Big_Object_x-3_z-4.unity
+  - Big_Object_x-5_z-4.unity
+  - Big_Object_x-3_z-1.unity
+  - Big_Object_x-2_z-4.unity
+  - Big_Object_x-5_z-2.unity
+  - Big_Object_x-5_z0.unity
+  - Big_Object_x0_z-3.unity
+  - Big_Object_x-2_z0.unity
+  - Big_Object_x-5_z-5.unity
+  - Big_Object_x-5_z-1.unity
+  - Big_Object_x-4_z0.unity
+  - Big_Object_x-3_z0.unity
+  - Big_Object_x-4_z-4.unity
+  - Big_Object_x-2_z-1.unity
+  - Big_Object_x-1_z-3.unity
+  - Big_Object_x-2_z-3.unity
+  - Big_Object_x0_z-2.unity
+  - Big_Object_x0_z-4.unity
+  - Big_Object_x-1_z-1.unity
+  - Big_Object_x-6_z-2.unity
+  - Big_Object_x-3_z-5.unity
+  - Big_Object_x-1_z0.unity
+  - Big_Object_x-6_z-4.unity
+  - Big_Object_x-6_z0.unity
+  - Big_Object_x-1_z-5.unity
+  - Big_Object_x0_z-5.unity
+  - Big_Object_x-2_z-5.unity
+  - Big_Object_x-5_z-3.unity
+  - Big_Object_x-2_z-2.unity
+  - Big_Object_x0_z-1.unity
+  - Big_Object_x-4_z-2.unity
+  - Big_Object_x-6_z-3.unity
+  - Big_Object_x-4_z-5.unity
+  - Big_Object_x0_z0.unity
+  - Big_Object_x-3_z-2.unity
+  - Big_Object_x-4_z-3.unity
+  - Big_Object_x-3_z-3.unity
+  xSplitIs: 1
+  ySplitIs: 0
+  zSplitIs: 1
+  xSize: 50
+  ySize: 0
+  zSize: 50
+  xLimitsx: -6
+  xLimitsy: 0
+  yLimitsx: 0
+  yLimitsy: 0
+  zLimitsx: -5
+  zLimitsy: 0
+  collapsed: 1
+  layerNumber: 0
+  color: {r: 0.16755833, g: 0.07296074, b: 0.95620406, a: 255}
