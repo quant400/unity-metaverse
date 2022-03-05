@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: localAreaSettingsAuto
   m_EditorClassIdentifier: 
   collectionsCollapsed: 1
-  listSizeCollections: 2
+  listSizeCollections: 3
   currentCollections:
-  - {fileID: 11481846, guid: 074be1548ce8ca04f8b15b5e85d6a90f, type: 3}
-  - {fileID: 11471808, guid: a13afe4c3b4dad64b949d1ac978d6cd0, type: 3}
+  - {fileID: 1969783917724858548, guid: e1483ea70a22cc748b77b7c452d350da, type: 3}
+  - {fileID: 1235080845392750381, guid: 98bdce467c4e32a4397cc70d73a601dd, type: 3}
+  - {fileID: 3746483666598835285, guid: 99116425afb74744995370fd759a5d7c, type: 3}
   showLoadingPoint: 1
-  distanceFromCenter: 2
+  distanceFromCenter: 200
   tiles: 0
-  CenterPoint: {x: -100, y: 1, z: -100}
+  CenterPoint: {x: 50, y: 0, z: 50}

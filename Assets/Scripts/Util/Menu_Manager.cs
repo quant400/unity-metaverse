@@ -27,8 +27,6 @@ public class Menu_Manager : MonoBehaviour
     private void ActionStart()
     {
        //Inicia o Loading
-
-        
     }
 
     private void ActionFinish()

@@ -359,12 +359,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3112100011082351123}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
-      propertyPath: loadingRange.x
+      propertyPath: looping
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
+      propertyPath: loadingRange.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: loadingRange.z
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: sceneCollection
@@ -373,11 +377,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: deloadingRange.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: deloadingRange.z
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
@@ -710,8 +714,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3112100011082351123}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: loadingRange.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
+      propertyPath: loadingRange.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: loadingRange.z
@@ -729,6 +741,10 @@ PrefabInstance:
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: deloadingRange.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
+      propertyPath: deloadingRange.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: deloadingRange.z
@@ -2237,6 +2253,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3112100011082351123}
     - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
       propertyPath: loadingRange.x
       value: 1
       objectReference: {fileID: 0}
@@ -2260,6 +2280,22 @@ PrefabInstance:
     - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
       propertyPath: deloadingRange.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: destroyTileDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: loadingRangeMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: loadingRangeMin.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: useLoadingRangeMin
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
@@ -2405,7 +2441,7 @@ PrefabInstance:
     - target: {fileID: 3917969869971941936, guid: 5743527826dfdc042a319e0f4f94a451,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3917969869971941936, guid: 5743527826dfdc042a319e0f4f94a451,
         type: 3}
