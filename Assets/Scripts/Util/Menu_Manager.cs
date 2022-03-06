@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Menu_Manager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Menu_Manager : MonoBehaviour
     [Header("Streamer Components")]
     [SerializeField] private UILoadingStreamer GO_UILoadingStreamer;
     [SerializeField] private PlayerTeleport GO_PlayerTeleport;
+    public Rigidbody rbCharacter;
 
 
     void Start()
@@ -44,6 +46,11 @@ public class Menu_Manager : MonoBehaviour
 
     IEnumerator WaitLoading(Action onFinish , float time= 0.10f)
     {
+        while (rbCharacter.velocity.y != 0)
+        {
+            yield return null;
+        }
+
         yield return new WaitForSeconds(time);
         onFinish();
 

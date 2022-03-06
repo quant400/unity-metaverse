@@ -2038,6 +2038,7 @@ MonoBehaviour:
   Button_LevelReset: {fileID: 881455519}
   GO_UILoadingStreamer: {fileID: 881453439}
   GO_PlayerTeleport: {fileID: 2123595157}
+  rbCharacter: {fileID: 2120925692329846820}
 --- !u!1 &1538091512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2537,6 +2538,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5743527826dfdc042a319e0f4f94a451, type: 3}
+--- !u!54 &2120925692329846820 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 3917969869966449636, guid: 5743527826dfdc042a319e0f4f94a451,
+    type: 3}
+  m_PrefabInstance: {fileID: 2120925692329846819}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3112100011082351123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3917969869971941936, guid: 5743527826dfdc042a319e0f4f94a451,
