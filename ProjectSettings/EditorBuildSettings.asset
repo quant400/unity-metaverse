@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/Game/Inital.unity
+    guid: 1108c5631d9900245b01f6a2c83f39ad
+  - enabled: 1
+    path: Assets/_Scenes/Game/Menu.unity
+    guid: 206b0cd57653d8a4b875b6aa28d6321c
+  - enabled: 1
+    path: Assets/_Scenes/Game/City.unity
+    guid: 7c07a6fcce112cc4f812a776a34359f2
+  - enabled: 1
     path: Assets/ExternalKit/WorldStreamer/SplitScenes/Advanced_Work_Scene_Terrains_Lod0/Advanced_Work_Scene_Terrains_Lod0_x-1_z0.unity
     guid: 3f52261c38e45fc4bb2bea830a137170
   - enabled: 1
@@ -7745,10 +7754,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Generate/Medium_Object/Medium_Object_x-2_z-2.unity
     guid: 032e855b6322d4443a328a039b05ca00
-  - enabled: 1
-    path: Assets/_Scenes/Game.unity
-    guid: 206b0cd57653d8a4b875b6aa28d6321c
-  - enabled: 1
-    path: Assets/_Scenes/StartScene.unity
+  - enabled: 0
+    path: Assets/_Scenes/Menu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
