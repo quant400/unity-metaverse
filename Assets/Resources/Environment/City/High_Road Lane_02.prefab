@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2129353549197796615}
   - component: {fileID: 2129353549196469543}
   - component: {fileID: 2129353549195503591}
+  - component: {fileID: -857048028698825383}
   m_Layer: 0
   m_Name: High_Road Lane_02
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &-857048028698825383
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129353549197429031}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300302, guid: 877f11d19d2c152488ed29f996b524f3, type: 3}

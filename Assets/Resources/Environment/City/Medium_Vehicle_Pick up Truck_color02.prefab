@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5500159483829248364}
   - component: {fileID: 5500159483828445518}
   - component: {fileID: 5500159483827349390}
+  - component: {fileID: 5264626899979060409}
   m_Layer: 0
   m_Name: Medium_Vehicle_Pick up Truck_color02
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5264626899979060409
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5500159483829343564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300670, guid: 877f11d19d2c152488ed29f996b524f3, type: 3}

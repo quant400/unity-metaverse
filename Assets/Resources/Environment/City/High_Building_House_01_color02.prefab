@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 83476294533617706}
   - component: {fileID: 83476294534420490}
   - component: {fileID: 83476294535387722}
+  - component: {fileID: 4751360839331217665}
   m_Layer: 0
   m_Name: High_Building_House_01_color02
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4751360839331217665
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83476294533121034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4302226, guid: 877f11d19d2c152488ed29f996b524f3, type: 3}

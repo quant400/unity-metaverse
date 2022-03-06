@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class CursorLock : MonoBehaviour
 {
+
+    [SerializeField] private CursorLockMode currentLockMode;
+    
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = currentLockMode;
     }
 }

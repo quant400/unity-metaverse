@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9049697970858734176}
   - component: {fileID: 9049697970860061312}
   - component: {fileID: 9049697970861018176}
+  - component: {fileID: -5308739232285638442}
   m_Layer: 0
   m_Name: Medium_Props_Coffee shop chair
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &-5308739232285638442
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9049697970858761856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4302502, guid: 877f11d19d2c152488ed29f996b524f3, type: 3}

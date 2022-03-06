@@ -7745,4 +7745,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Generate/Medium_Object/Medium_Object_x-2_z-2.unity
     guid: 032e855b6322d4443a328a039b05ca00
+  - enabled: 1
+    path: Assets/_Scenes/Game.unity
+    guid: 206b0cd57653d8a4b875b6aa28d6321c
+  - enabled: 1
+    path: Assets/_Scenes/StartScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

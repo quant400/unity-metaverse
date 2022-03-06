@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6986219789724039728}
   - component: {fileID: 6986219789726940112}
   - component: {fileID: 6986219789725940752}
+  - component: {fileID: -3306567471286773985}
   m_Layer: 0
   m_Name: High_Natures_Grass Fence
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &-3306567471286773985
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6986219789723742160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300110, guid: 877f11d19d2c152488ed29f996b524f3, type: 3}
