@@ -121,68 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &69740917
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 69740919}
-  - component: {fileID: 69740918}
-  m_Layer: 0
-  m_Name: Medium_Object_x-5_z-5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &69740918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69740917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a7da46708b97c940a4fe54d35254afe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Medium_Object_x-5_z-5
-  color: {r: 0.79699767, g: 0.9716981, b: 0, a: 255}
-  position: {x: -250, y: 0, z: -250}
-  size: {x: 50, y: 100, z: 50}
---- !u!4 &69740919
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69740917}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2109802401}
-  - {fileID: 2094044047}
-  - {fileID: 1935724844}
-  - {fileID: 1244712710}
-  - {fileID: 932279983}
-  - {fileID: 780841189}
-  - {fileID: 609480210}
-  - {fileID: 444907451}
-  - {fileID: 254658690}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &254658689
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 69740919}
+    m_TransformParent: {fileID: 877647351}
     m_Modifications:
     - target: {fileID: 1618533341087320057, guid: b603c7f03b1908e40bbb8925f1341494,
         type: 3}
@@ -262,7 +206,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 69740919}
+    m_TransformParent: {fileID: 877647351}
     m_Modifications:
     - target: {fileID: 2407837716940721744, guid: 24891e400604c3a4fa2b66b294658a38,
         type: 3}
@@ -342,7 +286,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 69740919}
+    m_TransformParent: {fileID: 877647351}
     m_Modifications:
     - target: {fileID: 1440499542267659430, guid: 33a584d8b62853b47b1603b3dccdef6b,
         type: 3}
@@ -422,7 +366,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 69740919}
+    m_TransformParent: {fileID: 877647351}
     m_Modifications:
     - target: {fileID: 2427972454230012355, guid: 3a31fd0d1261ecc48984b48528f45e04,
         type: 3}
@@ -497,12 +441,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 780841188}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &877647349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 877647351}
+  - component: {fileID: 877647350}
+  m_Layer: 0
+  m_Name: Medium_Object_x-5_z-5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &877647350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877647349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7da46708b97c940a4fe54d35254afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Medium_Object_x-5_z-5
+  color: {r: 0.79699767, g: 0.9716981, b: 0, a: 255}
+  position: {x: -250, y: 0, z: -250}
+  size: {x: 50, y: 100, z: 50}
+--- !u!4 &877647351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877647349}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2109802401}
+  - {fileID: 2094044047}
+  - {fileID: 1935724844}
+  - {fileID: 1244712710}
+  - {fileID: 932279983}
+  - {fileID: 780841189}
+  - {fileID: 609480210}
+  - {fileID: 444907451}
+  - {fileID: 254658690}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &932279982
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 69740919}
+    m_TransformParent: {fileID: 877647351}
     m_Modifications:
     - target: {fileID: 2427972454230012355, guid: 3a31fd0d1261ecc48984b48528f45e04,
         type: 3}
@@ -582,7 +582,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 69740919}
+    m_TransformParent: {fileID: 877647351}
     m_Modifications:
     - target: {fileID: 2427972454230012355, guid: 3a31fd0d1261ecc48984b48528f45e04,
         type: 3}
@@ -662,7 +662,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 69740919}
+    m_TransformParent: {fileID: 877647351}
     m_Modifications:
     - target: {fileID: 1121463025866432806, guid: 7b79c87b61c7f7a4e95b9570be20997e,
         type: 3}
@@ -742,7 +742,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 69740919}
+    m_TransformParent: {fileID: 877647351}
     m_Modifications:
     - target: {fileID: 1121463025866432806, guid: 7b79c87b61c7f7a4e95b9570be20997e,
         type: 3}
@@ -822,7 +822,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 69740919}
+    m_TransformParent: {fileID: 877647351}
     m_Modifications:
     - target: {fileID: 2427972454230012355, guid: 3a31fd0d1261ecc48984b48528f45e04,
         type: 3}

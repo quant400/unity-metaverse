@@ -121,65 +121,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &381021592
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 381021594}
-  - component: {fileID: 381021593}
-  m_Layer: 0
-  m_Name: Terrain_Lod0_x-1_z-2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &381021593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381021592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a7da46708b97c940a4fe54d35254afe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Terrain_Lod0_x-1_z-2
-  color: {r: 1, g: 0.21279427, b: 0, a: 255}
-  position: {x: -100, y: 0, z: -200}
-  size: {x: 100, y: 100, z: 100}
---- !u!4 &381021594
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381021592}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 547546470}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &547546469
+--- !u!1001 &44648307
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 381021594}
+    m_TransformParent: {fileID: 2141130458}
     m_Modifications:
     - target: {fileID: 2385984452582068840, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
       propertyPath: m_Name
-      value: Terrain_City (5)
+      value: Terrain_City (12)
       objectReference: {fileID: 0}
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
@@ -189,17 +141,17 @@ PrefabInstance:
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -70
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.001
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -170
+      value: -70
       objectReference: {fileID: 0}
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
@@ -238,9 +190,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1bb85932f7bd0042b55cb1dee21d99e, type: 3}
---- !u!4 &547546470 stripped
+--- !u!4 &44648308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
     type: 3}
-  m_PrefabInstance: {fileID: 547546469}
+  m_PrefabInstance: {fileID: 44648307}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2141130456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2141130458}
+  - component: {fileID: 2141130457}
+  m_Layer: 0
+  m_Name: Terrain_Lod0_x-1_z-2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2141130457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141130456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7da46708b97c940a4fe54d35254afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Terrain_Lod0_x-1_z-2
+  color: {r: 1, g: 0.21279427, b: 0, a: 255}
+  position: {x: -50, y: 0, z: -100}
+  size: {x: 50, y: 100, z: 50}
+--- !u!4 &2141130458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141130456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 44648308}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -364,11 +364,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: loadingRange.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: loadingRange.z
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: sceneCollection
@@ -377,11 +377,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: deloadingRange.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
       propertyPath: deloadingRange.z
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9a47ac5c1c41064ba04f10d410cab62, type: 3}
@@ -2209,6 +2209,18 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 428144, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 428144, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 428144, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 428144, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2283,19 +2295,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
       propertyPath: destroyTileDelay
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
       propertyPath: loadingRangeMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
       propertyPath: loadingRangeMin.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
       propertyPath: useLoadingRangeMin
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: sceneLoadWaitFrames
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458844, guid: d590a6bc8264b6548b1268f08c290398, type: 3}
+      propertyPath: maxParallelSceneLoading
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d590a6bc8264b6548b1268f08c290398, type: 3}

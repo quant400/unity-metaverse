@@ -121,17 +121,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &137846787
+--- !u!1001 &1514094887
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1886368975}
+    m_TransformParent: {fileID: 1564391030}
     m_Modifications:
     - target: {fileID: 2385984452582068840, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
       propertyPath: m_Name
-      value: Terrain_City (1)
+      value: Terrain_City (4)
       objectReference: {fileID: 0}
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
@@ -141,17 +141,17 @@ PrefabInstance:
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -170
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.001
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -70
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
         type: 3}
@@ -190,13 +190,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1bb85932f7bd0042b55cb1dee21d99e, type: 3}
---- !u!4 &137846788 stripped
+--- !u!4 &1514094888 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2385984452582068843, guid: f1bb85932f7bd0042b55cb1dee21d99e,
     type: 3}
-  m_PrefabInstance: {fileID: 137846787}
+  m_PrefabInstance: {fileID: 1514094887}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1886368973
+--- !u!1 &1564391028
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,8 +204,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1886368975}
-  - component: {fileID: 1886368974}
+  - component: {fileID: 1564391030}
+  - component: {fileID: 1564391029}
   m_Layer: 0
   m_Name: Terrain_Lod0_x-2_z-1
   m_TagString: Untagged
@@ -213,13 +213,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1886368974
+--- !u!114 &1564391029
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886368973}
+  m_GameObject: {fileID: 1564391028}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a7da46708b97c940a4fe54d35254afe, type: 3}
@@ -227,20 +227,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Terrain_Lod0_x-2_z-1
   color: {r: 1, g: 0.21279427, b: 0, a: 255}
-  position: {x: -200, y: 0, z: -100}
-  size: {x: 100, y: 100, z: 100}
---- !u!4 &1886368975
+  position: {x: -100, y: 0, z: -50}
+  size: {x: 50, y: 100, z: 50}
+--- !u!4 &1564391030
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886368973}
+  m_GameObject: {fileID: 1564391028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 137846788}
+  - {fileID: 1514094888}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

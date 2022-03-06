@@ -59,6 +59,7 @@ MonoBehaviour:
   - Medium_Object_x0_z-2.unity
   - Medium_Object_x-1_z-5.unity
   - Medium_Object_x-3_z-4.unity
+  - Medium_Object_x-3_z0.unity
   - Medium_Object_x0_z-4.unity
   - Medium_Object_x-4_z-2.unity
   - Medium_Object_x-5_z0.unity
@@ -80,9 +81,11 @@ MonoBehaviour:
   - Medium_Object_x-4_z-4.unity
   - Medium_Object_x-2_z0.unity
   - Medium_Object_x-1_z-2.unity
+  - Medium_Object_x-1_z-1.unity
   - Medium_Object_x-2_z-1.unity
   - Medium_Object_x-6_z0.unity
   - Medium_Object_x-1_z-3.unity
+  - Medium_Object_x-3_z-1.unity
   - Medium_Object_x-1_z0.unity
   - Medium_Object_x-5_z-2.unity
   - Medium_Object_x-2_z-2.unity

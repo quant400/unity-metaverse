@@ -47,47 +47,48 @@ MonoBehaviour:
   prefixScene: Big_Object
   path: Assets\_Scenes\Generate\Big_Object/
   names:
-  - Big_Object_x-1_z-2.unity
+  - Big_Object_x-2_z-5.unity
+  - Big_Object_x-1_z-5.unity
+  - Big_Object_x-1_z-1.unity
   - Big_Object_x-1_z-4.unity
-  - Big_Object_x-6_z-1.unity
+  - Big_Object_x-6_z-3.unity
   - Big_Object_x-6_z-5.unity
-  - Big_Object_x-4_z-1.unity
-  - Big_Object_x-3_z-4.unity
-  - Big_Object_x-5_z-4.unity
+  - Big_Object_x-2_z-3.unity
   - Big_Object_x-3_z-1.unity
-  - Big_Object_x-2_z-4.unity
-  - Big_Object_x-5_z-2.unity
-  - Big_Object_x-5_z0.unity
-  - Big_Object_x0_z-3.unity
-  - Big_Object_x-2_z0.unity
+  - Big_Object_x-6_z-4.unity
+  - Big_Object_x-3_z-3.unity
+  - Big_Object_x0_z-4.unity
+  - Big_Object_x-3_z-2.unity
+  - Big_Object_x-4_z-2.unity
+  - Big_Object_x-2_z-1.unity
+  - Big_Object_x-2_z-2.unity
+  - Big_Object_x-4_z-4.unity
   - Big_Object_x-5_z-5.unity
+  - Big_Object_x-3_z-4.unity
+  - Big_Object_x-6_z0.unity
+  - Big_Object_x-1_z0.unity
   - Big_Object_x-5_z-1.unity
+  - Big_Object_x-4_z-3.unity
+  - Big_Object_x0_z-1.unity
+  - Big_Object_x0_z-3.unity
   - Big_Object_x-4_z0.unity
   - Big_Object_x-3_z0.unity
-  - Big_Object_x-4_z-4.unity
-  - Big_Object_x-2_z-1.unity
-  - Big_Object_x-2_z-3.unity
-  - Big_Object_x0_z-2.unity
-  - Big_Object_x0_z-4.unity
-  - Big_Object_x-1_z-1.unity
+  - Big_Object_x-1_z-3.unity
   - Big_Object_x-6_z-2.unity
-  - Big_Object_x-3_z-5.unity
-  - Big_Object_x-1_z0.unity
-  - Big_Object_x-6_z-4.unity
-  - Big_Object_x-6_z0.unity
-  - Big_Object_x-1_z-5.unity
-  - Big_Object_x0_z-5.unity
-  - Big_Object_x-2_z-5.unity
-  - Big_Object_x-5_z-3.unity
-  - Big_Object_x-2_z-2.unity
-  - Big_Object_x0_z-1.unity
-  - Big_Object_x-4_z-2.unity
-  - Big_Object_x-6_z-3.unity
   - Big_Object_x-4_z-5.unity
+  - Big_Object_x0_z-2.unity
+  - Big_Object_x-5_z-2.unity
+  - Big_Object_x-4_z-1.unity
+  - Big_Object_x0_z-5.unity
+  - Big_Object_x-5_z-3.unity
+  - Big_Object_x-2_z-4.unity
+  - Big_Object_x-5_z0.unity
+  - Big_Object_x-3_z-5.unity
+  - Big_Object_x-5_z-4.unity
   - Big_Object_x0_z0.unity
-  - Big_Object_x-3_z-2.unity
-  - Big_Object_x-4_z-3.unity
-  - Big_Object_x-3_z-3.unity
+  - Big_Object_x-2_z0.unity
+  - Big_Object_x-1_z-2.unity
+  - Big_Object_x-6_z-1.unity
   xSplitIs: 1
   ySplitIs: 0
   zSplitIs: 1

@@ -47,26 +47,59 @@ MonoBehaviour:
   prefixScene: Terrain_Lod0
   path: Assets\_Scenes\Generate\Terrain_Lod0/
   names:
+  - Terrain_Lod0_x-1_z-6.unity
+  - Terrain_Lod0_x-5_z-6.unity
+  - Terrain_Lod0_x-4_z-6.unity
+  - Terrain_Lod0_x-4_z-2.unity
+  - Terrain_Lod0_x-3_z-5.unity
+  - Terrain_Lod0_x-4_z-5.unity
+  - Terrain_Lod0_x-1_z-5.unity
+  - Terrain_Lod0_x-6_z-1.unity
+  - Terrain_Lod0_x-2_z-5.unity
   - Terrain_Lod0_x-1_z-2.unity
-  - Terrain_Lod0_x-1_z-3.unity
-  - Terrain_Lod0_x-1_z-1.unity
-  - Terrain_Lod0_x-3_z-2.unity
-  - Terrain_Lod0_x-3_z-3.unity
-  - Terrain_Lod0_x-2_z-2.unity
   - Terrain_Lod0_x-2_z-1.unity
+  - Terrain_Lod0_x-6_z-2.unity
+  - Terrain_Lod0_x-5_z-1.unity
+  - Terrain_Lod0_x-1_z-4.unity
+  - Terrain_Lod0_x-1_z-3.unity
+  - Terrain_Lod0_x-6_z-4.unity
+  - Terrain_Lod0_x-4_z-3.unity
+  - Terrain_Lod0_x-4_z-4.unity
+  - Terrain_Lod0_x-6_z-6.unity
+  - Terrain_Lod0_x0_z-5.unity
+  - Terrain_Lod0_x0_z-1.unity
+  - Terrain_Lod0_x-6_z-3.unity
+  - Terrain_Lod0_x-6_z-5.unity
+  - Terrain_Lod0_x-2_z-2.unity
+  - Terrain_Lod0_x-3_z-2.unity
+  - Terrain_Lod0_x-3_z-6.unity
+  - Terrain_Lod0_x0_z-4.unity
+  - Terrain_Lod0_x0_z-6.unity
   - Terrain_Lod0_x-2_z-3.unity
+  - Terrain_Lod0_x0_z-2.unity
+  - Terrain_Lod0_x-5_z-2.unity
+  - Terrain_Lod0_x-5_z-5.unity
+  - Terrain_Lod0_x-1_z-1.unity
+  - Terrain_Lod0_x-3_z-4.unity
+  - Terrain_Lod0_x-2_z-4.unity
+  - Terrain_Lod0_x0_z-3.unity
   - Terrain_Lod0_x-3_z-1.unity
+  - Terrain_Lod0_x-5_z-3.unity
+  - Terrain_Lod0_x-2_z-6.unity
+  - Terrain_Lod0_x-5_z-4.unity
+  - Terrain_Lod0_x-4_z-1.unity
+  - Terrain_Lod0_x-3_z-3.unity
   xSplitIs: 1
   ySplitIs: 0
   zSplitIs: 1
-  xSize: 100
+  xSize: 50
   ySize: 0
-  zSize: 100
-  xLimitsx: -3
-  xLimitsy: -1
+  zSize: 50
+  xLimitsx: -6
+  xLimitsy: 0
   yLimitsx: 0
   yLimitsy: 0
-  zLimitsx: -3
+  zLimitsx: -6
   zLimitsy: -1
   collapsed: 1
   layerNumber: 0

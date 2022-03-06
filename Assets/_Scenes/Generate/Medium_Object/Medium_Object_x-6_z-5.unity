@@ -126,7 +126,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1666358755}
+    m_TransformParent: {fileID: 1801982423}
     m_Modifications:
     - target: {fileID: 8758352932141856051, guid: 857509f0ba544bb4f930b84b5d71a2de,
         type: 3}
@@ -206,7 +206,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1666358755}
+    m_TransformParent: {fileID: 1801982423}
     m_Modifications:
     - target: {fileID: 8758352932141856051, guid: 857509f0ba544bb4f930b84b5d71a2de,
         type: 3}
@@ -281,7 +281,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 422003539}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1666358753
+--- !u!1 &1801982421
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -289,8 +289,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1666358755}
-  - component: {fileID: 1666358754}
+  - component: {fileID: 1801982423}
+  - component: {fileID: 1801982422}
   m_Layer: 0
   m_Name: Medium_Object_x-6_z-5
   m_TagString: Untagged
@@ -298,13 +298,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1666358754
+--- !u!114 &1801982422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666358753}
+  m_GameObject: {fileID: 1801982421}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a7da46708b97c940a4fe54d35254afe, type: 3}
@@ -314,13 +314,13 @@ MonoBehaviour:
   color: {r: 0.79699767, g: 0.9716981, b: 0, a: 255}
   position: {x: -300, y: 0, z: -250}
   size: {x: 50, y: 100, z: 50}
---- !u!4 &1666358755
+--- !u!4 &1801982423
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666358753}
+  m_GameObject: {fileID: 1801982421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
