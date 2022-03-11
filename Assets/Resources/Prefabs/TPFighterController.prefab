@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 3917969869975689140}
   - component: {fileID: 3917969869981938898}
   - component: {fileID: 3917969869981963510}
+  - component: {fileID: 3066660271703593797}
   m_Layer: 0
   m_Name: TPFighterController
   m_TagString: Untagged
@@ -386,7 +387,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3917969869971660724}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 1a334b2c969d0874b9a2d0d673f16de1, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 6c6cfa88a9ae4c241960b65a0e8e6f32, type: 2}
   m_Controller: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -452,12 +453,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
-  m_JumpPower: 6
+  m_JumpPower: 10
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1
+  m_MoveSpeedMultiplier: 1.2
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
+--- !u!114 &3066660271703593797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3917969869971660724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f7c5f3bda54a641b348ab702945b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 4615370745445947871}
 --- !u!1 &4321213063478573244
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +483,7 @@ GameObject:
   - component: {fileID: 1302996664735119985}
   - component: {fileID: 4615370745445947871}
   m_Layer: 0
-  m_Name: arachnid
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

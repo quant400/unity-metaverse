@@ -2511,31 +2511,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 54d4d36b946ab06428cc21f666a8267c,
         type: 2}
-    - target: {fileID: 3917969869981963510, guid: 5743527826dfdc042a319e0f4f94a451,
-        type: 3}
-      propertyPath: m_JumpPower
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3917969869981963510, guid: 5743527826dfdc042a319e0f4f94a451,
-        type: 3}
-      propertyPath: m_MovingTurnSpeed
-      value: 360
-      objectReference: {fileID: 0}
-    - target: {fileID: 3917969869981963510, guid: 5743527826dfdc042a319e0f4f94a451,
-        type: 3}
-      propertyPath: m_AnimSpeedMultiplier
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3917969869981963510, guid: 5743527826dfdc042a319e0f4f94a451,
-        type: 3}
-      propertyPath: m_GroundCheckDistance
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3917969869981963510, guid: 5743527826dfdc042a319e0f4f94a451,
-        type: 3}
-      propertyPath: m_MoveSpeedMultiplier
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5743527826dfdc042a319e0f4f94a451, type: 3}
 --- !u!54 &2120925692329846820 stripped

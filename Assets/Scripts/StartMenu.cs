@@ -8,7 +8,11 @@ public class StartMenu : MonoBehaviour
 {
 
     [SerializeField] private Button start_Button;
+    [SerializeField] private Button select_Button;
     [SerializeField] private GameObject loading_GO;
+    
+    [SerializeField] private GameObject start_GO;
+    [SerializeField] private GameObject select_GO;
     
     void Awake()
     {
@@ -18,10 +22,22 @@ public class StartMenu : MonoBehaviour
     private void SetUpUI()
     {
         start_Button.onClick.AddListener(OnStartClick);
+        select_Button.onClick.AddListener(OnSelectClick);
     }
 
 
     void OnStartClick()
+    {
+        start_GO.SetActive(false);
+        select_GO.SetActive(true);
+    }
+    
+    void OnSelectClick()
+    {
+        OpenGame();
+    }
+
+    void OpenGame()
     {
         StartCoroutine(LoadScene());
     }
