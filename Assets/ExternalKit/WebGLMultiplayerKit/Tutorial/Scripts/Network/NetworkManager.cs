@@ -134,18 +134,18 @@ public class NetworkManager : MonoBehaviour {
 		Dictionary<string, string> data = new Dictionary<string, string>();
 
 
-		//player's name
-		data["name"] = CanvasManager.instance.inputLogin.text;
-		
-		
+			//player's name
+			data["name"] = CanvasManager.instance.inputLogin.text;
+
+
 		//makes the draw of a point for the player to be spawn
-		int index = Random.Range (0, spawnPoints.Length);
+			int index = Random.Range (0, spawnPoints.Length);
 
 		//send the position point to server
 		string msg = string.Empty;
 
 
-		data["name"] = CanvasManager.instance.inputLogin.text;
+			data["name"] = CanvasManager.instance.inputLogin.text;
 			
 			
 

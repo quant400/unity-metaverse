@@ -28,19 +28,31 @@ public class PlayerManager : MonoBehaviour {
 	float h ;
 	
 	float v;
-	
 
-	// Use this for initialization
-	public void Set3DName(string name)
+        // Use this for initialization
+        public void Set3DName(string name)
 	{
 		GetComponentInChildren<TextMesh> ().text = name;
-
 	}
 
 
+		//---TEMPORARIO---
+        public void Start()
+        {
+			try
+			{
+				FindObjectOfType<PlayerTeleport>().player = this.gameObject.transform;
+			}
+			catch (System.Exception)
+			{
+				Debug.Log("Error FindObjectOfType<PlayerTeleport>()");
+				throw;
+			}
+		}
 
-	// Update is called once per frame
-	void FixedUpdate () {
+
+        // Update is called once per frame
+        void FixedUpdate () {
 		
 
 		if (isLocalPlayer)
