@@ -2007,26 +2007,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 141638424336944877, guid: 10ace976ef9453c40bb12776e96d415b,
-        type: 3}
-      propertyPath: camRigPref
+    - target: {fileID: 1369474706, guid: 10ace976ef9453c40bb12776e96d415b, type: 3}
+      propertyPath: _canvasManager
       value: 
-      objectReference: {fileID: 5600757758925767754, guid: 352c1bdc768593d409a28c406f619c57,
-        type: 3}
-    - target: {fileID: 141638424336944877, guid: 10ace976ef9453c40bb12776e96d415b,
-        type: 3}
-      propertyPath: localPlayerPrefab
-      value: 
-      objectReference: {fileID: 7846294790764686888, guid: 43000d3fbc46ea44fb29f056ea745a41,
-        type: 3}
-    - target: {fileID: 141638424336944877, guid: 10ace976ef9453c40bb12776e96d415b,
-        type: 3}
-      propertyPath: networkPlayerPrefab
-      value: 
-      objectReference: {fileID: 7846294790764686888, guid: 43000d3fbc46ea44fb29f056ea745a41,
-        type: 3}
-    - target: {fileID: 141638424336944877, guid: 10ace976ef9453c40bb12776e96d415b,
-        type: 3}
+      objectReference: {fileID: 1886534518}
+    - target: {fileID: 1369474706, guid: 10ace976ef9453c40bb12776e96d415b, type: 3}
       propertyPath: spawnPoints.Array.data[0]
       value: 
       objectReference: {fileID: 3112100011082351123}
@@ -2092,6 +2077,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ace976ef9453c40bb12776e96d415b, type: 3}
+--- !u!114 &1369474705 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1369474706, guid: 10ace976ef9453c40bb12776e96d415b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1369474704}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94661178d563acf49b83c0914906b260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1406874125
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,18 +2142,6 @@ MonoBehaviour:
   Button_LevelReset: {fileID: 881455519}
   GO_UILoadingStreamer: {fileID: 881453439}
   GO_PlayerTeleport: {fileID: 2123595157}
---- !u!114 &1461399080 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 141638424336944877, guid: 10ace976ef9453c40bb12776e96d415b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1369474704}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9f64d199c0fdd84dab0f75379743c06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1538091512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2450,11 +2435,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1461399080}
+      objectReference: {fileID: 1369474705}
     - target: {fileID: 3037497311238828258, guid: 33a3d70c423637d48b2d66f71e2cfa9b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: EmitPing
+      objectReference: {fileID: 0}
+    - target: {fileID: 3037497311238828258, guid: 33a3d70c423637d48b2d66f71e2cfa9b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CFC.Multiplayer.NetworkManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3037497311238828259, guid: 33a3d70c423637d48b2d66f71e2cfa9b,
         type: 3}
@@ -2580,7 +2570,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1461399080}
+      objectReference: {fileID: 1369474705}
     - target: {fileID: 3037497312730944510, guid: 33a3d70c423637d48b2d66f71e2cfa9b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2600,6 +2590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 3037497312730944510, guid: 33a3d70c423637d48b2d66f71e2cfa9b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CFC.Multiplayer.NetworkManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3037497312730944510, guid: 33a3d70c423637d48b2d66f71e2cfa9b,
         type: 3}
@@ -2798,6 +2793,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a3d70c423637d48b2d66f71e2cfa9b, type: 3}
+--- !u!114 &1886534518 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3037497312294147048, guid: 33a3d70c423637d48b2d66f71e2cfa9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1886534517}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a5784dcb565e64f935dbadc0237ac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1913428776
 PrefabInstance:
   m_ObjectHideFlags: 0

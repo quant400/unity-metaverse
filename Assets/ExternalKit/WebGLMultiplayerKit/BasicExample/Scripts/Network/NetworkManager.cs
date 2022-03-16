@@ -429,6 +429,7 @@ public class NetworkManager : MonoBehaviour {
 	/// Update the network player position and rotation to local player.
 	/// </summary>
 	/// <param name="_msg">Message.</param>
+	/// 
 	void OnUpdateMoveAndRotate(string data)
 	{
 		/*

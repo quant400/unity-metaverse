@@ -20,8 +20,16 @@ public class Character_Manager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null) Instance = this;
-        
+        if (Instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         if(_selectedCharacter == null)
             _selectedCharacter = GetCharacter();
     }

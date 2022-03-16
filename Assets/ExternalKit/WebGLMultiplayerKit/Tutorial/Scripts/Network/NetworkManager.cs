@@ -330,8 +330,6 @@ public class NetworkManager : MonoBehaviour {
 			netPlayer.transform.rotation.z,netPlayer.transform.rotation.w));
 		
 		}
-		
-
 	}
 	
 

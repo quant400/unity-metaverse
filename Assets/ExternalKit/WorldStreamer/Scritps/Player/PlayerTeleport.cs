@@ -50,7 +50,6 @@ public class PlayerTeleport : MonoBehaviour
 			foreach (var streamer in streamers) {
 				streamer.showLoadingScreen = showLoadingScreen;
 				streamer.CheckPositionTiles ();
-
 			}
 			if (uiLoadingStreamer != null)
 				uiLoadingStreamer.Show ();

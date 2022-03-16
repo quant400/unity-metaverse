@@ -1,25 +1,58 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using CFC.Multiplayer;
 
 public class Skin_Controller : MonoBehaviour
 {
     [SerializeField] private SkinnedMeshRenderer _meshRenderer;
 
+    private bool _isLocalPlayer;
+    
+
+    void Awake()
+    {
+        var playerManager = GetComponent<PlayerManager>();
+        _isLocalPlayer = playerManager == null || playerManager.isLocalPlayer;
+    }
+
     void OnDisable()
     {
-        Character_Manager.Instance.OnCharacterChanged.RemoveListener(SetUpSkin);
+        if(_isLocalPlayer)
+            Character_Manager.Instance.OnCharacterChanged.RemoveListener(SetUpSkin);
     }
 
     void Start()
     {
-        Character_Manager.Instance.OnCharacterChanged.AddListener(SetUpSkin);
-        SetUpSkin();
+        if (_isLocalPlayer)
+        {
+            Character_Manager.Instance.OnCharacterChanged.AddListener(SetUpSkin);
+            
+        }
+
+        if (GetComponent<PlayerManager>() == null) SetUpSkin();
     }
 
     public void SetUpSkin()
     {
-        _meshRenderer.sharedMesh = Character_Manager.Instance.GetCurrentCharacter.Mesh;
-        _meshRenderer.material.mainTexture = Character_Manager.Instance.GetCurrentCharacter.Texture;
+        ChangeSkin(Character_Manager.Instance.GetCurrentCharacter);
+    }
+    
+    public void SetUpSkin(string skinName)
+    {
+        var currentCharacter = Character_Manager.Instance.GetCharacters.FirstOrDefault(
+            auxChar => auxChar.Name.ToLower().Equals(skinName.ToLower()));
+
+        if (currentCharacter != null)
+        {
+            ChangeSkin(currentCharacter);
+        }
+    }
+
+    public void ChangeSkin(Character character)
+    {
+        _meshRenderer.sharedMesh = character.Mesh;
+        _meshRenderer.material.mainTexture = character.Texture;
     }
 }

@@ -35,22 +35,6 @@ public class PlayerManager : MonoBehaviour {
 		GetComponentInChildren<TextMesh> ().text = name;
 	}
 
-
-		//---TEMPORARIO---
-        public void Start()
-        {
-			try
-			{
-				FindObjectOfType<PlayerTeleport>().player = this.gameObject.transform;
-			}
-			catch (System.Exception)
-			{
-				Debug.Log("Error FindObjectOfType<PlayerTeleport>()");
-				throw;
-			}
-		}
-
-
         // Update is called once per frame
         void FixedUpdate () {
 		

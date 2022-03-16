@@ -54,7 +54,7 @@ public class CanvasManager : MonoBehaviour {
 		    case 1:
 			currentMenu = _current;
 			pLobby.enabled = false;
-			lobbyCamera.GetComponent<Camera> ().enabled = false;
+			//lobbyCamera.GetComponent<Camera> ().enabled = false;
 			break;
 
 		}
