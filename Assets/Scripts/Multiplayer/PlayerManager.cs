@@ -46,6 +46,10 @@ namespace CFC.Multiplayer
         void SetUpLocalPlayer()
         {
             myTPUserControlr.enabled = isLocalPlayer;
+            
+            Debug.Log("AQUI!");
+            Debug.Log(name);
+            Debug.Log(isLocalPlayer);
 
             if (!isLocalPlayer)
             {

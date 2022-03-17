@@ -211,13 +211,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_Animator.SetFloat(_animation, _parameter, damp, time);
 			}
 			
-			CFC.Multiplayer.NetworkManager.Instance.EmitAnimation(_animation, _parameter.ToString());
+			if(CFC.Multiplayer.NetworkManager.Instance != null)
+				CFC.Multiplayer.NetworkManager.Instance.EmitAnimation(_animation, _parameter.ToString());
 		}
 		
 		public void UpdateBoolAnimation(string _animation, bool _parameter)
 		{
 			m_Animator.SetBool(_animation, _parameter);
-			CFC.Multiplayer.NetworkManager.Instance.EmitAnimation(_animation, _parameter.ToString());
+			
+			if(CFC.Multiplayer.NetworkManager.Instance != null)
+				CFC.Multiplayer.NetworkManager.Instance.EmitAnimation(_animation, _parameter.ToString());
 		}
 
 

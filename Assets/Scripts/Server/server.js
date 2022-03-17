@@ -154,7 +154,7 @@ io.on('connection', function(socket){
 	   
 	    //send to the client.js script
 	   //updates the animation of the player for the other game clients
-       socket.broadcast.emit('UPDATE_PLAYER_ANIMATOR', currentUser.id,data.animation);
+       socket.broadcast.emit('UPDATE_PLAYER_ANIMATOR', currentUser.id,data.animation, data.parameter);
 	
 	   
       }//END_IF
