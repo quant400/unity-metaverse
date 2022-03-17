@@ -557,6 +557,7 @@ MonoBehaviour:
   loading_GO: {fileID: 41462294}
   start_GO: {fileID: 1981029927}
   select_GO: {fileID: 1137475799}
+  skinCharacter: {fileID: 2905299306633976379}
 --- !u!4 &671930502
 Transform:
   m_ObjectHideFlags: 0

@@ -28,10 +28,7 @@ public class Skin_Controller : MonoBehaviour
         if (_isLocalPlayer)
         {
             Character_Manager.Instance.OnCharacterChanged.AddListener(SetUpSkin);
-            
         }
-
-        if (GetComponent<PlayerManager>() == null) SetUpSkin();
     }
 
     public void SetUpSkin()

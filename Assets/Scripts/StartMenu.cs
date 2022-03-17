@@ -13,10 +13,17 @@ public class StartMenu : MonoBehaviour
     
     [SerializeField] private GameObject start_GO;
     [SerializeField] private GameObject select_GO;
+
+    [SerializeField] private Skin_Controller skinCharacter;
     
     void Awake()
     {
         SetUpUI();
+    }
+
+    void Start()
+    {
+        skinCharacter.SetUpSkin();
     }
 
     private void SetUpUI()
