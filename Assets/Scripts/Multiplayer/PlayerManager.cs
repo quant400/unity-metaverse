@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -46,7 +47,11 @@ namespace CFC.Multiplayer
         {
             myTPUserControlr.enabled = isLocalPlayer;
 
-            if (!isLocalPlayer) return;
+            if (!isLocalPlayer)
+            {
+                myAnim.applyRootMotion = false;
+                return;
+            }
             
             //Seta alvo da camera
             myCamera.SetTarget(transform);
@@ -63,26 +68,11 @@ namespace CFC.Multiplayer
         {
             if (IsMoving)
             {
-                if (IsJumping)
-                {
-                    UpdateAnimator("IsJump");
-                }
-                else
-                {
-                    UpdateAnimator("IsWalk");
-                }
-
                 if (isLocalPlayer)
                 {
                     UpdateStatusToServer();
                 }
             }
-            else
-            {
-                UpdateAnimator("IsIdle");
-            }
-
-
         }
         
         void UpdateStatusToServer ()
@@ -115,59 +105,31 @@ namespace CFC.Multiplayer
             }
         }
         
-        public void UpdateAnimator(string _animation)
+        public void UpdateAnimator(string _animation, string _parameter)
         {
-            switch (_animation) { 
-                case "IsWalk":
-                    if (!myAnim.GetCurrentAnimatorStateInfo (0).IsName ("Walk"))
-                    {
-                        myAnim.SetTrigger ("IsWalk");
-                    }
-                    break;
+            if (_animation.Equals("AnimatorSpeed"))
+            {
+                myAnim.speed = float.Parse(_parameter);
+                return;
+            }
 
-                case "IsIdle":
+            if(_animation.Equals("Forward") ||
+               _animation.Equals("Turn") ||
+               _animation.Equals("Jump") ||
+               _animation.Equals("JumpLeg"))
+            {
+                myAnim.SetFloat(_animation, float.Parse(_parameter));
+                return;
+            }
 
-                    if (!myAnim.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
-                    {
-                        myAnim.SetTrigger ("IsIdle");
-                    }
-                    break;
-                
-                case "IsJump":
-
-                    if (!myAnim.GetCurrentAnimatorStateInfo(0).IsName("Jump")
-                    || !myAnim.GetCurrentAnimatorStateInfo(0).IsName("Fall"))
-                    {
-                        myAnim.SetTrigger ("IsJump");
-                    }
-                    break;
-
-                case "IsDamage":
-                    if (!myAnim.GetCurrentAnimatorStateInfo(0).IsName("Damage") ) 
-                    {
-                        myAnim.SetTrigger ("IsDamage");
-                    }
-                    break;
-
-                case "IsAttack":
-                    if (!myAnim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
-                    {  
-				
-                        myAnim.SetTrigger ("IsAttack");
-	
-                        
-                        Debug.Log("Ver isso depois");
-                        if (!isLocalPlayer)
-                        {
-			
-                            StartCoroutine ("StopAttack");
-                        }
-                    }
-                    break;
-                
+            if (_animation.Equals("Crouch") ||
+                _animation.Equals("OnGround"))
+            {
+                myAnim.SetBool(_animation, Boolean.Parse(_parameter));
+                return;
             }
         }
-		
+
         public void SetCharacterName(string name)
         {
             GetComponentInChildren<TextMesh> ().text = name;

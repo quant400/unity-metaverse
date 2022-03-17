@@ -382,7 +382,7 @@ namespace CFC.Multiplayer
 		/// Emits the local player animation to Server.js.
 		/// </summary>
 		/// <param name="_animation">animation's name.</param>
-		public void EmitAnimation(string _animation)
+		public void EmitAnimation(string _animation, string _parameter)
 		{
 			//hash table <key, value>
 			Dictionary<string, string> data = new Dictionary<string, string>();
@@ -390,6 +390,8 @@ namespace CFC.Multiplayer
 			data["local_player_id"] = localPlayer.GetComponent<PlayerManager>().id;
 
 			data ["animation"] = _animation;
+			
+			data["parameter"] = _parameter;
 
 			JSONObject jo = new JSONObject (data);
 
@@ -408,6 +410,7 @@ namespace CFC.Multiplayer
 			/*
 			 * data.pack[0] = id (network player id)
 			 * data.pack[1] = animation (network player animation)
+			 * data.pack[2] = parameter (network animation parameter)
 			*/
 
 			var pack = data.Split (Delimiter);
@@ -416,7 +419,7 @@ namespace CFC.Multiplayer
 			PlayerManager netPlayer = networkPlayers[pack[0]];
 
 			//updates current animation
-			netPlayer.UpdateAnimator(pack[1]);
+			netPlayer.UpdateAnimator(pack[1], pack[2]);
 
 		}
 		
@@ -441,7 +444,7 @@ namespace CFC.Multiplayer
 			{
 				PlayerManager netPlayer = networkPlayers[pack[0]];
 
-				netPlayer.UpdateAnimator ("IsAttack");
+				//netPlayer.UpdateAnimator ("IsAttack");
 
 			}
 

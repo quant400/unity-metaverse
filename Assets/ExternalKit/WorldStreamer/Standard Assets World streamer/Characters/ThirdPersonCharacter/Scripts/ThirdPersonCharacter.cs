@@ -118,13 +118,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		void UpdateAnimator(Vector3 move)
 		{
 			// update the animator parameters
-			m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
-			m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
-			//m_Animator.SetBool("Crouch", m_Crouching);
-			m_Animator.SetBool("OnGround", m_IsGrounded);
+			UpdateFloatAnimation("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
+			UpdateFloatAnimation("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
+			UpdateBoolAnimation("Crouch", m_Crouching);
+			UpdateBoolAnimation("OnGround", m_IsGrounded);
 			if (!m_IsGrounded)
 			{
-				m_Animator.SetFloat("Jump", m_Rigidbody.velocity.y);
+				UpdateFloatAnimation("Jump", m_Rigidbody.velocity.y);
 			}
 
 			// calculate which leg is behind, so as to leave that leg trailing in the jump animation
@@ -136,7 +136,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			float jumpLeg = (runCycle < k_Half ? 1 : -1) * m_ForwardAmount;
 			if (m_IsGrounded)
 			{
-				m_Animator.SetFloat("JumpLeg", jumpLeg);
+				UpdateFloatAnimation("JumpLeg", jumpLeg);
 			}
 
 			// the anim speed multiplier allows the overall speed of walking/running to be tweaked in the inspector,
@@ -150,6 +150,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				// don't use that while airborne
 				m_Animator.speed = 1;
 			}
+			
+			UpdateFloatAnimation("AnimatorSpeed", m_Animator.speed);
 		}
 
 
@@ -196,6 +198,26 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				v.y = m_Rigidbody.velocity.y;
 				m_Rigidbody.velocity = v;
 			}
+		}
+
+		public void UpdateFloatAnimation(string _animation, float _parameter, float damp = 0, float time = 0)
+		{
+			if (damp == 0)
+			{
+				m_Animator.SetFloat(_animation, _parameter);
+			}
+			else
+			{
+				m_Animator.SetFloat(_animation, _parameter, damp, time);
+			}
+			
+			CFC.Multiplayer.NetworkManager.Instance.EmitAnimation(_animation, _parameter.ToString());
+		}
+		
+		public void UpdateBoolAnimation(string _animation, bool _parameter)
+		{
+			m_Animator.SetBool(_animation, _parameter);
+			CFC.Multiplayer.NetworkManager.Instance.EmitAnimation(_animation, _parameter.ToString());
 		}
 
 
