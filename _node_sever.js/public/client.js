@@ -80,9 +80,9 @@ window.addEventListener('load', function() {
 	});//END_SOCKET.ON
 	
 	
-	 socket.on('UPDATE_PLAYER_ANIMATOR', function(id,animation,parameter) {
+	 socket.on('UPDATE_PLAYER_ANIMATOR', function(id,animation) {
 	 
-	     var currentUserAtr = id+':'+animation+':'+parameter;
+	     var currentUserAtr = id+':'+animation;
 		
 		 if(window.unityInstance!=null)
 		{
