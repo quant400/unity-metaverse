@@ -16,7 +16,7 @@ public class AgoraHome : MonoBehaviour
 #if (UNITY_2018_3_OR_NEWER && UNITY_ANDROID)
     private ArrayList permissionList = new ArrayList();
 #endif
-    static AgoraHomeUnityVideo app = null;
+    public static AgoraHomeUnityVideo app = null;
     [SerializeField]
     private string PlaySceneName = "AgoraHomeUnityVideo";
 
@@ -25,26 +25,8 @@ public class AgoraHome : MonoBehaviour
     [SerializeField]
     private string AppID = "603f9b1a7dbc49409d6f6a225e106cbe";
     [SerializeField]
-    private string Channel = "unity3d";
+    private string ChannelName = "unity3d";
 
-    private string ChannelName
-    {
-        get
-        {
-            string cached = PlayerPrefs.GetString("ChannelName");
-            if (string.IsNullOrEmpty(cached))
-            {
-                cached = Channel;
-            }
-
-            return cached;
-        }
-
-        set
-        {
-            PlayerPrefs.SetString("ChannelName", value);
-        }
-    }
 
     void Awake()
     {
@@ -54,37 +36,12 @@ public class AgoraHome : MonoBehaviour
 #endif
         // keep this alive across scenes
         DontDestroyOnLoad(this.gameObject);
-    }
 
-    void Start()
-    {
-        CheckAppId();
     }
 
     void Update()
     {
         CheckPermissions();
-    }
-
-    private void CheckAppId()
-    {
-        Debug.Assert(AppID.Length > 10, "Please fill in your AppId first on Game Controller object.");
-        GameObject go = GameObject.Find("AppIDText");
-        if (go != null)
-        {
-            Text appIDText = go.GetComponent<Text>();
-            if (appIDText != null)
-            {
-                if (string.IsNullOrEmpty(AppID))
-                {
-                    appIDText.text = "AppID: " + "UNDEFINED!";
-                }
-                else
-                {
-                    appIDText.text = "AppID: " + AppID.Substring(0, 4) + "********" + AppID.Substring(AppID.Length - 4, 4);
-                }
-            }
-        }
     }
 
     /// <summary>
@@ -109,7 +66,6 @@ public class AgoraHome : MonoBehaviour
         onJoinButtonClicked(true);
     }
 
-
     private void onJoinAudience()
     {
         // create app if nonexistent
@@ -123,7 +79,6 @@ public class AgoraHome : MonoBehaviour
         SceneManager.sceneLoaded += OnLevelFinishedLoading; // configure GameObject after scene is loaded
         SceneManager.LoadScene(PlaySceneName, LoadSceneMode.Single);
     }
-
 
     private void onJoinButtonClicked(bool enableVideo, bool muted = false)
     {
@@ -149,7 +104,7 @@ public class AgoraHome : MonoBehaviour
             app.leave(); // leave channel
             app.unloadEngine(); // delete engine
             app = null; // delete app
-            //SceneManager.LoadScene(HomeSceneName, LoadSceneMode.Single);
+            SceneManager.UnloadSceneAsync(PlaySceneName);
         }
         //Destroy(gameObject);
     }

@@ -26,10 +26,6 @@ public class AgoraHomeUnityVideo
     private Text ChannelNameLabel { get; set; }
     private CLIENT_ROLE_TYPE ClientRole { get; set; }
 
-    private ToggleStateButton MuteAudioButton { get; set; }
-    private ToggleStateButton MuteVideoButton { get; set; }
-    private ToggleStateButton RoleButton { get; set; }
-    private ToggleStateButton ChannelButton { get; set; }
 
     // Testing Volume Indication
     private bool TestVolumeIndication = false;
@@ -53,22 +49,6 @@ public class AgoraHomeUnityVideo
         mRtcEngine.SetLogFilter(LOG_FILTER.DEBUG | LOG_FILTER.INFO | LOG_FILTER.WARNING | LOG_FILTER.ERROR | LOG_FILTER.CRITICAL);
     }
 
-    public void SetupInitState()
-    {
-        GameObject avObj = GameObject.Find("AVToggles");
-        if (avObj != null)
-        {
-            var av = avObj.GetComponent<AudioVideoStateControl>();
-            AudioVideoState.pubAudio = av.togglePubAudio.isOn;
-            AudioVideoState.pubVideo = av.togglePubVideo.isOn;
-            AudioVideoState.subAudio = av.toggleSubAudio.isOn;
-            AudioVideoState.subVideo = av.toggleSubVideo.isOn;
-        }
-        else
-        {
-            Debug.Log("AV NULL");
-        }
-    }
 
     /// <summary>
     ///   Joining the Channel as Audience.  The user won't publish local video and audio.
@@ -116,8 +96,6 @@ public class AgoraHomeUnityVideo
         if (mRtcEngine == null)
             return;
 
-
-        SetupInitState();
 
         // set callbacks (optional)
         mRtcEngine.OnJoinChannelSuccess = onJoinChannelSuccess;
@@ -244,125 +222,14 @@ public class AgoraHomeUnityVideo
     // set video transform delegate for statically created GameObject
     public void onSceneHelloVideoLoaded()
     {
-        // Attach the SDK Script VideoSurface for video rendering
-        GameObject quad = GameObject.Find("Quad");
-        if (ReferenceEquals(quad, null))
+        foreach (var item in AgoraHomeUnityManager.Instance.videosSurface)
         {
-            Debug.Log("failed to find Quad");
-            return;
+            item.AddComponent<VideoSurface>();
         }
-        else
-        {
-            quad.AddComponent<VideoSurface>();
-        }
-
-        GameObject cube = GameObject.Find("Cube");
-        if (ReferenceEquals(cube, null))
-        {
-            Debug.Log("failed to find Cube");
-            return;
-        }
-        else
-        {
-            cube.AddComponent<VideoSurface>();
-        }
-
-        GameObject text = GameObject.Find("MessageText");
-        if (!ReferenceEquals(text, null))
-        {
-            MessageText = text.GetComponent<Text>();
-        }
-
-        SetButtons();
+            MessageText = AgoraHomeUnityManager.Instance.msgText;
     }
 
-    private void SetButtons()
-    {
-        MuteAudioButton = GameObject.Find("MuteButton").GetComponent<ToggleStateButton>();
-        if (MuteAudioButton != null)
-        {
-            MuteAudioButton.Setup(initOnOff: false,
-                onStateText: "Mute Local Audio", offStateText: "Unmute Local Audio",
-                callOnAction: () =>
-                {
-                    mRtcEngine.MuteLocalAudioStream(true);
-                },
-                callOffAction: () =>
-                {
-                    mRtcEngine.MuteLocalAudioStream(false);
-                }
-            );
-        }
-
-        MuteVideoButton = GameObject.Find("CamButton").GetComponent<ToggleStateButton>();
-        if (MuteVideoButton != null)
-        {
-            MuteVideoButton.Setup(initOnOff: false,
-                onStateText: "Mute Local video", offStateText: "Unmute Local video",
-                callOnAction: () =>
-                {
-                    mRtcEngine.MuteLocalVideoStream(true);
-                },
-                callOffAction: () =>
-                {
-                    mRtcEngine.MuteLocalVideoStream(false);
-                }
-            );
-        }
-
-        ChannelButton = GameObject.Find("ChannelButton").GetComponent<ToggleStateButton>();
-        if (ChannelButton != null)
-        {
-            ChannelButton.Setup(initOnOff: false,
-                onStateText: mChannelName + "2", offStateText: mChannelName,
-                callOnAction: () =>
-                {
-                    mRtcEngine.SwitchChannel(null, mChannelName + "2");
-                },
-                callOffAction: () =>
-                {
-                    mRtcEngine.SwitchChannel(null, mChannelName);
-                }
-                );
-        }
-
-        ChannelNameLabel = GameObject.Find("ChannelName").GetComponent<Text>();
-
-        RoleButton = GameObject.Find("RoleButton").GetComponent<ToggleStateButton>();
-        SetupRoleButton(isHost: ClientRole == CLIENT_ROLE_TYPE.CLIENT_ROLE_BROADCASTER);
-
-        ChannelButton.GetComponent<Button>().interactable = ClientRole == CLIENT_ROLE_TYPE.CLIENT_ROLE_AUDIENCE;
-    }
-
-    private void SetupRoleButton(bool isHost)
-    {
-        if (RoleButton != null)
-        {
-            RoleButton.Setup(initOnOff: isHost,
-                 onStateText: "Host", offStateText: "Audience",
-                 callOnAction: () =>
-                 {
-                     Debug.Log("Switching role to Broadcaster");
-                     mRtcEngine.SetClientRole(CLIENT_ROLE_TYPE.CLIENT_ROLE_BROADCASTER);
-                     ChannelButton.GetComponent<Button>().interactable = false;
-                     MuteAudioButton.Reset();
-                     MuteVideoButton.Reset();
-                     MuteVideoButton.GetComponent<Button>().interactable = true;
-                     MuteAudioButton.GetComponent<Button>().interactable = true;
-                 },
-                 callOffAction: () =>
-                 {
-                     Debug.Log("Switching role to Audience");
-                     mRtcEngine.SetClientRole(CLIENT_ROLE_TYPE.CLIENT_ROLE_AUDIENCE);
-                     ChannelButton.GetComponent<Button>().interactable = true;
-                     MuteVideoButton.GetComponent<Button>().interactable = false;
-                     MuteAudioButton.GetComponent<Button>().interactable = false;
-                 }
-                 );
-
-        }
-    }
-
+   
     private void OnUserMutedAudio(uint uid, bool muted)
     {
         Debug.LogFormat("user {0} muted audio:{1}", uid, muted);
@@ -433,26 +300,6 @@ public class AgoraHomeUnityVideo
         }
     }
 
-    VideoSurface makePlaneSurface(string goName)
-    {
-        GameObject go = GameObject.CreatePrimitive(PrimitiveType.Plane);
-
-        if (go == null)
-        {
-            return null;
-        }
-        go.name = goName;
-        // set up transform
-        go.transform.Rotate(-90.0f, 0.0f, 0.0f);
-        float yPos = Random.Range(3.0f, 5.0f);
-        float xPos = Random.Range(-2.0f, 2.0f);
-        go.transform.position = new Vector3(xPos, yPos, 0f);
-        go.transform.localScale = new Vector3(0.25f, 0.5f, .5f);
-
-        // configure videoSurface
-        VideoSurface videoSurface = go.AddComponent<VideoSurface>();
-        return videoSurface;
-    }
 
     private const float Offset = 100;
     public VideoSurface makeImageSurface(string goName)
@@ -487,7 +334,6 @@ public class AgoraHomeUnityVideo
         VideoSurface videoSurface = go.AddComponent<VideoSurface>();
         return videoSurface;
     }
-
 
     // When remote user is offline, this delegate will be called. Typically
     // delete the GameObject for this user
