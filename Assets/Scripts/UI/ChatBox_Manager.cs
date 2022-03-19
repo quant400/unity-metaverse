@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,6 +18,8 @@ namespace CFC
         [Header("UI")]
         [SerializeField] private TMP_InputField _inputField;
         [SerializeField] private Button _sendButton;
+
+        private List<Chat> _chats;
 
         public enum ChatType
         {
@@ -38,7 +41,16 @@ namespace CFC
 
             SetUpUI();
         }
-        
+
+        private void FixedUpdate()
+        {
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                string receiver_id = Multiplayer.NetworkManager.Instance.networkPlayers.Last().Value.id;
+                Multiplayer.NetworkManager.Instance.EmitOpenChatBox(receiver_id);
+            }
+        }
+
         #region UI
 
         private void SetUpUI()

@@ -539,6 +539,125 @@ namespace CFC.Multiplayer
 		
 		#endregion
 
+		#region Chat
+		
+		/// <summary>
+		/// method to emit message to the server.
+		/// </summary>
+		public void EmitOpenChatBox(string receiver_id)
+		{
+			Dictionary<string, string> data = new Dictionary<string, string>();
+		
+			string msg = string.Empty;
+
+			//Identifies with the name "MESSAGE", the notification to be transmitted to the server
+			data["callback_name"] = "SEND_OPEN_CHAT_BOX";
+		
+			data ["receiver_id"] = receiver_id;
+		
+			//sends to the nodejs server through socket the json package
+			Application.ExternalCall("socket.emit", data["callback_name"],new JSONObject(data));
+		
+	
+		}
+
+
+	
+
+	
+		/// <summary>
+		/// method to handle notification that arrived from the server.
+		/// </summary>	
+		/// <param name="data">received package from server.</param>
+		void OnReceiveOpenChatBox(string data)
+		{
+	
+			/*
+				 * data.pack[0] = writer id 
+				 * data.pack[1]= receiver id
+				*/
+		
+		  
+			var pack = data.Split (Delimiter);
+			
+			Debug.Log("PACK: " + networkPlayers[pack[0]].name);
+			Debug.Log("PACK: " + networkPlayers[pack[1]].name);
+
+			if(local_player_id.Equals(pack[0]))
+			{
+				//spawn new chatbox
+				//CanvasManager.instance.SpawnChatBox( pack[0],pack[0],pack[1], networkPlayers[pack[1]].name, networkPlayers[pack[1]].avatar);
+
+			}
+			else
+			{
+				//CanvasManager.instance.SpawnChatBox( pack[0],pack[1],pack[0], networkPlayers[pack[0]].name, networkPlayers[pack[0]].avatar);
+
+
+			}
+
+	
+
+	
+			 
+		}
+		
+		/// <summary>
+		/// method to emit message to the server.
+		/// </summary>
+		public void EmitMessage(string _message,string _chat_box_id, string _receiver_id)
+		{
+			Dictionary<string, string> data = new Dictionary<string, string>();
+		
+			string msg = string.Empty;
+
+			//Identifies with the name "MESSAGE", the notification to be transmitted to the server
+			data["callback_name"] = "MESSAGE";
+
+			data["chat_box_id"] = _chat_box_id;
+		
+			data ["receiver_id"] = _receiver_id;
+		
+			data ["message"] = _message;
+
+			//sends to the nodejs server through socket the json package
+			Application.ExternalCall("socket.emit", data["callback_name"],new JSONObject(data));
+		}
+		
+		/// <summary>
+		/// method to handle notification that arrived from the server.
+		/// </summary>	
+		/// <param name="data">received package from server.</param>
+		void OnReceiveMessage(string data)
+		{
+	
+			/*
+				 * data.pack[0] = guest (network player id)
+				 * data.pack[1]= message
+				*/
+		
+    
+		  
+			var pack = data.Split (Delimiter);
+
+			/*if( CanvasManager.instance.chatBoxes.ContainsKey(pack [0]))
+			{
+				if (local_player_id.Equals(pack[1])) {
+			  
+			 
+					CanvasManager.instance.chatBoxes[pack[0]].SpawnMyMessage(pack[2]);
+			
+				}
+				else
+				{
+					CanvasManager.instance.chatBoxes[pack[0]].SpawnNetworkMessage(pack[2]);
+				}
+			}*/
+	
+			 
+		}
+		
+		#endregion
     }
 }
 
