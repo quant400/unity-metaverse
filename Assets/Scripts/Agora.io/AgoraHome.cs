@@ -1,7 +1,8 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
-#if(UNITY_2018_3_OR_NEWER && UNITY_ANDROID)
+using TMPro;
+#if (UNITY_2018_3_OR_NEWER && UNITY_ANDROID)
 using UnityEngine.Android;
 #endif
 using System.Collections;
@@ -25,7 +26,9 @@ public class AgoraHome : MonoBehaviour
     [SerializeField]
     private string AppID = "603f9b1a7dbc49409d6f6a225e106cbe";
     [SerializeField]
-    private string ChannelName = "unity3d";
+    private TMP_InputField InputChannel;
+
+    private string ChannelName => InputChannel.text;
 
 
     void Awake()
@@ -77,7 +80,7 @@ public class AgoraHome : MonoBehaviour
 
         app.joinAudience(ChannelName);
         SceneManager.sceneLoaded += OnLevelFinishedLoading; // configure GameObject after scene is loaded
-        SceneManager.LoadScene(PlaySceneName, LoadSceneMode.Single);
+        SceneManager.LoadScene(PlaySceneName, LoadSceneMode.Additive);
     }
 
     private void onJoinButtonClicked(bool enableVideo, bool muted = false)
@@ -94,23 +97,32 @@ public class AgoraHome : MonoBehaviour
         
         
         SceneManager.sceneLoaded += OnLevelFinishedLoading; // configure GameObject after scene is loaded
-        SceneManager.LoadScene(PlaySceneName, LoadSceneMode.Single);
+        SceneManager.LoadScene(PlaySceneName, LoadSceneMode.Additive);
     }
 
     public void onLeaveButtonClicked()
     {
         if (!ReferenceEquals(app, null))
         {
-            app.leave(); // leave channel
-            app.unloadEngine(); // delete engine
-            app = null; // delete app
-            SceneManager.UnloadSceneAsync(PlaySceneName);
+            try
+            {
+                app.leave(); // leave channel
+                app.unloadEngine(); // delete engine
+                app = null; // delete app
+            }
+            catch (System.Exception e)
+            {
+                Debug.Log(e.Message);
+            }
+             
         }
         //Destroy(gameObject);
     }
 
     public void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
+        mode = LoadSceneMode.Additive;
+
         if (scene.name == PlaySceneName)
         {
             if (!ReferenceEquals(app, null))

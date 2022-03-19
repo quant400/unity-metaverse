@@ -245,6 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48bea624e5edeff4ea443a5bc171ff62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 1665164089}
   videosSurface:
   - {fileID: 1329404239}
   - {fileID: 1846714533}

@@ -23,7 +23,6 @@ public class AgoraHomeUnityVideo
     private List<GameObject> remoteUserDisplays = new List<GameObject>();
 
     private string mChannelName { get; set; }
-    private Text ChannelNameLabel { get; set; }
     private CLIENT_ROLE_TYPE ClientRole { get; set; }
 
 
@@ -58,6 +57,14 @@ public class AgoraHomeUnityVideo
     public void joinAudience(string channel)
     {
         Debug.Log("calling join (channel = " + channel + ")");
+
+
+
+       AudioVideoState.pubAudio = true;
+       AudioVideoState.pubVideo = true;
+       AudioVideoState.subAudio = true;
+       AudioVideoState.subVideo = true;
+        
 
 
         if (mRtcEngine == null)
@@ -171,6 +178,7 @@ public class AgoraHomeUnityVideo
         ClientRole = CLIENT_ROLE_TYPE.CLIENT_ROLE_BROADCASTER;
     }
 
+
     public string getSdkVersion()
     {
         string ver = IRtcEngine.GetSdkVersion();
@@ -227,6 +235,7 @@ public class AgoraHomeUnityVideo
             item.AddComponent<VideoSurface>();
         }
             MessageText = AgoraHomeUnityManager.Instance.msgText;
+
     }
 
    
@@ -268,9 +277,7 @@ public class AgoraHomeUnityVideo
     private void onJoinChannelSuccess(string channelName, uint uid, int elapsed)
     {
         Debug.Log("JoinChannel " + channelName + " Success: uid = " + uid);
-        GameObject textVersionGameObject = GameObject.Find("VersionText");
-        textVersionGameObject.GetComponent<Text>().text = "SDK Version : " + getSdkVersion();
-        ChannelNameLabel.text = channelName;
+   
     }
 
     // When a remote user joined, this delegate will be called. Typically
@@ -318,7 +325,7 @@ public class AgoraHomeUnityVideo
 
         // make the object draggable
         go.AddComponent<UIElementDragger>();
-        GameObject canvas = GameObject.Find("Canvas");
+        GameObject canvas = AgoraHomeUnityManager.Instance.canvas;
         if (canvas != null)
         {
             go.transform.SetParent(canvas.transform);

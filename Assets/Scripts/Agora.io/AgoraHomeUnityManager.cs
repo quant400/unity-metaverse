@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class AgoraHomeUnityManager : MonoBehaviour
@@ -9,12 +10,11 @@ public class AgoraHomeUnityManager : MonoBehaviour
 
     private AgoraHome agoraHome;
 
+
+
+    public GameObject canvas;
     public List<GameObject> videosSurface;
     public Text msgText;
-
-
-
-
 
     public void Awake()
     {
@@ -42,5 +42,8 @@ public class AgoraHomeUnityManager : MonoBehaviour
     public void Leave()
     {
         agoraHome.onLeaveButtonClicked();
+
+        Debug.Log("Exit Scene ->" + this.gameObject.scene.name);
+        SceneManager.UnloadSceneAsync(this.gameObject.scene);
     }
 }
