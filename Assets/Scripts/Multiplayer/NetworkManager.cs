@@ -165,6 +165,7 @@ namespace CFC.Multiplayer
 				newPlayer.isOnline = true;
 
 				//set local player's 3D text with his name
+				newPlayer.name = pack[1];
 				newPlayer.SetCharacterName(pack[1]);
 
 				//puts the local player on the list
@@ -236,7 +237,7 @@ namespace CFC.Multiplayer
 				
 					newPlayer.isOnline = true; //set network player online in the arena
 
-				
+					newPlayer.name = pack[1];
 					newPlayer.SetCharacterName(pack[1]); //set the network player 3D text with his name
 
 					newPlayer.gameObject.name = pack [0];
@@ -580,20 +581,17 @@ namespace CFC.Multiplayer
 		  
 			var pack = data.Split (Delimiter);
 			
-			Debug.Log("PACK: " + networkPlayers[pack[0]].name);
-			Debug.Log("PACK: " + networkPlayers[pack[1]].name);
-
 			if(local_player_id.Equals(pack[0]))
 			{
+				ChatBox_Manager.Instance.AddChat(pack[0],pack[1]);
 				//spawn new chatbox
 				//CanvasManager.instance.SpawnChatBox( pack[0],pack[0],pack[1], networkPlayers[pack[1]].name, networkPlayers[pack[1]].avatar);
-
+				
 			}
 			else
 			{
+				ChatBox_Manager.Instance.AddChat(pack[1],pack[0]);
 				//CanvasManager.instance.SpawnChatBox( pack[0],pack[1],pack[0], networkPlayers[pack[0]].name, networkPlayers[pack[0]].avatar);
-
-
 			}
 
 	

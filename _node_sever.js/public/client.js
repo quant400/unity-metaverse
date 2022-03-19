@@ -80,9 +80,9 @@ window.addEventListener('load', function() {
 	});//END_SOCKET.ON
 	
 	
-	 socket.on('UPDATE_PLAYER_ANIMATOR', function(id,animation) {
+	 socket.on('UPDATE_PLAYER_ANIMATOR', function(id,animation, parameters) {
 	 
-	     var currentUserAtr = id+':'+animation;
+	     var currentUserAtr = id+':'+animation+':'+parameters;
 		
 		 if(window.unityInstance!=null)
 		{
@@ -147,6 +147,26 @@ window.addEventListener('load', function() {
 		}
 		 
 	
+	});//END_SOCKET.ON
+
+	socket.on('RECEIVE_OPEN_CHAT_BOX', function(writer_id,receiver_id) {
+		var currentUserAtr = writer_id+':'+receiver_id;
+
+		if(window.unityInstance!=null)
+		{
+			window.unityInstance.SendMessage ('NetworkManager', 'OnReceiveOpenChatBox',currentUserAtr);
+		}
+
+	});//END_SOCKET.ON
+	
+	socket.on('UPDATE_MESSAGE', function(_chat_box_id,writer_id,message) {
+		var currentUserAtr = _chat_box_id+":"+writer_id+':'+message;
+
+		if(window.unityInstance!=null)
+		{
+			window.unityInstance.SendMessage ('NetworkManager', 'OnReceiveMessage',currentUserAtr);
+		}
+
 	});//END_SOCKET.ON
 	
 
