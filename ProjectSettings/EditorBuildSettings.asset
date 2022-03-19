@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/Game/Game.unity
     guid: c9141f02cb1604545ab733e086509c9c
   - enabled: 1
+    path: Assets/_Scenes/Game/AgoraHomeUnityVideo.unity
+    guid: 0ba97df55aa3d204594f63cb31774753
+  - enabled: 1
     path: Assets/_Scenes/Generate/Terrain_Lod0/Terrain_Lod0_x-1_z-6.unity
     guid: f9d2a279aaababe418cbab5bfec70686
   - enabled: 1
