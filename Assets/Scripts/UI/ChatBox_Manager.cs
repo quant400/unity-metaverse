@@ -13,13 +13,18 @@ namespace CFC
 
         [Header("Components")]
         [SerializeField] private Transform _chatContent;
+        [SerializeField] private Transform _contactsContent;
+        
         [SerializeField] private Message_Component _prefabMessage;
+        [SerializeField] private Contact_Component _prefabContact;
         
         [Header("UI")]
+        [SerializeField] private TMP_Text _nameText;
         [SerializeField] private TMP_InputField _inputField;
         [SerializeField] private Button _sendButton;
 
-        private List<Chat> _chats;
+        private List<Chat> _chats = new List<Chat>();
+        private List<Contact_Component> _contacts = new List<Contact_Component>();
 
         public enum ChatType
         {
@@ -41,6 +46,17 @@ namespace CFC
 
             SetUpUI();
         }
+        
+        public void AddChat(string writerId, string receiverId)
+        {
+            _chats.Add(new Chat(
+                    $"{writerId}:{receiverId}",
+                    writerId,
+                    receiverId
+                ));
+
+            UpdateContactList();
+        }
 
         private void FixedUpdate()
         {
@@ -57,6 +73,42 @@ namespace CFC
         {
             _inputField.onSubmit.AddListener((text)=>OnMessageSend());
             _sendButton.onClick.AddListener(OnMessageSend);
+            
+            Hide();
+        }
+        
+        private void UpdateContactList()
+        {
+            foreach (Transform child in _contactsContent.transform) {
+                Destroy(child.gameObject);
+            }
+            
+            foreach (var chat in _chats)
+            {
+                var contact = Instantiate(_prefabContact, _contactsContent);
+                contact.SetUp(chat.receiverId, null, OpenChat);
+            }
+        }
+
+        private void OpenChat(string receiverId)
+        {
+            _nameText.text = Multiplayer.NetworkManager.Instance.networkPlayers[receiverId].name;
+            Show();
+        }
+
+        public void Show()
+        {
+            SetVisibility(true);
+        }
+        
+        public void Hide()
+        {
+            SetVisibility(false);
+        }
+
+        private void SetVisibility(bool isVisible)
+        {
+            transform.GetChild(0).gameObject.SetActive(isVisible);
         }
 
         private void OnMessageSend()
