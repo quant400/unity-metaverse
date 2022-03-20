@@ -7,43 +7,26 @@ using UnityEngine.UI;
 
 public class CustomWalletLogin: MonoBehaviour
 {
-
-    async public void OnLoginVerify(Action action)
-    {
-        // get current timestamp
-        int timestamp = (int)(System.DateTime.UtcNow.Subtract(new System.DateTime(1970, 1, 1))).TotalSeconds;
-        // set expiration time
-        int expirationTime = timestamp + 60;
-        // set message
-        string message = expirationTime.ToString();
-        // sign message
-        string signature = await Web3Wallet.Sign(message);
-        // verify account
-        string account = await EVM.Verify(message, signature);
-
-        int now = (int)(System.DateTime.UtcNow.Subtract(new System.DateTime(1970, 1, 1))).TotalSeconds;
-        // validate
-        if (account.Length == 42 && expirationTime >= now) 
-        {
-            OnSignIn(action);
-           
-        }
-    }
-
-    async public void OnSignIn(Action action)
+    async public void OnSignIn(Action onSuccess, Action onFail)
     {
         try
         {
             string message = "Connecting MetaMask in CFC...";
             string response = await Web3GL.Sign(message);
+
+            int tries = 0;
             
-            while (response == "")
+            while (response == "" && tries < 10)
             {
                 Debug.Log(response);
                 await new WaitForSeconds(1.0f);
+                tries++;
             };
 
-            action();
+            if(tries<10)
+                onSuccess?.Invoke();
+            else
+                onFail?.Invoke();
 
         }
         catch (Exception e)

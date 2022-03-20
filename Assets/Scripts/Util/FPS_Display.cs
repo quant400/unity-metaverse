@@ -9,6 +9,8 @@ public class FPS_Display : MonoBehaviour
     public int fps;
     public int lastFPS;
     public GUIStyle textStyle;
+
+    private GameObject player;
     
     // Use this for initialization
     void Start () {
@@ -18,6 +20,8 @@ public class FPS_Display : MonoBehaviour
     
     // Update is called once per frame
     void Update () {
+    
+        if(player == null) player = GameObject.FindWithTag("Player");
         //Debug.Log(Time.timeSinceLevelLoad+" "+timeA);
         if(Time.timeSinceLevelLoad  - timeA <= 1)
         {
@@ -32,7 +36,10 @@ public class FPS_Display : MonoBehaviour
     }
     void OnGUI()
     {
-        GUI.Label(new Rect( 10,10, 30,30),"FPS: "+lastFPS,textStyle);
+        if(player == null)
+            GUI.Label(new Rect( 10,10, 30,30),"FPS: "+lastFPS,textStyle);
+        else
+            GUI.Label(new Rect( 10,10, 30,30),$"FPS: {lastFPS} \nPosition: {player.transform.position}", textStyle);
     }
 
 

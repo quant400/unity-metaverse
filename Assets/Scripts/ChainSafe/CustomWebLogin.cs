@@ -24,6 +24,8 @@ public class CustomWebLogin : MonoBehaviour
     private GameObject panelStart;
     [SerializeField]
     private GameObject panelSelection;
+    [SerializeField]
+    private GameObject panelError;
 
     public void OnLogin()
     {
@@ -47,7 +49,7 @@ public class CustomWebLogin : MonoBehaviour
         // load next scene
 
         Debug.Log("account" + account);
-        this.gameObject.GetComponent<CustomWalletLogin>().OnSignIn(OnEnter);
+        this.gameObject.GetComponent<CustomWalletLogin>().OnSignIn(OnEnter, OnFailToSignIn);
     }
 
     public void OnGuest()
@@ -60,6 +62,14 @@ public class CustomWebLogin : MonoBehaviour
     {
         panelStart.SetActive(false);
         panelSelection.SetActive(true);
+        panelError.SetActive(false);
+    }
+
+    private void OnFailToSignIn()
+    {
+        panelStart.SetActive(true);
+        panelSelection.SetActive(false);
+        panelError.SetActive(true);
     }
 }
 #endif

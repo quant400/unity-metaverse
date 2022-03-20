@@ -28,7 +28,7 @@ public class StartMenu : MonoBehaviour
 
     private void SetUpUI()
     {
-        start_Button.onClick.AddListener(OnStartClick);
+        //start_Button.onClick.AddListener(OnStartClick);
         select_Button.onClick.AddListener(OnSelectClick);
     }
 

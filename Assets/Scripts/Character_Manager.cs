@@ -9,7 +9,7 @@ public class Character_Manager : MonoBehaviour
 
     public static Character_Manager Instance;
     
-    [SerializeField] private List<Character> _characters;
+    [SerializeField] private List<Character> _characters = new List<Character>();
     [SerializeField] private Character _selectedCharacter;
     
     public List<Character> GetCharacters => _characters;
@@ -30,10 +30,20 @@ public class Character_Manager : MonoBehaviour
             Destroy(gameObject);
         }
 
+        GetCharacterFromResources();
+
         if(_selectedCharacter == null)
             _selectedCharacter = GetCharacter();
     }
-    
+
+    private void GetCharacterFromResources()
+    {
+        foreach (var character in Resources.LoadAll("Characters", typeof(Character)))
+        {
+            _characters.Add(character as Character);
+        }
+    }
+
     private Character GetCharacter()
     {
         return _characters[0];
