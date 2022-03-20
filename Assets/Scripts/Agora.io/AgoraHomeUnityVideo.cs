@@ -164,6 +164,7 @@ public class AgoraHomeUnityVideo
             mRtcEngine.EnableVideo();
             // allow camera output callback
             mRtcEngine.EnableVideoObserver();
+
         }
         else
         {
@@ -195,6 +196,7 @@ public class AgoraHomeUnityVideo
 
         mChannelName = channel;
         ClientRole = CLIENT_ROLE_TYPE.CLIENT_ROLE_BROADCASTER;
+
     }
 
     public string getSdkVersion()
@@ -246,8 +248,9 @@ public class AgoraHomeUnityVideo
 
     // accessing GameObject in Scnene1
     // set video transform delegate for statically created GameObject
-    public void onSceneHelloVideoLoaded()
+    public void onSceneHelloVideoLoaded(bool activeVideo)
     {
+        AgoraHomeUnityManager.Instance.panelGlobalVideo.SetActive(activeVideo);
         AgoraHomeUnityManager.Instance.yourVideoPanel.SetActive(true);
         MessageText = AgoraHomeUnityManager.Instance.msgText;
         MessageText.text = mChannelName;

@@ -28,6 +28,8 @@ public class AgoraHome : MonoBehaviour
     [SerializeField]
     private TMP_InputField InputChannel;
 
+    private bool onVideo = true;
+
     private string ChannelName => InputChannel.text;
 
 
@@ -66,11 +68,12 @@ public class AgoraHome : MonoBehaviour
 
     public void onJoin(bool enableVideo)
     {
+        onVideo = enableVideo;
         onJoinButtonClicked(enableVideo);
     }
 
     private void onJoinButtonClicked(bool enableVideo, bool muted = false)
-    {
+    {   
         // create app if nonexistent
         if (ReferenceEquals(app, null))
         {
@@ -84,8 +87,7 @@ public class AgoraHome : MonoBehaviour
         Debug.Log("ChannelName " + ChannelName);
       
         app.join(ChannelName, enableVideo, muted);
-        
-        
+
         SceneManager.sceneLoaded += OnLevelFinishedLoading; // configure GameObject after scene is loaded
         SceneManager.LoadScene(PlaySceneName, LoadSceneMode.Additive);
     }
@@ -118,7 +120,7 @@ public class AgoraHome : MonoBehaviour
             if (!ReferenceEquals(app, null))
             {
                 Debug.Log("OnLevelFinishedLoading");
-                app.onSceneHelloVideoLoaded(); // call this after scene is loaded
+                app.onSceneHelloVideoLoaded(onVideo); // call this after scene is loaded
             }
             SceneManager.sceneLoaded -= OnLevelFinishedLoading;
         }

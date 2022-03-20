@@ -8,31 +8,22 @@ public class AgoraHomeUnityManager : MonoBehaviour
 
     public static AgoraHomeUnityManager Instance;
 
-    private AgoraHome agoraHome;
+    private AgoraHome agoraHome = null;
 
+    public GameObject panelGlobalVideo;
     public GameObject friendVideoPanel;
     public GameObject yourVideoPanel;
     public Text msgText;
 
+
     public void Awake()
     {
         Instance = this;
-        FindHomeManager();
-    }
-
-    private void FindHomeManager()
-    {
-        if (agoraHome != null)
+        if (agoraHome == null)
         {
             agoraHome = GameObject.Find("AgoraManager").GetComponent<AgoraHome>();
-            if (agoraHome == null)
-            {
-                Debug.LogError("Missing game controller...");
-                return;
-            }
         }
     }
-
 
     public void Leave()
     {
