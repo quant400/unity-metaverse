@@ -614,7 +614,7 @@ namespace CFC.Multiplayer
 
 			data["chat_box_id"] = _chat_box_id;
 		
-			data ["receiver_id"] = _receiver_id;
+			//data ["receiver_id"] = _receiver_id;
 		
 			data ["message"] = _message;
 
@@ -627,32 +627,28 @@ namespace CFC.Multiplayer
 		/// </summary>	
 		/// <param name="data">received package from server.</param>
 		void OnReceiveMessage(string data)
-		{
+		{        
 	
+			Debug.Log(data);
+			
 			/*
-				 * data.pack[0] = guest (network player id)
-				 * data.pack[1]= message
+				 * data.pack[0] = chat_box_id
+				 * data.pack[1] = writer_id
+				 * data.pack[2]= message
 				*/
-		
-    
-		  
+			
 			var pack = data.Split (Delimiter);
 
-			/*if( CanvasManager.instance.chatBoxes.ContainsKey(pack [0]))
+			if (pack[0].Equals("global"))
 			{
-				if (local_player_id.Equals(pack[1])) {
-			  
-			 
-					CanvasManager.instance.chatBoxes[pack[0]].SpawnMyMessage(pack[2]);
-			
-				}
-				else
-				{
-					CanvasManager.instance.chatBoxes[pack[0]].SpawnNetworkMessage(pack[2]);
-				}
-			}*/
-	
-			 
+				ChatGlobal_Manager.Instance.CreateMessage(pack[1], pack[2]);
+			}
+			else
+			{
+				Debug.Log("NOPE");
+			}
+
+
 		}
 		
 		#endregion

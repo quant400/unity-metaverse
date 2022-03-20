@@ -311,7 +311,7 @@ io.on('connection', function(socket){
 			// send current user position and  rotation in broadcast to all clients in game
 			socket.emit('UPDATE_MESSAGE', data.chat_box_id, currentUser.id,data.message);
 
-			sockets[data.receiver_id].emit('UPDATE_MESSAGE',data.chat_box_id, currentUser.id,data.message);
+			//sockets[data.receiver_id].emit('UPDATE_MESSAGE',data.chat_box_id, currentUser.id,data.message);
 
 		}
 	});//END_SOCKET_ON
