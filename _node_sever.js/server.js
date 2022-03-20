@@ -300,20 +300,10 @@ io.on('connection', function(socket){
 	//create a callback fuction to listening EmitMoveAndRotate() method in NetworkMannager.cs unity script
 	socket.on('MESSAGE', function (_data)
 	{
-
-
 		var data = JSON.parse(_data);
-
-
-		if(currentUser)
-		{
-
-			// send current user position and  rotation in broadcast to all clients in game
-			socket.emit('UPDATE_MESSAGE', data.chat_box_id, currentUser.id,data.message);
-
-			//sockets[data.receiver_id].emit('UPDATE_MESSAGE',data.chat_box_id, currentUser.id,data.message);
-
-		}
+		
+		socket.emit('UPDATE_MESSAGE', data.chat_box_id, currentUser.id,data.message);
+		socket.broadcast.emit('UPDATE_MESSAGE', data.chat_box_id, currentUser.id,data.message);		
 	});//END_SOCKET_ON
 		
 });//END_IO.ON

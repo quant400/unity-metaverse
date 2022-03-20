@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityStandardAssets.Cameras;
 using UnityStandardAssets.Characters.ThirdPerson;
@@ -14,6 +16,8 @@ namespace CFC.Multiplayer
         public string name;
 
         public string avatar;
+
+        public Color color;
 
         public bool isOnline;
         
@@ -37,7 +41,7 @@ namespace CFC.Multiplayer
             myTPUserControlr = GetComponent<ThirdPersonUserControl>();
             myCamera = FindObjectOfType<FreeLookCam>();
             myStreamers = FindObjectsOfType<Streamer>();
-            
+
             SetUpLocalPlayer();
             
             
@@ -46,10 +50,14 @@ namespace CFC.Multiplayer
         void SetUpLocalPlayer()
         {
             myTPUserControlr.enabled = isLocalPlayer;
-            
-            Debug.Log("AQUI!");
-            Debug.Log(name);
-            Debug.Log(isLocalPlayer);
+
+            do
+            {
+                color = Color_Manager.pallete.RandomPlayerColor();
+            } while (!NetworkManager.Instance.networkPlayers.Any(player => player.Value.color == color));
+
+            //Nome olhar para camera
+            GetComponentInChildren<BillboardFX>().camTransform = myCamera.transform;
 
             if (!isLocalPlayer)
             {
@@ -70,7 +78,7 @@ namespace CFC.Multiplayer
 
         void FixedUpdate()
         {
-            if (IsMoving)
+            if (IsMoving||IsJumping)
             {
                 if (isLocalPlayer)
                 {
@@ -136,7 +144,7 @@ namespace CFC.Multiplayer
 
         public void SetCharacterName(string name)
         {
-            GetComponentInChildren<TextMesh> ().text = name;
+            GetComponentInChildren<TMP_Text> ().text = name;
         }
     }
 }

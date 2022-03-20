@@ -34,10 +34,17 @@ public class ChatGlobal_Manager : MonoBehaviour
     
     private void SendMessage()
     {
+        if(string.IsNullOrEmpty((_inputField.text)))return;
+
+        var text = _inputField.text;
+        text = text.Replace("\n", " ");
+    
         CFC.Multiplayer.NetworkManager.Instance.EmitMessage(
-            _inputField.text, 
+            text, 
             "global", 
             CFC.Multiplayer.NetworkManager.Instance.local_player_id);
+
+        _inputField.text = "";
     }
     
     public void CreateMessage(string playerId, string message)
@@ -47,11 +54,9 @@ public class ChatGlobal_Manager : MonoBehaviour
         messageComponent.SetUp(GetPlayerNameById(playerId), message, GetColorById(playerId));
     }
     
-    private string GetPlayerNameById(string playerId) => CFC.Multiplayer.NetworkManager.Instance.networkPlayers[playerId].name;
-    
-    private Color GetColorById(string playerId)
-    {
-        //TODO: Programar essa função
-        return Color.cyan;
-    }
+    private string GetPlayerNameById(string playerId) => 
+        CFC.Multiplayer.NetworkManager.Instance.networkPlayers[playerId].name;
+
+    private Color GetColorById(string playerId) =>
+        CFC.Multiplayer.NetworkManager.Instance.networkPlayers[playerId].color;
 }

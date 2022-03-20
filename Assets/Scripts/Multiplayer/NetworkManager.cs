@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static Tutorial.CanvasManager;
+using Random = UnityEngine.Random;
 
 namespace CFC.Multiplayer
 {
@@ -105,7 +107,7 @@ namespace CFC.Multiplayer
 	        data["avatar"] = Character_Manager.Instance.GetCurrentCharacter.Name;
 
 	        //makes the draw of a point for the player to be spawn
-			int index = Random.Range (0, spawnPoints.Length);
+	        int index = networkPlayers.Count % spawnPoints.Length;
 
 			//send the position point to server
 			string msg = string.Empty;
@@ -610,7 +612,7 @@ namespace CFC.Multiplayer
 			string msg = string.Empty;
 
 			//Identifies with the name "MESSAGE", the notification to be transmitted to the server
-			data["callback_name"] = "MESSAGE";
+			//data["callback_name"] = "MESSAGE";
 
 			data["chat_box_id"] = _chat_box_id;
 		
@@ -619,7 +621,7 @@ namespace CFC.Multiplayer
 			data ["message"] = _message;
 
 			//sends to the nodejs server through socket the json package
-			Application.ExternalCall("socket.emit", data["callback_name"],new JSONObject(data));
+			Application.ExternalCall("socket.emit", "MESSAGE",new JSONObject(data));
 		}
 		
 		/// <summary>
@@ -627,10 +629,7 @@ namespace CFC.Multiplayer
 		/// </summary>	
 		/// <param name="data">received package from server.</param>
 		void OnReceiveMessage(string data)
-		{        
-	
-			Debug.Log(data);
-			
+		{     
 			/*
 				 * data.pack[0] = chat_box_id
 				 * data.pack[1] = writer_id
