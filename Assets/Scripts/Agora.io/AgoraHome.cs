@@ -24,7 +24,7 @@ public class AgoraHome : MonoBehaviour
     // PLEASE KEEP THIS App ID IN SAFE PLACE
     // Get your own App ID at https://dashboard.agora.io/
     [SerializeField]
-    private string AppID = "603f9b1a7dbc49409d6f6a225e106cbe";
+    private string AppID = null;
     [SerializeField]
     private TMP_InputField InputChannel;
 
@@ -64,23 +64,9 @@ public class AgoraHome : MonoBehaviour
     }
 
 
-    public void onJoin()
+    public void onJoin(bool enableVideo)
     {
-        onJoinButtonClicked(true);
-    }
-
-    private void onJoinAudience()
-    {
-        // create app if nonexistent
-        if (ReferenceEquals(app, null))
-        {
-            app = new AgoraHomeUnityVideo(); // create app
-            app.loadEngine(AppID); // load engine
-        }
-
-        app.joinAudience(ChannelName);
-        SceneManager.sceneLoaded += OnLevelFinishedLoading; // configure GameObject after scene is loaded
-        SceneManager.LoadScene(PlaySceneName, LoadSceneMode.Additive);
+        onJoinButtonClicked(enableVideo);
     }
 
     private void onJoinButtonClicked(bool enableVideo, bool muted = false)
@@ -90,9 +76,13 @@ public class AgoraHome : MonoBehaviour
         {
             app = new AgoraHomeUnityVideo(); // create app
             app.loadEngine(AppID); // load engine
+            Debug.Log("loadEngine");
         }
 
         // join channel and jump to next scene
+        Debug.Log("AppID " + AppID);
+        Debug.Log("ChannelName " + ChannelName);
+      
         app.join(ChannelName, enableVideo, muted);
         
         
@@ -121,12 +111,13 @@ public class AgoraHome : MonoBehaviour
 
     public void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        mode = LoadSceneMode.Additive;
+        //mode = LoadSceneMode.Additive;
 
         if (scene.name == PlaySceneName)
         {
             if (!ReferenceEquals(app, null))
             {
+                Debug.Log("OnLevelFinishedLoading");
                 app.onSceneHelloVideoLoaded(); // call this after scene is loaded
             }
             SceneManager.sceneLoaded -= OnLevelFinishedLoading;

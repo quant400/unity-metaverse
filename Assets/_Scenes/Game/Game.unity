@@ -305,7 +305,7 @@ Light:
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: -1
+    m_Resolution: 0
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
@@ -3060,16 +3060,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1505632853}
-        m_TargetAssemblyTypeName: VoiceHome, Assembly-CSharp
-        m_MethodName: onJoinAudience
-        m_Mode: 1
+        m_TargetAssemblyTypeName: AgoraHome, Assembly-CSharp
+        m_MethodName: onJoin
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1019098690
 MonoBehaviour:
@@ -3466,7 +3466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaySceneName: AgoraHomeUnityVideo
-  AppID: 603f9b1a7dbc49409d6f6a225e106cbe
+  AppID: fb0be7d7eb6f4add981a4a531f4bb555
   InputChannel: {fileID: 516554879}
 --- !u!4 &1505632854
 Transform:

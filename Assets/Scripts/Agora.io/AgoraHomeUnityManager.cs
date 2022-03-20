@@ -10,18 +10,13 @@ public class AgoraHomeUnityManager : MonoBehaviour
 
     private AgoraHome agoraHome;
 
-
-
-    public GameObject canvas;
-    public List<GameObject> videosSurface;
+    public GameObject friendVideoPanel;
+    public GameObject yourVideoPanel;
     public Text msgText;
 
     public void Awake()
     {
-        if(Instance == null)
-        {
-            Instance = this;
-        }
+        Instance = this;
         FindHomeManager();
     }
 

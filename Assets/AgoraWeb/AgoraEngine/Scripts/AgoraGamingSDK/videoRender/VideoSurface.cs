@@ -45,7 +45,7 @@ namespace agora_gaming_rtc
         public bool _enableFlipVertical = false;
         public uint videoFps = 30;
         [SerializeField]
-        AgoraVideoSurfaceType VideoSurfaceType = AgoraVideoSurfaceType.RawImage;
+        public AgoraVideoSurfaceType VideoSurfaceType = AgoraVideoSurfaceType.Renderer;
 #if !UNITY_EDITOR && UNITY_WEBGL
         // new addition for WebGL
         // required for getting textures from webgl
