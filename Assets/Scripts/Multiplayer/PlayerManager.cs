@@ -140,6 +140,12 @@ namespace CFC.Multiplayer
                 myAnim.SetBool(_animation, Boolean.Parse(_parameter));
                 return;
             }
+
+            if (_animation.Equals("Play"))
+            {
+                myAnim.Play(_parameter);
+                return;
+            }
         }
 
         public void SetCharacterName(string name)

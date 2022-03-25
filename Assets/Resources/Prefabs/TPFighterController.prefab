@@ -388,7 +388,7 @@ Animator:
   m_GameObject: {fileID: 3917969869971660724}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 6c6cfa88a9ae4c241960b65a0e8e6f32, type: 2}
-  m_Controller: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 07398d3bd888f6745984e23d6663355c, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -439,6 +439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 521b611700410be45810047f0a74e899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Move: {x: 0, y: 0, z: 0}
 --- !u!114 &3917969869981963510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,6 +460,7 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 1.2
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
+  m_IsGrounded: 0
 --- !u!114 &3066660271703593797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,6 +520,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

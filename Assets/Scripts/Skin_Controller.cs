@@ -20,14 +20,14 @@ public class Skin_Controller : MonoBehaviour
     void OnDisable()
     {
         if(_isLocalPlayer)
-            Character_Manager.Instance.OnCharacterChanged.RemoveListener(SetUpSkin);
+            Character_Manager.Instance?.OnCharacterChanged.RemoveListener(SetUpSkin);
     }
 
     void Start()
     {
         if (_isLocalPlayer)
         {
-            Character_Manager.Instance.OnCharacterChanged.AddListener(SetUpSkin);
+            Character_Manager.Instance?.OnCharacterChanged.AddListener(SetUpSkin);
         }
     }
 

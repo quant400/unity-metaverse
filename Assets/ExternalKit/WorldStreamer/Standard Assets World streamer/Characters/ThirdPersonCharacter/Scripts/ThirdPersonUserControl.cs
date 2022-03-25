@@ -14,6 +14,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         public Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
+        private bool m_Punch;
+        private bool m_Kick;
+        
 
         
         private void Start()
@@ -49,12 +52,29 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
+
+            m_Punch = Input.GetMouseButtonDown(0);
+            m_Kick = Input.GetMouseButtonDown(1);
+
+            if (m_Punch)
+            {
+                m_Character.Punch();
+                m_Punch = false;
+            }
+
+
+            if (m_Kick)
+            {
+                m_Character.Kick();
+                m_Kick = false;
+            }
         }
 
 
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
+            
             // read inputs
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             float v = CrossPlatformInputManager.GetAxis("Vertical");
@@ -82,10 +102,15 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 m_Move = Vector3.zero;
                 crouch = false;
                 m_Jump = false;
+                m_Punch = false;
+                m_Kick = false;
             }
 
             // pass all parameters to the character control script
             m_Character.Move(m_Move, crouch, m_Jump);
+            
+            m_Punch = false;
+            m_Kick = false;
             m_Jump = false;
         }
     }

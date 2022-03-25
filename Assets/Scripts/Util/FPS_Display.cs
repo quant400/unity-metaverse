@@ -22,7 +22,7 @@ public class FPS_Display : MonoBehaviour
     void Update () {
     
         if(player == null) player = GameObject.FindWithTag("Player");
-        //Debug.Log(Time.timeSinceLevelLoad+" "+timeA);
+        
         if(Time.timeSinceLevelLoad  - timeA <= 1)
         {
             fps++;

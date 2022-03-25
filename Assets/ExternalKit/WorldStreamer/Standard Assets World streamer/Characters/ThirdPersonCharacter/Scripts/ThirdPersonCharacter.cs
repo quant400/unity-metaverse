@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
@@ -29,6 +30,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
+		[SerializeField] private bool m_isAttack = false;
+		[SerializeField]private bool m_comboPossible = false;
+		[SerializeField]private int m_comboStep = 0;
+
 
 		void Start()
 		{
@@ -42,9 +47,62 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
 		}
 
+		public void Punch()
+		{
+			if (m_comboStep == 0)
+			{
+				m_isAttack = true;
+				UpdatePlayAnimation("Punch 1");
+				m_comboStep = 1;
+				return;
+			}
+			
+			if (m_comboPossible)
+			{
+				m_comboPossible = false;
+				m_comboStep += 1;
+			}
+
+			//UpdateTriggerAnimation("Punch");
+		}
+
+		public void Combo()
+		{
+			switch (m_comboStep)
+			{
+				case 2:
+					UpdatePlayAnimation("Punch 2");
+					break;
+				case 3:
+					UpdatePlayAnimation("Punch 3");
+					break;
+			}
+		}
+
+		public void ComboReset()
+		{
+			m_isAttack = false;
+			m_comboPossible = false;
+			m_comboStep = 0;
+		}
+
+		public void ComboPossible()
+		{
+			m_comboPossible = true;
+		}
+
+		public void Kick()
+		{
+			if (m_isAttack) return;
+			
+			m_isAttack = true;
+			UpdatePlayAnimation("Kick");
+		}
+
 
 		public void Move(Vector3 move, bool crouch, bool jump)
 		{
+			if (m_isAttack) return;
 
 			// convert the world relative moveInput vector into a local-relative
 			// turn amount and forward amount required to head in the desired
@@ -221,6 +279,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			
 			if(CFC.Multiplayer.NetworkManager.Instance != null)
 				CFC.Multiplayer.NetworkManager.Instance.EmitAnimation(_animation, _parameter.ToString());
+		}
+		
+		public void UpdatePlayAnimation(string _animation)
+		{       
+			m_Animator.Play(_animation);
+
+			if(CFC.Multiplayer.NetworkManager.Instance != null)
+				CFC.Multiplayer.NetworkManager.Instance.EmitAnimation("Play", _animation);
 		}
 
 
