@@ -22,7 +22,7 @@ public class DataManager : MonoBehaviour
 
     private void SetAccount(RootAccount tempAccount)
     {
-        if (userAccount == null )
+        if (userAccount.accounts.Count == 0 )
         {
             userAccount = tempAccount;
         }
