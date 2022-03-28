@@ -8,4 +8,5 @@ public class Character : ScriptableObject
     public string Name;
     public Mesh Mesh;
     public Texture Texture;
+    public bool isAvailable = true;
 }

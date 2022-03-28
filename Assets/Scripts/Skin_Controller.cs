@@ -19,8 +19,11 @@ public class Skin_Controller : MonoBehaviour
 
     void OnDisable()
     {
-        if(_isLocalPlayer)
+        if (_isLocalPlayer)
+        {
             Character_Manager.Instance?.OnCharacterChanged.RemoveListener(SetUpSkin);
+        }
+
     }
 
     void Start()
@@ -49,7 +52,16 @@ public class Skin_Controller : MonoBehaviour
 
     public void ChangeSkin(Character character)
     {
-        _meshRenderer.sharedMesh = character.Mesh;
-        _meshRenderer.material.mainTexture = character.Texture;
+        if(character != null)
+        {
+            _meshRenderer.sharedMesh = character.Mesh;
+            _meshRenderer.material.mainTexture = character.Texture;
+        }
+        else
+        {
+            _meshRenderer.sharedMesh = Character_Manager.Instance.lockCharacter.Mesh;
+            _meshRenderer.material.mainTexture = Character_Manager.Instance.lockCharacter.Texture;
+        }
+       
     }
 }

@@ -19,12 +19,18 @@ public class CustomWebLogin : MonoBehaviour
     #endregion
     private int expirationTime;
 
+
+
+    [Header("Start")]
     [SerializeField]
     private GameObject panelStart;
     [SerializeField]
     private GameObject panelSelection;
+    [Header("Error")]
     [SerializeField]
     private GameObject panelError;
+    [SerializeField]
+    private TMPro.TextMeshProUGUI textError;
 
     private string _account;
 
@@ -70,6 +76,7 @@ public class CustomWebLogin : MonoBehaviour
 
     public void OnGuest()
     {
+        //account0x846b257a244141ecb5c65d7c8a122a72a5564c38
         _account = "account0x846b257a244141ecb5c65d7c8a122a72a5564c38";
         OnEnter("Guest");
     }
@@ -123,6 +130,7 @@ public class CustomWebLogin : MonoBehaviour
     private void OnFailToSignIn(string error)
     {
         Debug.Log(error);
+        textError.text = error;
         panelStart.SetActive(true);
         panelSelection.SetActive(false);
         panelError.SetActive(true);

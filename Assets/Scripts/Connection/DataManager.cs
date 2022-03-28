@@ -10,7 +10,7 @@ public class DataManager : MonoBehaviour
     public string contractId;
 
     [SerializeField]
-    private Account userAccount;
+    private RootAccount userAccount;
 
     public void Awake()
     {
@@ -20,9 +20,9 @@ public class DataManager : MonoBehaviour
         }
     }
 
-    private void SetAccount(Account tempAccount)
+    private void SetAccount(RootAccount tempAccount)
     {
-        if (userAccount == null || userAccount.id == 0)
+        if (userAccount == null )
         {
             userAccount = tempAccount;
         }
@@ -32,7 +32,7 @@ public class DataManager : MonoBehaviour
         }
     }
 
-    public Account GetAccount()
+    public RootAccount GetAccount()
     {
         return userAccount;
     }
@@ -53,8 +53,16 @@ public class DataManager : MonoBehaviour
 
             if (tempAccounts.accounts.Count > 0)
             {
-                SetAccount(tempAccounts.accounts.FirstOrDefault());
+                SetAccount(tempAccounts);
+
+                Character_Manager.Instance.StartCharacter(tempAccounts.accounts);
+
                 success();
+            }
+            else
+            {
+                error("You don't own any characters visit \n  (https://app.cryptofightclub.io/mint) \n to acquire");
+
             }
         }
         catch (System.Exception e)

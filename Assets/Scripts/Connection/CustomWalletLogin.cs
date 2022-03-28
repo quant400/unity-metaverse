@@ -74,6 +74,7 @@ public class CustomWalletLogin: MonoBehaviour
             string json = "{ \"accounts\": " + www.downloadHandler.text + "}";
             onSuccess?.Invoke(json);
             
+            
         }
 
     }

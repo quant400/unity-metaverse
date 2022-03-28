@@ -8,10 +8,14 @@ public class Character_Manager : MonoBehaviour
 {
 
     public static Character_Manager Instance;
-    
+
+    [SerializeField] public Character lockCharacter;
     [SerializeField] private List<Character> _characters = new List<Character>();
     [SerializeField] private Character _selectedCharacter;
-    
+
+  
+
+
     public List<Character> GetCharacters => _characters;
     public Character GetCurrentCharacter => _selectedCharacter;
     public int GetCurrentCharacterIndex => _characters.IndexOf(_selectedCharacter);
@@ -29,19 +33,54 @@ public class Character_Manager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
 
-        GetCharacterFromResources();
 
-        if(_selectedCharacter == null)
+    public void StartCharacter(List<Account> accCharacter)
+    {
+        GetCharacterFromResources(accCharacter);
+
+        if (_selectedCharacter == null)
             _selectedCharacter = GetCharacter();
     }
 
-    private void GetCharacterFromResources()
+
+    private void GetCharacterFromResources(List<Account> accCharacter)
     {
-        foreach (var character in Resources.LoadAll("Characters", typeof(Character)))
+        try
         {
-            _characters.Add(character as Character);
+            var loaderCharacter = Resources.LoadAll("Characters", typeof(Character));
+            List<Character> allCharacterAvailable = loaderCharacter.Cast<Character>().ToList();
+
+            foreach (Account item in accCharacter)
+            {
+                var containCharacter = allCharacterAvailable.Where(aux => aux.name.ToLower().Equals(item.name)).FirstOrDefault();
+                Character character;
+
+                if (containCharacter != null)
+                {
+                    character = containCharacter;
+                }
+                else
+                {
+                    character = new Character()
+                    {
+                        Mesh = allCharacterAvailable[Random.Range(0, allCharacterAvailable.Count)].Mesh,
+                        Texture = lockCharacter.Texture,
+                        Name = item.name,
+                        isAvailable = false
+                    };
+                }
+
+                _characters.Add(character);
+            }
         }
+        catch (System.Exception e )
+        {
+            Debug.Log(e.Message);
+        }
+       
+
     }
 
     private Character GetCharacter()

@@ -7,13 +7,10 @@ using UnityEngine.UI;
 public class StartMenu : MonoBehaviour
 {
 
-    [SerializeField] private Button start_Button;
+
     [SerializeField] private Button select_Button;
     [SerializeField] private GameObject loading_GO;
-    
-    [SerializeField] private GameObject start_GO;
-    [SerializeField] private GameObject select_GO;
-
+    [SerializeField] private GameObject alert_GO;
     [SerializeField] private Skin_Controller skinCharacter;
     
     void Awake()
@@ -28,17 +25,10 @@ public class StartMenu : MonoBehaviour
 
     private void SetUpUI()
     {
-        //start_Button.onClick.AddListener(OnStartClick);
+        
         select_Button.onClick.AddListener(OnSelectClick);
     }
 
-
-    void OnStartClick()
-    {
-        start_GO.SetActive(false);
-        select_GO.SetActive(true);
-    }
-    
     void OnSelectClick()
     {
         OpenGame();
@@ -46,7 +36,15 @@ public class StartMenu : MonoBehaviour
 
     void OpenGame()
     {
-        StartCoroutine(LoadScene());
+        if (Character_Manager.Instance.GetCurrentCharacter.isAvailable)
+        {
+            StartCoroutine(LoadScene());
+        }
+        else
+        {
+            alert_GO.SetActive(true);
+        }
+        
     }
 
     IEnumerator LoadScene()
