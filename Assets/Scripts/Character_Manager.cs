@@ -13,9 +13,6 @@ public class Character_Manager : MonoBehaviour
     [SerializeField] private List<Character> _characters = new List<Character>();
     [SerializeField] private Character _selectedCharacter;
 
-  
-
-
     public List<Character> GetCharacters => _characters;
     public Character GetCurrentCharacter => _selectedCharacter;
     public int GetCurrentCharacterIndex => _characters.IndexOf(_selectedCharacter);

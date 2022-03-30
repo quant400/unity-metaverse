@@ -16,6 +16,7 @@ public class DataManager : MonoBehaviour
     {
         if(Instance == null)
         {
+            DontDestroyOnLoad(this.gameObject);
             Instance = this;
         }
     }

@@ -19,8 +19,6 @@ public class CustomWebLogin : MonoBehaviour
     #endregion
     private int expirationTime;
 
-
-
     [Header("Start")]
     [SerializeField]
     private GameObject panelStart;
@@ -125,6 +123,7 @@ public class CustomWebLogin : MonoBehaviour
         panelStart.SetActive(false);
         panelSelection.SetActive(true);
         panelError.SetActive(false);
+        BGM_Manager.Instance.PlaySong();
     }
 
     private void OnFailToSignIn(string error)
