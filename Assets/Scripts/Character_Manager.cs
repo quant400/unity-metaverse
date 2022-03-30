@@ -51,7 +51,7 @@ public class Character_Manager : MonoBehaviour
 
             foreach (Account item in accCharacter)
             {
-                var containCharacter = allCharacterAvailable.Where(aux => aux.name.ToLower().Equals(item.name)).FirstOrDefault();
+                var containCharacter = allCharacterAvailable.Where(aux => aux.name.ToLower().Equals(item.name.ToLower())).FirstOrDefault();
                 Character character;
 
                 if (containCharacter != null)

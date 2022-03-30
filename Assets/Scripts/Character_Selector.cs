@@ -19,6 +19,9 @@ public class Character_Selector : MonoBehaviour
         _charactersNames = Character_Manager.Instance.GetCharacters.Select(auxCharacter => auxCharacter.Name).ToList();
         SetUpUI();
         UpdateUI();
+
+        Character_Manager.Instance.ChangeCharacter(_charactersNames[0]);
+
     }
 
     private void SetUpUI()
