@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
@@ -30,9 +31,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
-		[SerializeField] private bool m_isAttack = false;
+		public bool m_isAttack = false;
+		private bool m_Hit = false;
+
 		[SerializeField]private bool m_comboPossible = false;
 		[SerializeField]private int m_comboStep = 0;
+
+		[SerializeField] private BoxCollider hitCollider;
 
 
 		void Start()
@@ -45,6 +50,21 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
+
+			
+		}
+
+		public void CheckHit()
+		{
+			if (m_Hit) return;
+			
+			var colliders = Physics.OverlapBox(hitCollider.transform.position, hitCollider.size);
+
+			foreach (var collider in colliders.Where(auxCollider => auxCollider.GetComponent<PlayerManager>() != null))
+			{
+				m_Hit = true;	
+				CFC.Multiplayer.NetworkManager.Instance.EmitPhisicstDamage(collider.GetComponent<PlayerManager>().id);
+			}
 		}
 
 		public void Punch()
@@ -63,6 +83,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_comboStep += 1;
 			}
 
+			m_Hit = false;
 			//UpdateTriggerAnimation("Punch");
 		}
 
@@ -96,6 +117,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (m_isAttack) return;
 			
 			m_isAttack = true;
+			m_Hit = false;
+
 			UpdatePlayAnimation("Kick");
 		}
 

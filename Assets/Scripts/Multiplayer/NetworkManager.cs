@@ -496,7 +496,8 @@ namespace CFC.Multiplayer
 				if (PlayerTarget.isLocalPlayer)// if i'm a target
 				{
 			     
-					//Levou o dano
+					PlayerTarget.UpdateAnimator("Play", "Hit");
+					Debug.Log("Acertou");
 
 				}
 

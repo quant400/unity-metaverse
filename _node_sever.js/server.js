@@ -217,10 +217,10 @@ io.on('connection', function(socket){
 		 };
 	 
 	     //emit only for the currentUser
-		 socket.emit('DEATH',jo_pack.targetId);
+		 //socket.emit('DEATH',jo_pack.targetId);
 		 
 		 //emit to all connected clients in broadcast
-		 socket.broadcast.emit('DEATH',jo_pack.targetId);
+		 //socket.broadcast.emit('DEATH',jo_pack.targetId);
 		
 	    }//END_ if    
     }//END_ELSE

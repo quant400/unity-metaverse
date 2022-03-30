@@ -148,6 +148,8 @@ window.addEventListener('load', function() {
 		 
 	
 	});//END_SOCKET.ON
+	
+	//CHAT
 
 	socket.on('RECEIVE_OPEN_CHAT_BOX', function(writer_id,receiver_id) {
 		var currentUserAtr = writer_id+':'+receiver_id;
