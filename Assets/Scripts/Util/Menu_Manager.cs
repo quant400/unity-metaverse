@@ -7,10 +7,18 @@ using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Menu_Manager : MonoBehaviour
 {
-    [Header("UI Components")]
+    [Header("UI MENU")]
     [SerializeField] private GameObject Menu_GUI;
-    [SerializeField] private Button Button_Start;
     [SerializeField] private Button Button_LevelReset;
+
+    [Header("UI MENU")]
+    [SerializeField] private GameObject Tutorial_GUI;
+
+
+    [Header("UI CHICKEN_RUN")]
+    [SerializeField] private GameObject MenuCR_GUI;
+    [SerializeField] private Button ButtonCR_Start;
+
 
     [Header("Streamer Components")]
     [SerializeField] private UILoadingStreamer GO_UILoadingStreamer;
@@ -20,15 +28,20 @@ public class Menu_Manager : MonoBehaviour
 
     void Start()
     {
-        Button_Start.onClick.AddListener(ActionStart);
         GO_UILoadingStreamer.onDone.AddListener(ActionFinish);
         Button_LevelReset.onClick.AddListener(ActionReset);
-
+        ButtonCR_Start.onClick.AddListener(()=> { ActionOpenLink("https://play.cryptofightclub.io/"); });
     }
 
-    private void ActionStart()
+    public void OpenPanelCR()
     {
-       //Inicia o Loading
+        MenuCR_GUI.SetActive(true);
+    }
+
+    public void ShowTutorial()
+    {
+        Tutorial_GUI.SetActive(true);
+        StartCoroutine(WaitLoading(() => { Tutorial_GUI.SetActive(false); }, 6.25f));
     }
 
     private void ActionFinish()
@@ -43,8 +56,16 @@ public class Menu_Manager : MonoBehaviour
         GO_PlayerTeleport.Teleport(true);
     }
 
+    private void ActionOpenLink(string url)
+    {
+        float startTime = Time.timeSinceLevelLoad;
+        if (Time.timeSinceLevelLoad - startTime <= 1f)
+        {
+            Application.OpenURL(url);
+        }
+    }
 
-    IEnumerator WaitLoading(Action onFinish , float time= 0.10f)
+    private IEnumerator WaitLoading(Action onFinish , float time= 0.10f)
     {
         yield return new WaitForSeconds(time);
         onFinish();
