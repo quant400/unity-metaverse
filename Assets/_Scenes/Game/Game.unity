@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3599973, g: 0.59881943, b: 0.88268185, a: 1}
+  m_IndirectSpecularColor: {r: 0.34840557, g: 0.5841944, b: 0.8840746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6774,7 +6774,7 @@ PrefabInstance:
     - target: {fileID: 362963321137723070, guid: aafb0a5688490484c9d02fb71701e085,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 5.000061
       objectReference: {fileID: 0}
     - target: {fileID: 362963321384267361, guid: aafb0a5688490484c9d02fb71701e085,
         type: 3}
@@ -9307,6 +9307,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1406874127}
         m_TargetAssemblyTypeName: Menu_Manager, Assembly-CSharp
         m_MethodName: ShowTutorial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1369474705}
+        m_TargetAssemblyTypeName: CFC.Multiplayer.NetworkManager, Assembly-CSharp
+        m_MethodName: EmitJoin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Org.BouncyCastle.Asn1.X509;
 using UnityEngine;
 using static Tutorial.CanvasManager;
 using Random = UnityEngine.Random;
@@ -493,13 +494,13 @@ namespace CFC.Multiplayer
 		
 				PlayerManager PlayerTarget = networkPlayers[pack [0]];
 
-				if (PlayerTarget.isLocalPlayer)// if i'm a target
-				{
+				//if (PlayerTarget.isLocalPlayer)// if i'm a target
+				//{
 			     
 					PlayerTarget.UpdateAnimator("Play", "Hit");
-					Debug.Log("Acertou");
+					Debug.Log("Acertou: "+ PlayerTarget.name);
 
-				}
+				//}
 
 
 

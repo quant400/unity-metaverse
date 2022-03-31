@@ -71,6 +71,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
             if (m_Character.m_isAttack)
             {
+                Debug.Log("Checando");
                 m_Character.CheckHit();
             }
         }

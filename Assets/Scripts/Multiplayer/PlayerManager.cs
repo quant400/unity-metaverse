@@ -49,6 +49,9 @@ namespace CFC.Multiplayer
 
         void SetUpLocalPlayer()
         {
+
+            if (NetworkManager.Instance == null) return;
+            
             myTPUserControlr.enabled = isLocalPlayer;
 
             do

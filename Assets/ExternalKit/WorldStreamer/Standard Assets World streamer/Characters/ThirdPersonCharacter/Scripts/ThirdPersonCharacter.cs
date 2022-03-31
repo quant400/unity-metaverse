@@ -59,11 +59,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (m_Hit) return;
 			
 			var colliders = Physics.OverlapBox(hitCollider.transform.position, hitCollider.size);
-
-			foreach (var collider in colliders.Where(auxCollider => auxCollider.GetComponent<PlayerManager>() != null))
+			
+			foreach (var collider in colliders.Where(auxCollider => auxCollider.GetComponent<CFC.Multiplayer.PlayerManager>() != null).
+				Select(player => player.GetComponent<CFC.Multiplayer.PlayerManager>()))
 			{
+				if (collider.isLocalPlayer) continue;
 				m_Hit = true;	
-				CFC.Multiplayer.NetworkManager.Instance.EmitPhisicstDamage(collider.GetComponent<PlayerManager>().id);
+				CFC.Multiplayer.NetworkManager.Instance.EmitPhisicstDamage(collider.id);
 			}
 		}
 
