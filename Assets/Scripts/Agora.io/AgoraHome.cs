@@ -69,10 +69,16 @@ public class AgoraHome : MonoBehaviour
     public void onJoin(bool enableVideo)
     {
         onVideo = enableVideo;
-        onJoinButtonClicked(enableVideo);
+        onJoinButtonClicked(enableVideo, ChannelName);
+    }
+    
+    public void onJoin(bool enableVideo, string channelName)
+    {
+        onVideo = enableVideo;
+        onJoinButtonClicked(enableVideo, channelName);
     }
 
-    private void onJoinButtonClicked(bool enableVideo, bool muted = false)
+    private void onJoinButtonClicked(bool enableVideo, string channelName, bool muted = false)
     {   
         // create app if nonexistent
         if (ReferenceEquals(app, null))
@@ -84,7 +90,7 @@ public class AgoraHome : MonoBehaviour
 
         // join channel and jump to next scene
         Debug.Log("AppID " + AppID);
-        Debug.Log("ChannelName " + ChannelName);
+        Debug.Log("ChannelName " + channelName);
       
         app.join(ChannelName, enableVideo, muted);
 

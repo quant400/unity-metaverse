@@ -5409,6 +5409,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1369474706, guid: 10ace976ef9453c40bb12776e96d415b, type: 3}
+      propertyPath: agora
+      value: 
+      objectReference: {fileID: 1505632853}
+    - target: {fileID: 1369474706, guid: 10ace976ef9453c40bb12776e96d415b, type: 3}
       propertyPath: _canvasManager
       value: 
       objectReference: {fileID: 3037497311481374877}

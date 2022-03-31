@@ -35,6 +35,8 @@ namespace CFC.Multiplayer
         [Header("Spawn Points")]
         public Transform[] spawnPoints; //stores the spawn points
 
+        public AgoraHome agora;
+
         void Awake()
         {
             Application.ExternalEval("socket.isReady = true;");
@@ -499,8 +501,10 @@ namespace CFC.Multiplayer
 			     
 					PlayerTarget.UpdateAnimator("Play", "Hit");
 					Debug.Log("Acertou: "+ PlayerTarget.name);
-
-				//}
+					
+			
+					agora.onJoin(true, PlayerTarget.id+"Video");
+				//}	
 
 
 
