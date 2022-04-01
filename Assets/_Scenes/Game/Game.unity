@@ -1352,7 +1352,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &361123622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5760,7 +5760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541b0d7536f553f449a41e6d61722c9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlaySceneName: AgoraHomeUnityVideo
+  PlaySceneName: AgoraHomeCFC
   AppID: fb0be7d7eb6f4add981a4a531f4bb555
   InputChannel: {fileID: 516554879}
 --- !u!4 &1505632854

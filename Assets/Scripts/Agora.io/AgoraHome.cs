@@ -1,4 +1,5 @@
-﻿using UnityEngine.SceneManagement;
+﻿using System;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
@@ -48,7 +49,7 @@ public class AgoraHome : MonoBehaviour
     {
         CheckPermissions();
     }
-
+    
     /// <summary>
     ///   Checks for platform dependent permissions.
     /// </summary>
@@ -92,7 +93,7 @@ public class AgoraHome : MonoBehaviour
         Debug.Log("AppID " + AppID);
         Debug.Log("ChannelName " + channelName);
       
-        app.join(ChannelName, enableVideo, muted);
+        app.join(channelName, enableVideo, muted);
 
         SceneManager.sceneLoaded += OnLevelFinishedLoading; // configure GameObject after scene is loaded
         SceneManager.LoadScene(PlaySceneName, LoadSceneMode.Additive);

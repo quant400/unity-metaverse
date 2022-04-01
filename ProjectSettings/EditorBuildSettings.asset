@@ -392,4 +392,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Generate/Medium_Object/Medium_Object_x-2_z-2.unity
     guid: 032e855b6322d4443a328a039b05ca00
+  - enabled: 1
+    path: Assets/_Scenes/Game/AgoraHomeCFC.unity
+    guid: 890cd0f1edd812a4f9f7731655871a38
   m_configObjects: {}

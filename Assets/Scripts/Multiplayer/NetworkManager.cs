@@ -500,10 +500,9 @@ namespace CFC.Multiplayer
 				//{
 			     
 					PlayerTarget.UpdateAnimator("Play", "Hit");
-					Debug.Log("Acertou: "+ PlayerTarget.name);
 					
-			
-					agora.onJoin(true, PlayerTarget.id+"Video");
+					Debug.Log(PlayerTarget.id.Replace("-", "")+"Video");
+					agora.onJoin(false, PlayerTarget.id.Replace("-", "")+"Video");
 				//}	
 
 

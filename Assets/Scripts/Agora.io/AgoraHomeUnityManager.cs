@@ -13,6 +13,7 @@ public class AgoraHomeUnityManager : MonoBehaviour
     public GameObject panelGlobalVideo;
     public GameObject friendVideoPanel;
     public GameObject yourVideoPanel;
+    
     public Text msgText;
 
 
@@ -23,6 +24,12 @@ public class AgoraHomeUnityManager : MonoBehaviour
         {
             agoraHome = GameObject.Find("AgoraManager").GetComponent<AgoraHome>();
         }
+    }
+
+    public void OpenVideo()
+    {
+        agoraHome.onJoin(true, msgText.text);
+        Leave();
     }
 
     public void Leave()
