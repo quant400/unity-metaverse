@@ -41,7 +41,7 @@ public class Menu_Manager : MonoBehaviour
     public void ShowTutorial()
     {
         Tutorial_GUI.SetActive(true);
-        StartCoroutine(WaitLoading(() => { Tutorial_GUI.SetActive(false); }, 6.25f));
+        StartCoroutine(WaitLoading(() => { Tutorial_GUI.SetActive(false); }, 18.00f));
     }
 
     private void ActionFinish()

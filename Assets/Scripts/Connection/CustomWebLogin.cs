@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -24,6 +25,9 @@ public class CustomWebLogin : MonoBehaviour
     private GameObject panelStart;
     [SerializeField]
     private GameObject panelSelection;
+    [Header("Connecting")]
+    [SerializeField]
+    private GameObject panelConnecting;
     [Header("Error")]
     [SerializeField]
     private GameObject panelError;
@@ -38,8 +42,9 @@ public class CustomWebLogin : MonoBehaviour
     {
         try
         {
-            Web3Connect();
-            OnConnected();
+            
+            StartCoroutine(WaitLoading(() => { panelConnecting.SetActive(true); }, 0.5f));
+            StartCoroutine(OnLoginAsync());
         }
         catch (Exception e)
         {
@@ -49,6 +54,14 @@ public class CustomWebLogin : MonoBehaviour
       
     }
 
+    private IEnumerator OnLoginAsync()
+    {
+        Web3Connect();
+        yield return new WaitForSeconds(2.00f);
+        OnConnected();
+    }
+
+
     async private void OnConnected()
     {
         try
@@ -56,7 +69,7 @@ public class CustomWebLogin : MonoBehaviour
             _account = ConnectAccount();
             while (_account == "")
             {
-                await new WaitForSeconds(1.5f);
+                await new WaitForSeconds(1.00f);
                 _account = ConnectAccount();
             };
 
@@ -84,21 +97,30 @@ public class CustomWebLogin : MonoBehaviour
     {
         try
         {
-          
-            DataManager.Instance.contractId = contract;
+            StartCoroutine(WaitLoading(() => { panelConnecting.SetActive(false); }, 0.75f));
+            Data_Manager.Instance.contractId = contract;
             Debug.Log("contract -> " + contract);
-            DataManager.Instance.accountId = ConvertIdMetaMask(_account);
+            Data_Manager.Instance.accountId = ConvertIdMetaMask(_account);
             Debug.Log("account -> " + _account);
 
             //Tratar o ID do metaMask
             walletLogin.GetAccount((json) => {
-                DataManager.Instance.StartAccount(json, OnSuccessToSingIn, OnFailToSignIn);}
+                Data_Manager.Instance.StartAccount(json, OnSuccessToSingIn, OnFailToSignIn);}
                 ,OnFailToSignIn);
+
         }
         catch (Exception e)
         {
             OnFailToSignIn(e.Message);
         }
+
+        
+    }
+
+    private IEnumerator WaitLoading(Action onFinish, float time = 0.10f)
+    {
+        yield return new WaitForSeconds(time);
+        onFinish();
     }
 
 
@@ -108,7 +130,7 @@ public class CustomWebLogin : MonoBehaviour
 
         if (value.Contains("account"))
         {
-            return value.Remove(0, 7); ;
+            return value.Remove(0, 7);
         }
         else
         {
@@ -120,9 +142,10 @@ public class CustomWebLogin : MonoBehaviour
 
     private void OnSuccessToSingIn()
     {
+        panelConnecting.SetActive(false);
         panelStart.SetActive(false);
-        panelSelection.SetActive(true);
         panelError.SetActive(false);
+        panelSelection.SetActive(true);
         BGM_Manager.Instance.PlaySong();
     }
 
@@ -130,8 +153,10 @@ public class CustomWebLogin : MonoBehaviour
     {
         Debug.Log(error);
         textError.text = error;
-        panelStart.SetActive(true);
+
+        panelConnecting.SetActive(false);
         panelSelection.SetActive(false);
+        panelStart.SetActive(true);
         panelError.SetActive(true);
     }
 }

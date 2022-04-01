@@ -2,9 +2,9 @@ using System;
 using System.Linq;
 using UnityEngine;
 
-public class DataManager : MonoBehaviour
+public class Data_Manager : MonoBehaviour
 {
-    public static DataManager Instance;
+    public static Data_Manager Instance;
 
     public string accountId;
     public string contractId;

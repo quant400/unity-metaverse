@@ -58,7 +58,7 @@ public class CustomWalletLogin: MonoBehaviour
     }
     private IEnumerator ActionGetAccount(Action<string> onSuccess, Action<string> onFail)
     {
-        string urlToCall = string.Format(baseURL + "game/sdk/{0}",DataManager.Instance.accountId);
+        string urlToCall = string.Format(baseURL + "game/sdk/{0}",Data_Manager.Instance.accountId);
 
         UnityWebRequest www = CreateRequestGET(urlToCall);
         yield return www.SendWebRequest();

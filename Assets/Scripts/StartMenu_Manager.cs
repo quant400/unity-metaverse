@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-public class StartMenu : MonoBehaviour
+public class StartMenu_Manager : MonoBehaviour
 {
 
 
