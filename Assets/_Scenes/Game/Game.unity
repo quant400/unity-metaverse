@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3599973, g: 0.59881943, b: 0.88268185, a: 1}
+  m_IndirectSpecularColor: {r: 0.34840557, g: 0.5841944, b: 0.8840746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1238,7 +1238,7 @@ GameObject:
   - component: {fileID: 314692915}
   m_Layer: 0
   m_Name: SpawnPoint (1)
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6389,7 +6389,7 @@ PrefabInstance:
     - target: {fileID: 362963321137723070, guid: aafb0a5688490484c9d02fb71701e085,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 5
+      value: 0.000045776367
       objectReference: {fileID: 0}
     - target: {fileID: 362963321384267361, guid: aafb0a5688490484c9d02fb71701e085,
         type: 3}
@@ -6728,7 +6728,7 @@ GameObject:
   - component: {fileID: 1719976843}
   m_Layer: 0
   m_Name: SpawnPoint (2)
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7711,7 +7711,7 @@ GameObject:
   - component: {fileID: 1935328238}
   m_Layer: 0
   m_Name: SpawnPoint (3)
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8323,7 +8323,7 @@ GameObject:
   - component: {fileID: 2050550680}
   m_Layer: 0
   m_Name: SpawnPoint (4)
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9820,7 +9820,7 @@ GameObject:
   - component: {fileID: 3112100011082351123}
   m_Layer: 0
   m_Name: SpawnPoints
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

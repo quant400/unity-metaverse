@@ -330,5 +330,25 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_Animator.applyRootMotion = false;
 			}
 		}
+
+		private void OnTriggerEnter(Collider other)
+		{
+			if (other.gameObject.tag == "OnCollider")
+			{
+				Debug.Log("Entrou");
+
+				Menu_Manager.Instance.OpenPanelCR(true);
+			}
+		}
+		
+		private void OnTriggerExit(Collider other)
+		{
+			if (other.gameObject.tag == "OnCollider")
+			{
+				Debug.Log("Entrou");
+
+				Menu_Manager.Instance.OpenPanelCR(false);
+			}
+		}
 	}
 }

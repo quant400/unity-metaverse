@@ -497,8 +497,8 @@ namespace CFC.Multiplayer
 		
 				PlayerManager PlayerTarget = networkPlayers[pack [0]];
 				
-				Debug.Log("Hit?"+networkPlayers[pack [0]].name + " " + pack [1]);
 				PlayerTarget.UpdateAnimator("Play", "Hit");
+				PlayerTarget.SetHP(int.Parse(pack[1]));
 				
 				//if (PlayerTarget.isLocalPlayer)// if i'm a target
 				//	agora.onJoin(false,  PlayerTarget.id.Replace("-", "")+"Video");

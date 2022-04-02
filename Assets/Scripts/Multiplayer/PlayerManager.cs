@@ -45,17 +45,11 @@ namespace CFC.Multiplayer
         [SerializeField] private Image myHP_Bar;
         [SerializeField] private TMP_Text myHP_Text;
 
-        public float GetHP()
-        {
-            return myHP_Percent;
-        }
-
         public void SetHP(float value)
         {
-            myHP_Percent += (value);
+            myHP_Percent = (value/100);
             myHP_Bar.fillAmount = myHP_Percent;
-            myHP_Text.text = (myHP_Percent * 100) + "%";
-
+            myHP_Text.text = (value) + "%";
         }
 
 

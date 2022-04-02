@@ -15,7 +15,9 @@ public class BillboardFX : MonoBehaviour
 
     void Update()
     {
-        if(camTransform != null)
+        if (camTransform == null)
+            camTransform = Camera.main.transform;
+        else
             transform.rotation = camTransform.rotation * originalRotation;   
     }
 }

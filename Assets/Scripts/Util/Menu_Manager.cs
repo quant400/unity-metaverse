@@ -7,6 +7,9 @@ using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Menu_Manager : MonoBehaviour
 {
+
+    public static Menu_Manager Instance;
+    
     [Header("UI MENU")]
     [SerializeField] private GameObject Menu_GUI;
     [SerializeField] private Button Button_LevelReset;
@@ -21,7 +24,11 @@ public class Menu_Manager : MonoBehaviour
     [Header("Streamer Components")]
     [SerializeField] private UILoadingStreamer GO_UILoadingStreamer;
     [SerializeField] private PlayerTeleport GO_PlayerTeleport;
-    
+
+    void Awake()
+    {
+        if (Instance == null) Instance = this;
+    }
 
     void Start()
     {
@@ -30,11 +37,11 @@ public class Menu_Manager : MonoBehaviour
         ButtonCR_Start.onClick.AddListener(()=> { ActionOpenLink("https://play.cryptofightclub.io/"); });
     }
 
-    public void OpenPanelCR()
+    public void OpenPanelCR(bool show)
     {
         if(MenuCR_GUI != null)
         {
-            MenuCR_GUI.SetActive(true);
+            MenuCR_GUI.SetActive(show);
         }
        
     }
