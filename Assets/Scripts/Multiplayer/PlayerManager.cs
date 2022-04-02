@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.Cameras;
 using UnityStandardAssets.Characters.ThirdPerson;
 
@@ -11,7 +12,10 @@ namespace CFC.Multiplayer
 {
     public class PlayerManager : MonoBehaviour
     {
-        public string	id;
+
+        [Header("Player")]
+
+        public string id;
 
         public string name;
 
@@ -33,6 +37,28 @@ namespace CFC.Multiplayer
         private bool IsMoving => myTPUserControlr.m_Move.magnitude != 0;
         private bool IsJumping => !myTPCharacter.m_IsGrounded;
 
+
+        [Header("Name")]
+        [SerializeField] private TMP_Text myName_Text;
+        [Header("HP")]
+        [Range(0.0f, 1.0f)] public float myHP_Percent = 1.0f;
+        [SerializeField] private Image myHP_Bar;
+        [SerializeField] private TMP_Text myHP_Text;
+
+        public float GetHP()
+        {
+            return myHP_Percent;
+        }
+
+        public void SetHP(float value)
+        {
+            myHP_Percent += (value);
+            myHP_Bar.fillAmount = myHP_Percent;
+            myHP_Text.text = (myHP_Percent * 100) + "%";
+
+        }
+
+
         void Start()
         {
             myRigidbody = GetComponent<Rigidbody>();
@@ -43,8 +69,6 @@ namespace CFC.Multiplayer
             myStreamers = FindObjectsOfType<Streamer>();
 
             SetUpLocalPlayer();
-            
-            
         }
 
         void SetUpLocalPlayer()
@@ -153,7 +177,7 @@ namespace CFC.Multiplayer
 
         public void SetCharacterName(string name)
         {
-            GetComponentInChildren<TMP_Text> ().text = name;
+            myName_Text.text = name;
         }
     }
 }

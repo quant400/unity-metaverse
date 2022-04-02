@@ -14,17 +14,14 @@ public class Menu_Manager : MonoBehaviour
     [Header("UI MENU")]
     [SerializeField] private GameObject Tutorial_GUI;
 
-
     [Header("UI CHICKEN_RUN")]
     [SerializeField] private GameObject MenuCR_GUI;
     [SerializeField] private Button ButtonCR_Start;
-
 
     [Header("Streamer Components")]
     [SerializeField] private UILoadingStreamer GO_UILoadingStreamer;
     [SerializeField] private PlayerTeleport GO_PlayerTeleport;
     
-
 
     void Start()
     {
@@ -35,25 +32,40 @@ public class Menu_Manager : MonoBehaviour
 
     public void OpenPanelCR()
     {
-        MenuCR_GUI.SetActive(true);
+        if(MenuCR_GUI != null)
+        {
+            MenuCR_GUI.SetActive(true);
+        }
+       
     }
 
     public void ShowTutorial()
     {
-        Tutorial_GUI.SetActive(true);
-        StartCoroutine(WaitLoading(() => { Tutorial_GUI.SetActive(false); }, 18.00f));
+        if (Tutorial_GUI != null)
+        {
+            Tutorial_GUI.SetActive(true);
+            StartCoroutine(WaitLoading(() => { Tutorial_GUI.SetActive(false); }, 18.00f));
+        }
     }
 
     private void ActionFinish()
     {
-        StartCoroutine(WaitLoading(() => { Menu_GUI.gameObject.SetActive(false); }));
+        if (Menu_GUI != null)
+        {
+            StartCoroutine(WaitLoading(() => { Menu_GUI.gameObject.SetActive(false); }));
+        }
+           
     }
 
     private void ActionReset()
     {
         //Reseta a Cena
         Debug.Log("ActionReset");
-        GO_PlayerTeleport.Teleport(true);
+        if(GO_PlayerTeleport != null)
+        {
+            GO_PlayerTeleport.Teleport(true);
+        }
+        
     }
 
     private void ActionOpenLink(string url)

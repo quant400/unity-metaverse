@@ -18,8 +18,7 @@ public class CustomWebLogin : MonoBehaviour
     private static extern void SetConnectAccount(string value);
 
     #endregion
-    private int expirationTime;
-
+ 
     [Header("Start")]
     [SerializeField]
     private GameObject panelStart;
@@ -42,8 +41,7 @@ public class CustomWebLogin : MonoBehaviour
     {
         try
         {
-            
-            StartCoroutine(WaitLoading(() => { panelConnecting.SetActive(true); }, 0.5f));
+            panelConnecting.SetActive(true);
             StartCoroutine(OnLoginAsync());
         }
         catch (Exception e)
@@ -57,7 +55,7 @@ public class CustomWebLogin : MonoBehaviour
     private IEnumerator OnLoginAsync()
     {
         Web3Connect();
-        yield return new WaitForSeconds(2.00f);
+        yield return new WaitForSeconds(0.20f);
         OnConnected();
     }
 
@@ -65,7 +63,7 @@ public class CustomWebLogin : MonoBehaviour
     async private void OnConnected()
     {
         try
-        {
+        { 
             _account = ConnectAccount();
             while (_account == "")
             {
@@ -97,7 +95,6 @@ public class CustomWebLogin : MonoBehaviour
     {
         try
         {
-            StartCoroutine(WaitLoading(() => { panelConnecting.SetActive(false); }, 0.75f));
             Data_Manager.Instance.contractId = contract;
             Debug.Log("contract -> " + contract);
             Data_Manager.Instance.accountId = ConvertIdMetaMask(_account);
@@ -115,12 +112,6 @@ public class CustomWebLogin : MonoBehaviour
         }
 
         
-    }
-
-    private IEnumerator WaitLoading(Action onFinish, float time = 0.10f)
-    {
-        yield return new WaitForSeconds(time);
-        onFinish();
     }
 
 
