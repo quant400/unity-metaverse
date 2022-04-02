@@ -186,7 +186,7 @@ io.on('connection', function(socket){
 	  
 	   var target = clientLookup[data.targetId];
 	 
-	   var _damage = 1;
+	   var _damage = 10;
 	   
 	   // if health target is not empty
 	   if(target.health - _damage > 0)
@@ -221,8 +221,9 @@ io.on('connection', function(socket){
 		 
 		 //emit to all connected clients in broadcast
 		 //socket.broadcast.emit('DEATH',jo_pack.targetId);
-		
-	    }//END_ if    
+
+
+		}//END_ if    
     }//END_ELSE
 		  
 	damage_pack = {
@@ -230,8 +231,11 @@ io.on('connection', function(socket){
 				targetId:data.targetId,
 				targetHealth:target.health
 		 }
-	
-	    socket.emit("UPDATE_PHISICS_DAMAGE",damage_pack.targetId,damage_pack.targetHealth);
+
+		  console.log(currentUser.name + ": " + currentUser.health);
+
+
+		  socket.emit("UPDATE_PHISICS_DAMAGE",damage_pack.targetId,damage_pack.targetHealth);
 	    socket.broadcast.emit("UPDATE_PHISICS_DAMAGE",damage_pack.targetId,damage_pack.targetHealth);
 			   
 	}//END_IF

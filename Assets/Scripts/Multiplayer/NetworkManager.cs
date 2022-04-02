@@ -471,7 +471,8 @@ namespace CFC.Multiplayer
 
 			//sends to the nodejs server through socket the json package
 			Application.ExternalCall("socket.emit", "PHISICS_DAMAGE",new JSONObject(data));
-
+			
+			//agora.onJoin(false,  _targetId.Replace("-", "")+"Video");
 		}
 
 
@@ -495,18 +496,12 @@ namespace CFC.Multiplayer
 
 		
 				PlayerManager PlayerTarget = networkPlayers[pack [0]];
-
+				
+				Debug.Log("Hit?"+networkPlayers[pack [0]].name + " " + pack [1]);
+				PlayerTarget.UpdateAnimator("Play", "Hit");
+				
 				//if (PlayerTarget.isLocalPlayer)// if i'm a target
-				//{
-			     
-					PlayerTarget.UpdateAnimator("Play", "Hit");
-					
-					Debug.Log(PlayerTarget.id.Replace("-", "")+"Video");
-					agora.onJoin(false, PlayerTarget.id.Replace("-", "")+"Video");
-				//}	
-
-
-
+				//	agora.onJoin(false,  PlayerTarget.id.Replace("-", "")+"Video");
 			}
 
 

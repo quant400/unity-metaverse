@@ -68,15 +68,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 m_Character.Kick();
                 m_Kick = false;
             }
-
-            if (m_Character.m_isAttack)
-            {
-                Debug.Log("Checando");
-                m_Character.CheckHit();
-            }
         }
-
-
+        
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {

@@ -769,6 +769,9 @@ MonoBehaviour:
   m_comboPossible: 0
   m_comboStep: 0
   hitCollider: {fileID: 7653888223835735472}
+  playersMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &3066660271703593797
 MonoBehaviour:
   m_ObjectHideFlags: 0

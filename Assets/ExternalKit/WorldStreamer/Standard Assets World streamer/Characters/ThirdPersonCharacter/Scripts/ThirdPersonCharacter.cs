@@ -32,12 +32,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		bool m_Crouching;
 
 		public bool m_isAttack = false;
-		private bool m_Hit = false;
 
 		[SerializeField]private bool m_comboPossible = false;
 		[SerializeField]private int m_comboStep = 0;
 
 		[SerializeField] private BoxCollider hitCollider;
+
+		public LayerMask playersMask;
 
 
 		void Start()
@@ -50,21 +51,15 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
-
-			
 		}
 
 		public void CheckHit()
 		{
-			if (m_Hit) return;
+			var colliders = Physics.OverlapBox(hitCollider.transform.position, hitCollider.size, hitCollider.transform.rotation, playersMask);
 			
-			var colliders = Physics.OverlapBox(hitCollider.transform.position, hitCollider.size);
-			
-			foreach (var collider in colliders.Where(auxCollider => auxCollider.GetComponent<CFC.Multiplayer.PlayerManager>() != null).
-				Select(player => player.GetComponent<CFC.Multiplayer.PlayerManager>()))
+			foreach (var collider in colliders.Select(player => player.GetComponent<CFC.Multiplayer.PlayerManager>()))
 			{
 				if (collider.isLocalPlayer) continue;
-				m_Hit = true;	
 				CFC.Multiplayer.NetworkManager.Instance.EmitPhisicstDamage(collider.id);
 			}
 		}
@@ -84,8 +79,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_comboPossible = false;
 				m_comboStep += 1;
 			}
-
-			m_Hit = false;
+			
 			//UpdateTriggerAnimation("Punch");
 		}
 
@@ -119,7 +113,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (m_isAttack) return;
 			
 			m_isAttack = true;
-			m_Hit = false;
 
 			UpdatePlayAnimation("Kick");
 		}
