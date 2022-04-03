@@ -42,7 +42,8 @@ public class CustomWebLogin : MonoBehaviour
         try
         {
             panelConnecting.SetActive(true);
-            StartCoroutine(OnLoginAsync());
+            Web3Connect();
+            OnConnected();
         }
         catch (Exception e)
         {
@@ -52,16 +53,11 @@ public class CustomWebLogin : MonoBehaviour
       
     }
 
-    private IEnumerator OnLoginAsync()
-    {
-        Web3Connect();
-        yield return new WaitForSeconds(0.20f);
-        OnConnected();
-    }
-
-
     async private void OnConnected()
     {
+        Debug.Log("OnConnected");
+        await new WaitForSeconds(0.75f);
+
         try
         { 
             _account = ConnectAccount();

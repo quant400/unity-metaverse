@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Org.BouncyCastle.Asn1.X509;
 using UnityEngine;
 using static Tutorial.CanvasManager;
@@ -110,7 +111,7 @@ namespace CFC.Multiplayer
 	        data["avatar"] = Character_Manager.Instance.GetCurrentCharacter.Name;
 
 	        //makes the draw of a point for the player to be spawn
-	        int index = networkPlayers.Count % spawnPoints.Length;
+	        int index = networkPlayers.Count % spawnPoints.Length; // nao usa
 
 			//send the position point to server
 			string msg = string.Empty;
@@ -135,6 +136,7 @@ namespace CFC.Multiplayer
 		/// <param name="_data">Data.</param>
 		public void OnJoinGame(string data)
 		{
+
 			Debug.Log("Login successful, joining game");
 			var pack = data.Split (Delimiter);
 
@@ -155,10 +157,13 @@ namespace CFC.Multiplayer
 				// take a look in NetworkPlayer.cs script
 				PlayerManager newPlayer;
 
-				// newPlayer = GameObject.Instantiate( local player avatar or model, spawn position, spawn rotation)
-				newPlayer = Instantiate (localPlayerPrefab,
-					new Vector3(float.Parse(pack[3]), float.Parse(pack[4]),
-						float.Parse(pack[5])),Quaternion.identity).GetComponent<PlayerManager> ();
+				//New Spawn
+				int getIndex = networkPlayers.Count % spawnPoints.Length;
+				var newPosition = spawnPoints[getIndex].position;
+
+				newPlayer = Instantiate(localPlayerPrefab,
+				//new Vector3(float.Parse(pack[3]), float.Parse(pack[4]),float.Parse(pack[5]))
+				newPosition, Quaternion.identity).GetComponent<PlayerManager>();
 
 
 				Debug.Log(string.Format("{0} instantiated", pack[1]));
@@ -227,10 +232,13 @@ namespace CFC.Multiplayer
 
 					PlayerManager newPlayer;
 
-					// newPlayer = GameObject.Instantiate( network player avatar or model, spawn position, spawn rotation)
-					newPlayer = Instantiate (networkPlayerPrefab,
-						new Vector3(float.Parse(pack[3]), float.Parse(pack[4]),
-							float.Parse(pack[5])),Quaternion.identity).GetComponent<PlayerManager> ();
+					//New Spawn
+					int getIndex = networkPlayers.Count % spawnPoints.Length;
+					var newPosition = spawnPoints[getIndex].position;
+
+					newPlayer = Instantiate(localPlayerPrefab,
+					//new Vector3(float.Parse(pack[3]), float.Parse(pack[4]),float.Parse(pack[5]))
+					newPosition, Quaternion.identity).GetComponent<PlayerManager>();
 
 
 					Debug.Log("player spawned");
