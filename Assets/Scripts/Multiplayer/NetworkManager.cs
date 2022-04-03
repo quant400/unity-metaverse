@@ -136,7 +136,7 @@ namespace CFC.Multiplayer
 		/// <param name="_data">Data.</param>
 		public void OnJoinGame(string data)
 		{
-
+			
 			Debug.Log("Login successful, joining game");
 			var pack = data.Split (Delimiter);
 
@@ -144,11 +144,13 @@ namespace CFC.Multiplayer
 			onLogged = true;
 
 			/*
-			 * pack[0] = id (local player id)
-			 * pack[1]= name (local player name)
-			 * pack[2] = avatar
-			 * pack[3] = position.x (local player position x)
-			 * pack[4] = position.y (local player position ...)
+			 * pack[0] = id (network player id)
+			 * pack[1]= name
+			 * pack[2]= avatar
+			 * pack[3] = position.x
+			 * pack[4] = position.y
+			 * pack[5] = position.z
+			 * pack[6] = index
 
 			*/
 			
@@ -157,10 +159,9 @@ namespace CFC.Multiplayer
 				// take a look in NetworkPlayer.cs script
 				PlayerManager newPlayer;
 
-				//New Spawn
-				int getIndex = networkPlayers.Count % spawnPoints.Length;
+				int getIndex = int.Parse(pack[6]);
 				var newPosition = spawnPoints[getIndex].position;
-
+				
 				newPlayer = Instantiate(localPlayerPrefab,
 				//new Vector3(float.Parse(pack[3]), float.Parse(pack[4]),float.Parse(pack[5]))
 				newPosition, Quaternion.identity).GetComponent<PlayerManager>();
@@ -187,7 +188,7 @@ namespace CFC.Multiplayer
 
 				//setup local player skin
 				newPlayer.GetComponent<Skin_Controller>().SetUpSkin(pack[2]);
-				
+
 				//hide the lobby menu (the input field and join buton)
 				instance.OpenScreen(1); //Checar depois
 				Debug.Log(string.Format("{0} in game", pack[1]));
@@ -212,6 +213,7 @@ namespace CFC.Multiplayer
 			 * pack[3] = position.x
 			 * pack[4] = position.y
 			 * pack[5] = position.z
+			 * pack[6] = index
 			*/
 
 			Debug.Log("received spawn network player");
@@ -231,10 +233,18 @@ namespace CFC.Multiplayer
 
 
 					PlayerManager newPlayer;
+					
+					int getIndex = int.Parse(pack[6]);
+					Vector3 newPosition;
+					if (getIndex == -1)
+					{
+						newPosition = new Vector3(float.Parse(pack[3]), float.Parse(pack[4]), float.Parse(pack[5]));
+					}
+					else
+					{
+						newPosition = spawnPoints[getIndex].position;
+					}
 
-					//New Spawn
-					int getIndex = networkPlayers.Count % spawnPoints.Length;
-					var newPosition = spawnPoints[getIndex].position;
 
 					newPlayer = Instantiate(localPlayerPrefab,
 					//new Vector3(float.Parse(pack[3]), float.Parse(pack[4]),float.Parse(pack[5]))
@@ -259,6 +269,10 @@ namespace CFC.Multiplayer
 
 					//setup network player skin
 					newPlayer.GetComponent<Skin_Controller>().SetUpSkin(pack[2]);
+					
+					
+
+					newPlayer.transform.position = newPosition;
 				
 					Debug.Log(string.Format("{0} configured", pack[1]));
 
@@ -508,6 +522,34 @@ namespace CFC.Multiplayer
 
 
 		}
+
+		/// <summary>
+		/// Update the network player attack animation.
+		/// </summary>
+		/// <param name="data">pack with remote player's attack animation.</param>
+		void OnPlayerDeath(string data)
+		{
+			/*
+			 * data.pack[0] = targetid	
+			*/
+
+			var pack = data.Split (Delimiter);
+
+			if (networkPlayers.ContainsKey(pack [0]))
+			{
+				if (networkPlayers[pack[0]].isLocalPlayer)
+					agora?.onJoin(false,  (pack[0] + pack[1]).Replace("-", ""));
+			}
+			
+			if (networkPlayers.ContainsKey(pack [1]))
+			{
+				if (networkPlayers[pack[1]].isLocalPlayer)
+					agora?.onJoin(false,  (pack[0] + pack[1]).Replace("-", ""));
+			}
+
+
+		}
+		
 		
 		#endregion
 		

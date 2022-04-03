@@ -32,9 +32,9 @@ window.addEventListener('load', function() {
 	});//END_SOCKET.ON
 
 					      
-	socket.on('LOGIN_SUCCESS', function(id,name,avatar,position) {
+	socket.on('LOGIN_SUCCESS', function(id,name,avatar,position, index) {
 				      		
-	  var currentUserAtr = id+':'+name+':'+avatar+':'+position;
+	  var currentUserAtr = id+':'+name+':'+avatar+':'+position+':'+index;
 	  
 	   if(window.unityInstance!=null)
 		{
@@ -46,9 +46,9 @@ window.addEventListener('load', function() {
 	});//END_SOCKET.ON
 	
 		
-	socket.on('SPAWN_PLAYER', function(id,name,avatar,position) {
+	socket.on('SPAWN_PLAYER', function(id,name,avatar,position, index) {
 	
-	    var currentUserAtr = id+':'+name+':'+avatar+':'+position;
+	    var currentUserAtr = id+':'+name+':'+avatar+':'+position+':'+index;
 		
 		if(window.unityInstance!=null)
 		{

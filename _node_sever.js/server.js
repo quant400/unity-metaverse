@@ -78,21 +78,22 @@ io.on('connection', function(socket){
 		 /*********************************************************************************************/		
 		
 		//send to the client.js script
-		socket.emit("LOGIN_SUCCESS",currentUser.id,currentUser.name,currentUser.avatar,currentUser.position);
+		console.log('User Index' + clients.indexOf(currentUser));
+		socket.emit("LOGIN_SUCCESS",currentUser.id,currentUser.name,currentUser.avatar,currentUser.position, clients.indexOf(currentUser));
 		
          //spawn all connected clients for currentUser client 
          clients.forEach( function(i) {
 		    if(i.id!=currentUser.id)
 			{ 
 		      //send to the client.js script
-		      socket.emit('SPAWN_PLAYER',i.id,i.name,i.avatar,i.position);
+		      socket.emit('SPAWN_PLAYER',i.id,i.name,i.avatar,i.position, -1);
 			  
 		    }//END_IF
 	   
 	     });//end_forEach
 		
 		 // spawn currentUser client on clients in broadcast
-		socket.broadcast.emit('SPAWN_PLAYER',currentUser.id,currentUser.name,currentUser.avatar,currentUser.position);
+		socket.broadcast.emit('SPAWN_PLAYER',currentUser.id,currentUser.name,currentUser.avatar,currentUser.position, clients.indexOf(currentUser));
 		
   
 	});//END_SOCKET_ON
@@ -217,10 +218,10 @@ io.on('connection', function(socket){
 		 };
 	 
 	     //emit only for the currentUser
-		 //socket.emit('DEATH',jo_pack.targetId);
+		 socket.emit('DEATH',jo_pack.targetId);
 		 
 		 //emit to all connected clients in broadcast
-		 //socket.broadcast.emit('DEATH',jo_pack.targetId);
+		 socket.broadcast.emit('DEATH',jo_pack.targetId);
 
 
 		}//END_ if    
