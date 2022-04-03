@@ -151,12 +151,14 @@ window.addEventListener('load', function() {
 	
 	//CHAT
 
-	socket.on('RECEIVE_OPEN_CHAT_BOX', function(writer_id,receiver_id) {
-		var currentUserAtr = writer_id+':'+receiver_id;
+	socket.on('UPDATE_CALL', function(current, target) {
+
+		var currentUserAtr = current+":"+target;
 
 		if(window.unityInstance!=null)
 		{
-			window.unityInstance.SendMessage ('NetworkManager', 'OnReceiveOpenChatBox',currentUserAtr);
+			window.unityInstance.SendMessage ('NetworkManager', 'OnCall', currentUserAtr);
+
 		}
 
 	});//END_SOCKET.ON

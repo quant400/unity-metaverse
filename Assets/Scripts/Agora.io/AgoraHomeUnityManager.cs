@@ -28,7 +28,7 @@ public class AgoraHomeUnityManager : MonoBehaviour
 
     public void OpenVideo()
     {
-        agoraHome.onJoin(true, msgText.text);
+        agoraHome.onJoin(true, msgText.text+"Video");
         Leave();
     }
 

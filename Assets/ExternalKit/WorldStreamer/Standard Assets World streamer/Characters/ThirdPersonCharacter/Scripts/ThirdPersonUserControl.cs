@@ -16,6 +16,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
         private bool m_Punch;
         private bool m_Kick;
+        private bool m_Call;
         
 
         
@@ -68,6 +69,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 m_Character.Kick();
                 m_Kick = false;
             }
+            
+            if (Input.GetKeyDown(KeyCode.V))
+            {
+                m_Character.CheckCall();
+            }
         }
         
         // Fixed update is called in sync with physics
@@ -78,6 +84,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             float v = CrossPlatformInputManager.GetAxis("Vertical");
             bool crouch = Input.GetKey(KeyCode.C);
+            
+
+
 
             // calculate move direction to pass to character
             if (m_Cam != null)

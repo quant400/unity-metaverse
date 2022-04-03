@@ -271,33 +271,16 @@ io.on('connection', function(socket){
 		
     });//END_SOCKET_ON
 
-	//create a callback fuction to listening EmitMoveAndRotate() method in NetworkMannager.cs unity script
-	socket.on('SEND_OPEN_CHAT_BOX', function (_data)
+	//create a callback fuction to listening EmitAnimation() method in NetworkMannager.cs unity script
+	socket.on('CALL', function (_data)
 	{
-
-
 		var data = JSON.parse(_data);
-
 
 		if(currentUser)
 		{
-
-			// send current user position and  rotation in broadcast to all clients in game
-			socket.emit('RECEIVE_OPEN_CHAT_BOX', currentUser.id,data.receiver_id);
-
-			//spawn all connected clients for currentUser client 
-			clients.forEach( function(i) {
-				if(i.id==data.player_id)
-				{
-					console.log("send to : "+i.name);
-					//send to the client.js script
-					sockets[i.id].emit('RECEIVE_OPEN_CHAT_BOX',currentUser.id,i.id);
-
-				}//END_IF
-
-			});//end_forEach
-
-
+			console.log("CALL: "+currentUser.id+":"+data.target_id);
+			socket.emit('UPDATE_CALL', currentUser.id, data.target_id);
+			socket.broadcast.emit('UPDATE_CALL', currentUser.id, data.target_id);
 		}
 	});//END_SOCKET_ON
 

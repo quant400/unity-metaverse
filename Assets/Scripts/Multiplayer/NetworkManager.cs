@@ -479,8 +479,6 @@ namespace CFC.Multiplayer
 
 			//sends to the nodejs server through socket the json package
 			Application.ExternalCall("socket.emit", "PHISICS_DAMAGE",new JSONObject(data));
-			
-			//agora.onJoin(false,  _targetId.Replace("-", "")+"Video");
 		}
 
 
@@ -501,15 +499,11 @@ namespace CFC.Multiplayer
 
 			if (networkPlayers.ContainsKey(pack [0]))
 			{
-
-		
 				PlayerManager PlayerTarget = networkPlayers[pack [0]];
 				
 				PlayerTarget.UpdateAnimator("Play", "Hit");
 				PlayerTarget.SetHP(int.Parse(pack[1]));
 				
-				//if (PlayerTarget.isLocalPlayer)// if i'm a target
-				//	agora.onJoin(false,  PlayerTarget.id.Replace("-", "")+"Video");
 			}
 
 
@@ -553,61 +547,48 @@ namespace CFC.Multiplayer
 		#region Chat
 		
 		/// <summary>
-		/// method to emit message to the server.
+		/// Emits the player's name to server.
 		/// </summary>
-		public void EmitOpenChatBox(string receiver_id)
+		/// <param name="_login">Login.</param>
+		public void EmitCall(string target_id)
 		{
 			Dictionary<string, string> data = new Dictionary<string, string>();
-		
-			string msg = string.Empty;
 
-			//Identifies with the name "MESSAGE", the notification to be transmitted to the server
-			data["callback_name"] = "SEND_OPEN_CHAT_BOX";
-		
-			data ["receiver_id"] = receiver_id;
-		
+			data["target_id"] = target_id;
+
 			//sends to the nodejs server through socket the json package
-			Application.ExternalCall("socket.emit", data["callback_name"],new JSONObject(data));
-		
-	
+			Application.ExternalCall("socket.emit", "CALL",new JSONObject(data));
+
+			//obs: take a look in server script.
 		}
-
-
-	
-
-	
-		/// <summary>
-		/// method to handle notification that arrived from the server.
-		/// </summary>	
-		/// <param name="data">received package from server.</param>
-		void OnReceiveOpenChatBox(string data)
-		{
-	
-			/*
-				 * data.pack[0] = writer id 
-				 * data.pack[1]= receiver id
-				*/
 		
-		  
+		/// <summary>
+		/// Update the network player attack animation.
+		/// </summary>
+		/// <param name="data">pack with remote player's attack animation.</param>
+		void OnCall(string data)
+		{
+			/*
+			 * data.pack[0] = currentid
+			 * data.pack[1] = targetid 
+	
+			*/
+
 			var pack = data.Split (Delimiter);
+
+			if (networkPlayers.ContainsKey(pack [0]))
+			{
+				if (networkPlayers[pack[0]].isLocalPlayer)
+					agora?.onJoin(false,  (pack[0] + pack[1]).Replace("-", ""));
+			}
 			
-			if(local_player_id.Equals(pack[0]))
+			if (networkPlayers.ContainsKey(pack [1]))
 			{
-				ChatBox_Manager.Instance.AddChat(pack[0],pack[1]);
-				//spawn new chatbox
-				//CanvasManager.instance.SpawnChatBox( pack[0],pack[0],pack[1], networkPlayers[pack[1]].name, networkPlayers[pack[1]].avatar);
-				
-			}
-			else
-			{
-				ChatBox_Manager.Instance.AddChat(pack[1],pack[0]);
-				//CanvasManager.instance.SpawnChatBox( pack[0],pack[1],pack[0], networkPlayers[pack[0]].name, networkPlayers[pack[0]].avatar);
+				if (networkPlayers[pack[1]].isLocalPlayer)
+					agora?.onJoin(false,  (pack[0] + pack[1]).Replace("-", ""));
 			}
 
-	
 
-	
-			 
 		}
 		
 		/// <summary>

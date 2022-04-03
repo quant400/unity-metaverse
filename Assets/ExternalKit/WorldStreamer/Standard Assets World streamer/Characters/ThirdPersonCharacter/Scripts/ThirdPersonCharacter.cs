@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
@@ -32,6 +33,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		bool m_Crouching;
 
 		public bool m_isAttack = false;
+		public bool m_isPunch = false;
 
 		[SerializeField]private bool m_comboPossible = false;
 		[SerializeField]private int m_comboStep = 0;
@@ -60,7 +62,32 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			foreach (var collider in colliders.Select(player => player.GetComponent<CFC.Multiplayer.PlayerManager>()))
 			{
 				if (collider.isLocalPlayer) continue;
+				
+				if (m_isPunch)
+				{
+					PlayPunchAudio();
+				}
+				else
+				{
+					PlayKickAudio();
+				}
+				
 				CFC.Multiplayer.NetworkManager.Instance.EmitPhisicstDamage(collider.id);
+			}
+		}
+		
+		public void CheckCall()
+		{
+			if (SceneManager.GetSceneByName("AgoraHomeCFC").isLoaded) return;
+			
+			var colliders = Physics.OverlapBox(hitCollider.transform.position, hitCollider.size*3, hitCollider.transform.rotation, playersMask);
+			
+			foreach (var collider in colliders.Select(player => player.GetComponent<CFC.Multiplayer.PlayerManager>()))
+			{
+				if (collider.isLocalPlayer) continue;
+				
+				CFC.Multiplayer.NetworkManager.Instance.EmitCall(collider.id);
+				break;
 			}
 		}
 
@@ -68,6 +95,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		{
 			if (m_comboStep == 0)
 			{
+				m_isPunch = true;
 				m_isAttack = true;
 				UpdatePlayAnimation("Punch 1");
 				m_comboStep = 1;
@@ -81,6 +109,22 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			}
 			
 			//UpdateTriggerAnimation("Punch");
+		}
+
+		public void PlayPunchAudio()
+		{
+			Debug.Log(m_comboStep);
+			SFX_Manager.Play($"Punch {m_comboStep}");
+		}
+		
+		public void PlayKickAudio()
+		{
+			SFX_Manager.Play("Kick");
+		}
+		
+		public void PlayJumpAudio()
+		{
+			SFX_Manager.Play("Jump");
 		}
 
 		public void Combo()
@@ -98,6 +142,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 		public void ComboReset()
 		{
+			m_isPunch = false;
 			m_isAttack = false;
 			m_comboPossible = false;
 			m_comboStep = 0;
@@ -149,6 +194,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			// send input and other state parameters to the animator
 			UpdateAnimator(move);
+			if(jump) PlayJumpAudio();
 		}
 
 

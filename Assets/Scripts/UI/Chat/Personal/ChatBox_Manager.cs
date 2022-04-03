@@ -63,7 +63,7 @@ namespace CFC
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 string receiver_id = Multiplayer.NetworkManager.Instance.networkPlayers.Last().Value.id;
-                Multiplayer.NetworkManager.Instance.EmitOpenChatBox(receiver_id);
+                //Multiplayer.NetworkManager.Instance.EmitOpenChatBox(receiver_id);
             }
         }
 
