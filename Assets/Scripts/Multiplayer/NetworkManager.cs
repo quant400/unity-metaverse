@@ -481,15 +481,12 @@ namespace CFC.Multiplayer
 	
 	
 		//sends to server player damage
-		public void EmitPhisicstDamage( string _targetId)
+		public void EmitPhisicstDamage(string _targetId)
 		{
-
 			//hash table <key, value>
 			Dictionary<string, string> data = new Dictionary<string, string>();
 
 			data ["targetId"] = _targetId;
-
-			JSONObject jo = new JSONObject (data);
 
 			//sends to the nodejs server through socket the json package
 			Application.ExternalCall("socket.emit", "PHISICS_DAMAGE",new JSONObject(data));
@@ -502,7 +499,6 @@ namespace CFC.Multiplayer
 		/// <param name="data">package received from server</param>
 		void OnUpdatePlayerPhisicsDamage (string data)
 		{
-
 			/*
 			 * data.pack[0] = target.id (network player id)
 			 * data.pack[1] = target.health
@@ -537,17 +533,8 @@ namespace CFC.Multiplayer
 
 			if (networkPlayers.ContainsKey(pack [0]))
 			{
-				if (networkPlayers[pack[0]].isLocalPlayer)
-					agora?.onJoin(false,  (pack[0] + pack[1]).Replace("-", ""));
-			}
-			
-			if (networkPlayers.ContainsKey(pack [1]))
-			{
-				if (networkPlayers[pack[1]].isLocalPlayer)
-					agora?.onJoin(false,  (pack[0] + pack[1]).Replace("-", ""));
-			}
-
-
+				networkPlayers[pack[0]].Death();
+			} 
 		}
 		
 		

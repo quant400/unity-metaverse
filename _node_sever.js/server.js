@@ -78,7 +78,7 @@ io.on('connection', function(socket){
 		 /*********************************************************************************************/		
 		
 		//send to the client.js script
-		console.log('User Index' + clients.indexOf(currentUser));
+		//console.log('User Index' + clients.indexOf(currentUser));
 		socket.emit("LOGIN_SUCCESS",currentUser.id,currentUser.name,currentUser.avatar,currentUser.position, clients.indexOf(currentUser));
 		
          //spawn all connected clients for currentUser client 
@@ -180,8 +180,11 @@ io.on('connection', function(socket){
 	socket.on('PHISICS_DAMAGE', function (_data)
 	{
 	
-	  var data = JSON.parse(_data);	
-      if(currentUser)
+	  var data = JSON.parse(_data);
+
+		console.log(clientLookup[data.targetId].name);
+
+		if(currentUser)
 	  {
       
 	  

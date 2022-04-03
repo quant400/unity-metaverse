@@ -169,6 +169,18 @@ namespace CFC.Multiplayer
             }
         }
 
+        public void Death()
+        {
+            Debug.Log("E morreu");
+            UpdateAnimator("Play", "Death");
+            myTPUserControlr.isDead = true;
+        }
+
+        public void Revive()
+        {
+            
+        }
+
         public void SetCharacterName(string name)
         {
             myName_Text.text = name;

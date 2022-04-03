@@ -13,6 +13,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Transform m_Cam;                  // A reference to the main camera in the scenes transform
         private Vector3 m_CamForward;             // The current forward direction of the camera
         public Vector3 m_Move;
+        public bool isDead = false;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
         private bool m_Punch;
         private bool m_Kick;
@@ -49,6 +50,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         
         private void Update()
         {
+            if (isDead) return;
+            
             if (!m_Jump)
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
@@ -79,6 +82,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
+            if (isDead) return;
             
             // read inputs
             float h = CrossPlatformInputManager.GetAxis("Horizontal");

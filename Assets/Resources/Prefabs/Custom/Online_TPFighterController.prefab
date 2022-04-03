@@ -949,6 +949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Move: {x: 0, y: 0, z: 0}
+  isDead: 0
 --- !u!114 &3917969869981963510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -971,12 +972,13 @@ MonoBehaviour:
   m_GroundCheckDistance: 0.3
   m_IsGrounded: 0
   m_isAttack: 0
+  m_isPunch: 0
   m_comboPossible: 0
   m_comboStep: 0
   hitCollider: {fileID: 8518555864909935811}
   playersMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!114 &3066660271703593797
 MonoBehaviour:
   m_ObjectHideFlags: 0
