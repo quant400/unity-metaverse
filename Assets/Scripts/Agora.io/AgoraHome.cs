@@ -18,6 +18,8 @@ public class AgoraHome : MonoBehaviour
 #if (UNITY_2018_3_OR_NEWER && UNITY_ANDROID)
     private ArrayList permissionList = new ArrayList();
 #endif
+
+    public static AgoraHome Instance;
     public static AgoraHomeUnityVideo app = null;
     [SerializeField]
     private string PlaySceneName = "AgoraHomeUnityVideo";
@@ -40,8 +42,15 @@ public class AgoraHome : MonoBehaviour
 		permissionList.Add(Permission.Microphone);         
 		permissionList.Add(Permission.Camera);               
 #endif
-        // keep this alive across scenes
-        DontDestroyOnLoad(this.gameObject);
+        if (Instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
 
     }
 

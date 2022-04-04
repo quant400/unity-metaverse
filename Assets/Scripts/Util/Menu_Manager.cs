@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.ThirdPerson;
 
@@ -14,30 +15,42 @@ public class Menu_Manager : MonoBehaviour
     [SerializeField] private GameObject Menu_GUI;
     [SerializeField] private Button Button_LevelReset;
 
-    [Header("UI MENU")]
+    [Header("UI TUTORIAL")]
     [SerializeField] private GameObject Tutorial_GUI;
+
+    [Header("UI K.O")]
+    [SerializeField] private GameObject KO_GUI;
+    [SerializeField] Button Button_KO;
 
     [Header("UI CHICKEN_RUN")]
     [SerializeField] private GameObject MenuCR_GUI;
     [SerializeField] private Button ButtonCR_Start;
 
-    [Header("Streamer Components")]
+    [Header("UI STREAMER")]
     [SerializeField] private UILoadingStreamer GO_UILoadingStreamer;
-    [SerializeField] private PlayerTeleport GO_PlayerTeleport;
 
     void Awake()
     {
-        if (Instance == null) Instance = this;
+        if (Instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Start()
     {
         GO_UILoadingStreamer.onDone.AddListener(ActionFinish);
         Button_LevelReset.onClick.AddListener(ActionReset);
+        Button_KO.onClick.AddListener(ActionReset);
         ButtonCR_Start.onClick.AddListener(()=> { ActionOpenLink("https://play.cryptofightclub.io/"); });
     }
 
-    public void OpenPanelCR(bool show)
+    public void ShowCR(bool show)
     {
         if(MenuCR_GUI != null)
         {
@@ -54,6 +67,10 @@ public class Menu_Manager : MonoBehaviour
             StartCoroutine(WaitLoading(() => { Tutorial_GUI.SetActive(false); }, 18.00f));
         }
     }
+    public void ShowKO(bool show = true)
+    {
+        KO_GUI.SetActive(show);
+    }
 
     private void ActionFinish()
     {
@@ -66,13 +83,8 @@ public class Menu_Manager : MonoBehaviour
 
     private void ActionReset()
     {
-        //Reseta a Cena
-        Debug.Log("ActionReset");
-        if(GO_PlayerTeleport != null)
-        {
-            GO_PlayerTeleport.Teleport(true);
-        }
-        
+        ShowKO(false);
+        SceneManager.LoadScene("Game");
     }
 
     private void ActionOpenLink(string url)

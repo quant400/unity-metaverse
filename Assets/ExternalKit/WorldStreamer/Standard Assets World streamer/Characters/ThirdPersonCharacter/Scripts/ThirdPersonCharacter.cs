@@ -383,7 +383,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			{
 				Debug.Log("Entrou");
 
-				Menu_Manager.Instance.OpenPanelCR(true);
+				Menu_Manager.Instance.ShowCR(true);
 			}
 		}
 		
@@ -393,7 +393,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			{
 				Debug.Log("Entrou");
 
-				Menu_Manager.Instance.OpenPanelCR(false);
+				Menu_Manager.Instance.ShowCR(false);
 			}
 		}
 	}

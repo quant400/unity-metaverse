@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class FPS_Display : MonoBehaviour
 {
+
+    public static FPS_Display Instance;
+
     float timeA;
     public int fps;
     public int lastFPS;
@@ -14,8 +17,19 @@ public class FPS_Display : MonoBehaviour
     
     // Use this for initialization
     void Start () {
+
         timeA = Time.timeSinceLevelLoad;
-        DontDestroyOnLoad (this);
+
+        //Cria a instancia e não permite ser destruído, ou destrói caso já exista
+        if (Instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
     
     // Update is called once per frame
