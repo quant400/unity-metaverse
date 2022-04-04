@@ -64,6 +64,16 @@ namespace CFC.Multiplayer
             myStreamers = FindObjectsOfType<Streamer>();
 
             SetUpLocalPlayer();
+            SetUpAnimatorBehavior();
+        }
+
+        void SetUpAnimatorBehavior()
+        {
+            foreach (var behavior in myAnim.GetBehaviours<AttacksBehavior>())
+            {
+                Debug.Log(behavior.name);
+                behavior.onExit.AddListener(ComboReset);
+            }
         }
 
         void SetUpLocalPlayer()

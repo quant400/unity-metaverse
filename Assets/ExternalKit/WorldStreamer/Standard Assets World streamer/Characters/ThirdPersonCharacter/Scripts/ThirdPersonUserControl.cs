@@ -56,7 +56,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
-
+            
             m_Punch = Input.GetMouseButtonDown(0);
             m_Kick = Input.GetMouseButtonDown(1);
 
