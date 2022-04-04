@@ -246,7 +246,7 @@ namespace CFC.Multiplayer
 					}
 
 
-					newPlayer = Instantiate(localPlayerPrefab,
+					newPlayer = Instantiate(networkPlayerPrefab,
 					//new Vector3(float.Parse(pack[3]), float.Parse(pack[4]),float.Parse(pack[5]))
 					newPosition, Quaternion.identity).GetComponent<PlayerManager>();
 
@@ -313,7 +313,7 @@ namespace CFC.Multiplayer
 			PlayerManager newPlayer; // take a look in PlayerManager.cs script
 
 			// newPlayer = GameObject.Instantiate( local player avatar or model, spawn position, spawn rotation)
-			newPlayer = GameObject.Instantiate (localPlayerPrefab,
+			newPlayer = Instantiate (localPlayerPrefab,
 				new Vector3(float.Parse(pack[3]), float.Parse(pack[4]),
 					float.Parse(pack[5])),Quaternion.identity).GetComponent<PlayerManager> ();
 
@@ -513,7 +513,6 @@ namespace CFC.Multiplayer
 				
 				PlayerTarget.UpdateAnimator("Play", "Hit");
 				PlayerTarget.SetHP(int.Parse(pack[1]));
-				
 			}
 
 

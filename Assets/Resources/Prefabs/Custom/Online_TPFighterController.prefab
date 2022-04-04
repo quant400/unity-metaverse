@@ -978,7 +978,7 @@ MonoBehaviour:
   hitCollider: {fileID: 8518555864909935811}
   playersMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
 --- !u!114 &3066660271703593797
 MonoBehaviour:
   m_ObjectHideFlags: 0
