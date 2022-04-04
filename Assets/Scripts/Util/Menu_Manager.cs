@@ -84,6 +84,7 @@ public class Menu_Manager : MonoBehaviour
     private void ActionReset()
     {
         ShowKO(false);
+        
         SceneManager.LoadScene("Game");
     }
 

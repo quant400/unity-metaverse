@@ -174,15 +174,12 @@ namespace CFC.Multiplayer
 
         public void Death()
         {
-            Debug.Log("E morreu");
             myHP_Bar.fillAmount = 0;
             UpdateAnimator("Play", "Death");
             myTPUserControlr.isDead = true;
-        }
-
-        public void Revive()
-        {
             
+            if(isLocalPlayer)
+                Menu_Manager.Instance.ShowKO();
         }
 
         public void SetCharacterName(string name)

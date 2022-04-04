@@ -22,7 +22,7 @@ public class CanvasManager : MonoBehaviour {
 
 		if (instance == null) {
 
-			DontDestroyOnLoad (this.gameObject);
+			//DontDestroyOnLoad (this.gameObject);
 			instance = this;
 			OpenScreen(0);
 

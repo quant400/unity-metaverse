@@ -170,7 +170,7 @@ io.on('connection', function (socket) {
 
         var data = JSON.parse(_data);
 
-        console.log(clientLookup[data.targetId].name);
+        //console.log(clientLookup[data.targetId].name);
 
         if (currentUser) {
 

@@ -48,7 +48,7 @@ namespace CFC.Multiplayer
             //Cria a instancia e não permite ser destruído, ou destrói caso já exista
             if (Instance == null)
             {
-                DontDestroyOnLoad(gameObject);
+                //DontDestroyOnLoad(gameObject);
                 Instance = this;
             }
             else
@@ -528,8 +528,11 @@ namespace CFC.Multiplayer
 			/*
 			 * data.pack[0] = targetid	
 			*/
+			
 
 			var pack = data.Split (Delimiter);
+			
+			Debug.Log(pack[0]);
 
 			if (networkPlayers.ContainsKey(pack [0]))
 			{
