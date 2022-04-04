@@ -512,6 +512,7 @@ namespace CFC.Multiplayer
 				PlayerManager PlayerTarget = networkPlayers[pack [0]];
 				
 				PlayerTarget.UpdateAnimator("Play", "Hit");
+				PlayerTarget.ComboReset();
 				PlayerTarget.SetHP(int.Parse(pack[1]));
 			}
 

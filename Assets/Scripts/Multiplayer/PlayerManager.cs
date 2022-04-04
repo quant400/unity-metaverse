@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityStandardAssets.Cameras;
 using UnityStandardAssets.Characters.ThirdPerson;
@@ -169,9 +170,12 @@ namespace CFC.Multiplayer
             }
         }
 
+        public void ComboReset ()=> myTPCharacter.ComboReset();
+
         public void Death()
         {
             Debug.Log("E morreu");
+            myHP_Bar.fillAmount = 0;
             UpdateAnimator("Play", "Death");
             myTPUserControlr.isDead = true;
         }

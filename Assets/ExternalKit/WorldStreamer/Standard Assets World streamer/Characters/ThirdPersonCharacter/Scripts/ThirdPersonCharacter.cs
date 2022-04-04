@@ -324,6 +324,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 		public void UpdateFloatAnimation(string _animation, float _parameter, float damp = 0, float time = 0)
 		{
+			Debug.Log($"Animation: {_animation} Parameter: {_parameter}");
 			if (damp == 0)
 			{
 				m_Animator.SetFloat(_animation, _parameter);
@@ -339,6 +340,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		
 		public void UpdateBoolAnimation(string _animation, bool _parameter)
 		{
+			Debug.Log($"Animation: {_animation} Parameter: {_parameter}");
+
 			m_Animator.SetBool(_animation, _parameter);
 			
 			if(CFC.Multiplayer.NetworkManager.Instance != null)
@@ -347,7 +350,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		
 		public void UpdatePlayAnimation(string _animation)
 		{       
-			m_Animator.Play(_animation);
+			Debug.Log($"Animation: {_animation}");
+
+			m_Animator.CrossFade(_animation, 0.3f);
 
 			if(CFC.Multiplayer.NetworkManager.Instance != null)
 				CFC.Multiplayer.NetworkManager.Instance.EmitAnimation("Play", _animation);
